@@ -1,6 +1,94 @@
-# Einstein's Riddle, Zebra Puzzle and Blood Donation Puzzle Solver
+# Puzzle Generator and Puzzle Solver
 
-## Einstein's Riddle
+The repository contains two **independent** Python files:
+1. `generator_example.py` — with an example of generating a puzzle.
+2. `solver_example.py` — with an example of solving three puzzles (see below).
+
+Requirements: Python 3.11.
+
+## Puzzle Generator
+
+Generator advantages:
+1. Uniform generation.
+2. Any number of attributes up to 10.
+3. Any number of objects up to 10.
+4. 17 levels.
+5. Minimization of the number of conditions with setting a timeout for minimization.
+6. One solution always.
+
+```commandline
+python3 generator_example.py
+```
+
+Program possible output (**max level with minimization**, 4 objects with 4 attributes):
+```
+.:: Puzzle ::.
+Beverage: coffee cola juice mirinda
+Food: broccoli cheese chicken rice
+Hobby: painting photography singing traveling
+Nationality: norvegian russian scottish spannish
+1. Hobby:traveling and Nationality:spannish have the same parity positions
+2. Beverage:mirinda is somewhere between Hobby:traveling and Beverage:cola
+3. Hobby:photography is not to the right of Nationality:norvegian
+4. Food:broccoli is somewhere between Nationality:norvegian and Beverage:coffee
+5. Hobby:painting is not to the left of Hobby:singing
+6. Hobby:photography and Food:cheese have different parity positions
+7. Food:cheese is not to the right of Hobby:traveling
+8. Food:chicken and Hobby:painting have different parity positions
+9. Food:chicken is somewhere between Nationality:spannish and Food:broccoli
+10. Nationality:spannish and Nationality:scottish have different parity positions
+11. Hobby:photography != Food:rice
+
+.:: Answer ::.
+|               |    1     |    2     |      3      |     4     |
+| Beverage      | coffee   | cola     | mirinda     | juice     |
+| Food          | rice     | broccoli | chicken     | cheese    |
+| Hobby         | singing  | painting | photography | traveling |
+| Nationality   | scottish | russian  | norvegian   | spannish  |
+Time: 5.437000 seconds
+```
+
+### Explanation of 17 levels with relations
+
+- L1: `A == B`: An object that has attribute A has attribute B.
+- L1: `A is on the left of B`: An object with attribute A is **next** to the left of an object with attribute B (A-B).
+- L1: `A is on the right of B`: An object with attribute A is **next** to the right of an object with attribute B (B-A).
+- L1: `A is on the far left`: An object with attribute A is on the far left (A-...).
+- L1: `A is on the far right`: An object with attribute A is on the far right (...-A).
+- L1: `A is in the middle`: An object with attribute A is in the middle.
+- L2: `A is between B and C`: An object with attribute A is between an object with attribute B, and an object with attribute C (any order: B-A-C, C-A-B).
+- L3: `A is on the left or right of B`: An object with attribute A is **next** to the left or right of an object with attribute B (A-B or B-A).
+- L3: `A is on the far left or far right`: An object with attribute A is on the far left or far right. (A-... or ...-A)
+- L4: `A is in an odd position`: An object with attribute A is in an odd position (odd positions: 1, 3, 5, ...).
+- L4: `A is in an even position`: An object with attribute A is in an even position (even positions: 2, 4, 6, ...).
+- L5: `A is somewhere to the left of B`: An object with attribute A is **somewhere** to the left of an object with attribute B (any number of intermediates, including 0: A-...-B).
+- L5: `A is somewhere to the right of B`: An object with attribute A is **somewhere** to the right of an object with attribute B (any number of intermediates, including 0: B-...-A).
+- L6: `A is somewhere between B and C`: An object with attribute A is **somewhere** between an object with attribute B, and an object with attribute C (any number of intermediates, including 0: B-...-A-...-C, C-...-A-...-B).
+- L7: `A is not to the left of B`: An object with attribute A is not to the left of an object with attribute B.
+- L7: `A is not to the right of B`: An object with attribute A is not to the right of an object with attribute B.
+- L8: `A != B`: An object that has attribute A does not have attribute B.
+- L9: `A and B have different parity positions`: An object with attribute A and an object with attribute B have different parity positions.
+- L10: `A and B have the same parity positions`: An object with attribute A and an object with attribute B have the same parity positions (positions may be the same or different, but the parity is always the same).
+- L11: L10 without `A == B`.
+- L12: L11 without `A is on the left of B`, `A is on the right of B`.
+- L13: L12 without `A is on the far left`, `A is on the far right`, `A is in the middle`.
+- L14: L13 without `A is between B and C`.
+- L15: L14 without `A is on the left or right of B`, `A is on the far left or far right`.
+- L16: L15 without `A is in an odd position`, `A is in an even position`.
+- L17: L16 without `A is somewhere to the left of B`, `A is somewhere to the right of B`.
+
+## Einstein's Riddle, Zebra Puzzle and Blood Donation Puzzle Solver
+
+Advantages of the solver:
+1. No need for third party libraries.
+2. The rules that the solver follows are given from outside.
+3. Determining the complexity of the input puzzle: normal and complex (more difficult).
+
+```commandline
+python3 solver_example.py
+```
+
+### Einstein's Riddle
 1. The Englishman lives in the red house.
 2. The Swede keeps dogs.
 3. The Dane drinks tea.
@@ -21,7 +109,7 @@
 
 Program output:
 ```
-Solution status: SOLVED, NORMAL TASK [0.002554 sec.]
+Solution status: SOLVED, NORMAL TASK [0.001658 sec.]
 | Norwegian | Dane   | Englishman | German | Swede        |
 | yellow    | blue   | red        | green  | white        |
 | cats      | horses | birds      | fishes | dogs         |
@@ -29,7 +117,7 @@ Solution status: SOLVED, NORMAL TASK [0.002554 sec.]
 | Dunhill   | Blend  | Pall Mall  | Prince | Blue Masters |
 ```
 
-## Zebra Puzzle
+### Zebra Puzzle
 1. There are five houses.
 2. The Englishman lives in the red house.
 3. The Spaniard owns the dog.
@@ -50,7 +138,7 @@ Solution status: SOLVED, NORMAL TASK [0.002554 sec.]
 
 Program output:
 ```
-Solution status: SOLVED, COMPLEX TASK [0.010846 sec.]
+Solution status: SOLVED, COMPLEX TASK [0.005176 sec.]
 | Norwegian | Ukrainian     | Englishman | Spaniard     | Japanese    |
 | yellow    | blue          | red        | ivory        | green       |
 | fox       | horse         | snails     | dog          | zebra       |
@@ -58,7 +146,7 @@ Solution status: SOLVED, COMPLEX TASK [0.010846 sec.]
 | Kools     | Chesterfields | Old Gold   | Lucky Strike | Parliaments |
 ```
 
-## Blood Donation Puzzle
+### Blood Donation Puzzle
 1. The A+ donor is next to the B+ donor.
 2. Brooke is at one of the ends.
 3. The woman wearing a Black shirt is somewhere to the left of the 150 lb woman.
@@ -86,7 +174,7 @@ Solution status: SOLVED, COMPLEX TASK [0.010846 sec.]
 
 Program output:
 ```
-Solution status: SOLVED, COMPLEX TASK [0.020552 sec.]
+Solution status: SOLVED, COMPLEX TASK [0.010827 sec.]
 | B-      | O-      | AB+         | A+      | B+       |
 | Black   | green   | purple      | blue    | red      |
 | Brooke  | Nichole | Andrea      | Meghan  | Kathleen |

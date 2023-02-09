@@ -1,6 +1,6 @@
 import time
 import collections
-from typing import Union, Tuple, List, Set, Dict, Iterable, Callable
+from typing import Union, Tuple, List, Set, Callable
 
 
 def format_table(table: List[List[str]]) -> str:
@@ -9,8 +9,67 @@ def format_table(table: List[List[str]]) -> str:
                      for line in table)
 
 
+def update_range(wns: List[str], rns: List[List[Set[str]]], cmp: Callable):
+    changed = False
+    for rn in rns:
+        classified_words = set()
+        for n_col, set_of_words in enumerate(rn):
+            if len(set_of_words) == 1:
+                classified_words.add(next(iter(set_of_words)))
+        word_to_cols = dict()
+        for n_col, set_of_words in enumerate(rn):
+            if len(set_of_words) != 1:
+                prev_length = len(set_of_words)
+                set_of_words.difference_update(classified_words)
+                changed |= prev_length != len(set_of_words)
+                for word in set_of_words:
+                    word_to_cols.setdefault(word, set()).add(n_col)
+        for word, cols in word_to_cols.items():
+            if len(cols) == 1:
+                x = rn[next(iter(cols))]
+                if len(x) != 1:
+                    x.clear()
+                    x.add(word)
+                    changed = True
+
+    new_rns = [[{x for x in xs if x != wn} for xs in rn] for wn, rn in zip(wns, rns)]
+    pairs = []
+    for wn, rn in zip(wns, rns):
+        new_pairs = []
+        break_condition = True
+        for cn, setn in enumerate(rn):
+            if wn in setn:
+                break_condition = False
+                if not pairs:
+                    pairs = [[]]
+                for v in pairs:
+                    new_pairs.append([*v, cn])
+        pairs = new_pairs
+        if break_condition:
+            break
+    for pair in pairs:
+        if cmp(*pair):
+            for nrn, cn, wn in zip(new_rns, pair, wns):
+                nrn[cn].add(wn)
+    changed |= any(rn != new_rn for rn, new_rn in zip(rns, new_rns))
+    if changed:
+        for rn, new_rn in zip(rns, new_rns):
+            for old, new in zip(rn, new_rn):
+                old.intersection_update(new)
+    return changed
+
+
+def update_ranges(relations: List[Tuple[List[int], List[str], Callable, ...]],
+                  ranges: List[List[Set[str]]]):
+    changed = False
+    for ins, wns, callable_object, *_ in relations:
+        changed |= update_range(wns, [ranges[i] for i in ins], callable_object)
+    return changed
+
+
 def solve_puzzle(table: List[List[str]],
-                 relations: Dict[Tuple[int, str], Dict[Tuple[int, str], Union[Callable, Iterable[Callable]]]],
+                 relations: List[Union[Tuple[List[int], List[str], Union[Callable, Set[Callable], List[Callable]]],
+                                       Tuple[List[int], List[str], Union[Callable, Set[Callable], List[Callable]], ...]]],
                  *,
                  allow_complex=True,
                  max_solutions: Union[bool, None] = None) -> Tuple[bool, List[List[List[set]]], bool]:
@@ -18,60 +77,15 @@ def solve_puzzle(table: List[List[str]],
     if max_solutions is not None and max_solutions <= 0:
         return False, [], False
 
-    def update_range(w1: str, w2: str, r1: List[Set[str]], r2: List[Set[str]], cmp: Callable):
-        changed = False
-        for rn in [r1, r2]:
-            for n_col_1, set_of_words_1 in enumerate(rn):
-                if len(set_of_words_1) == 1:
-                    classified_word = next(iter(set_of_words_1))
-                    for n_col_2, set_of_words_2 in enumerate(rn):
-                        if n_col_1 != n_col_2 and classified_word in set_of_words_2:
-                            set_of_words_2.remove(classified_word)
-                            changed = True
-            word_to_cols = dict()
-            for n_col, set_of_words in enumerate(rn):
-                for word in set_of_words:
-                    word_to_cols.setdefault(word, set()).add(n_col)
-            for word, cols in word_to_cols.items():
-                if len(cols) == 1:
-                    col_of_classified_word = next(iter(cols))
-                    rn[col_of_classified_word] = {word}
-                    for n_col_2, set_of_words_2 in enumerate(rn):
-                        if col_of_classified_word != n_col_2 and word in set_of_words_2:
-                            set_of_words_2.remove(word)
-                            changed = True
-
-        new_r1 = [{x for x in xs if x != w1} for xs in r1]
-        new_r2 = [{x for x in xs if x != w2} for xs in r2]
-        for c1, set1 in enumerate(r1):
-            for c2, set2 in enumerate(r2):
-                if cmp(c1, c2) and w1 in set1 and w2 in set2:
-                    new_r1[c1].add(w1)
-                    new_r2[c2].add(w2)
-        changed |= r1 != new_r1 or r2 != new_r2
-        if changed:
-            for rn, new_rn in [(r1, new_r1), (r2, new_r2)]:
-                for old, new in zip(rn, new_rn):
-                    old.intersection_update(new)
-        return changed
-
-    def update_ranges(relations: Dict[Tuple[int, str], Dict[Tuple[int, str], Callable]],
-                      ranges: List[List[Set[str]]]):
-        changed = False
-        for (i, w1), rs in relations.items():
-            for (next_i, w2), callable_object in rs.items():
-                changed |= update_range(w1, w2, ranges[i], ranges[next_i], callable_object)
-        return changed
-
-    new_relations = dict()
-    for (i, w1), rs in relations.items():
-        for (next_i, w2), w1_w2_relations in rs.items():
-            if callable(w1_w2_relations):
-                w1_w2_relations = {w1_w2_relations}
-            if w1_w2_relations:
-                objs = frozenset(w1_w2_relations)
-                new_relations.setdefault((i, w1), dict())[(next_i, w2)] = \
-                    lambda c1, c2, objs=objs: all(callable_object(c1, c2) for callable_object in objs)
+    new_relations = list()
+    for ins, wns, callable_object, *other in relations:
+        if callable(callable_object):
+            callable_object = {callable_object}
+        if callable_object:
+            objs = frozenset(callable_object)
+            new_relations.append((ins, wns,
+                                  lambda *c, objs=objs: all(callable_object(*c) for callable_object in objs),
+                                  *other))
     relations = new_relations
 
     ranges = [[set(table[i]) for _ in range(len(table[i]))] for i in range(len(table))]
@@ -180,13 +194,13 @@ def solve_einstein_riddle():
     center = len(classified_objects[0]) // 2
     rules_for_relations = [
         ({'neighbor', 'next'}, lambda c1, c2: c1 == c2 - 1 or c1 == c2 + 1),
-        ('first', lambda c1, c2: c1 == c2 and c2 == 0),
-        ('center', lambda c1, c2, center=center: c1 == center and c2 == center),
+        ('first', lambda c1: c1 == 0),
+        ('center', lambda c1, center=center: c1 == center),
         ('left', lambda c1, c2: c1 == c2 - 1),
         ({'live', 'keep', 'drink', 'smoke'}, lambda c1, c2: c1 == c2),
     ]
 
-    relations = dict()
+    relations = list()
     for line in task.splitlines(keepends=False):
         founded_objects = []
         for n_group, group in enumerate(classified_objects):
@@ -204,12 +218,10 @@ def solve_einstein_riddle():
                     break
             if founded_relations:
                 break
-        if len(founded_objects) == 2:
-            token1, token2 = founded_objects
-            relations.setdefault(token1[1:], dict())[token2[1:]] = founded_relations
-        elif len(founded_objects) == 1:
-            token1 = founded_objects[0]
-            relations.setdefault(token1[1:], dict())[token1[1:]] = founded_relations
+        if founded_objects:
+            relations.append(([token[1] for token in founded_objects],
+                              [token[2] for token in founded_objects],
+                              founded_relations))
 
     t1 = time.perf_counter()
     status, solutions, complex_status = solve_puzzle(classified_objects, relations)
@@ -256,14 +268,14 @@ def solve_zebra_puzzle():
     ]
     center = len(classified_objects[0]) // 2
     rules_for_relations = [
-        ('first', lambda c1, c2: c1 == c2 and c2 == 0),
-        ('middle', lambda c1, c2, center=center: c1 == center and c2 == center),
+        ('first', lambda c1: c1 == 0),
+        ('middle', lambda c1, center=center: c1 == center),
         ('next', lambda c1, c2: c1 == c2 - 1 or c1 == c2 + 1),
         ('right', lambda c1, c2: c1 == c2 + 1),
         ({'live', 'own', 'drink', 'drunk', 'smoke'}, lambda c1, c2: c1 == c2),
     ]
 
-    relations = dict()
+    relations = list()
     for line in task.splitlines(keepends=False):
         founded_objects = []
         for n_group, group in enumerate(classified_objects):
@@ -281,12 +293,10 @@ def solve_zebra_puzzle():
                     break
             if founded_relations:
                 break
-        if len(founded_objects) == 2:
-            token1, token2 = founded_objects
-            relations.setdefault(token1[1:], dict())[token2[1:]] = founded_relations
-        elif len(founded_objects) == 1:
-            token1 = founded_objects[0]
-            relations.setdefault(token1[1:], dict())[token1[1:]] = founded_relations
+        if founded_objects:
+            relations.append(([token[1] for token in founded_objects],
+                              [token[2] for token in founded_objects],
+                              founded_relations))
 
     t1 = time.perf_counter()
     status, solutions, complex_status = solve_puzzle(classified_objects, relations)
@@ -343,16 +353,16 @@ def solve_blood_donation_puzzle():
     end = len(classified_objects[0]) - 1
     rules_for_relations = [
         ('next', lambda c1, c2: c1 == c2 - 1 or c1 == c2 + 1),
-        ('ends', lambda c1, c2: c1 == 0 and c2 == 0 or c1 == end and c2 == end),
+        ('ends', lambda c1: c1 == 0 or c1 == end),
         ('somewhere to the left', lambda c1, c2: c1 < c2),
         ('somewhere to the right', lambda c1, c2: c1 > c2),
         ('left', lambda c1, c2: c1 == c2 - 1),
         ('right', lambda c1, c2: c1 == c2 + 1),
-        ('between', (lambda c1, c2: c1 > c2, lambda c1, c2: c1 < c2)),
+        ('between', lambda c1, c2, c3: c2 < c1 < c3 or c3 < c1 < c2),
         ({'is', 'weighs'}, lambda c1, c2: c1 == c2),
     ]
 
-    relations = dict()
+    relations = list()
     for line in task.splitlines(keepends=False):
         founded_objects = []
         for n_group, group in enumerate(classified_objects):
@@ -370,17 +380,10 @@ def solve_blood_donation_puzzle():
                     break
             if founded_relations:
                 break
-        if len(founded_objects) == 3:  # 'between' case
-            token1, token2, token3 = founded_objects
-            f1, f2 = next(iter(founded_relations))
-            relations.setdefault(token1[1:], dict())[token2[1:]] = f1
-            relations.setdefault(token1[1:], dict())[token3[1:]] = f2
-        elif len(founded_objects) == 2:
-            token1, token2 = founded_objects
-            relations.setdefault(token1[1:], dict())[token2[1:]] = founded_relations
-        elif len(founded_objects) == 1:
-            token1 = founded_objects[0]
-            relations.setdefault(token1[1:], dict())[token1[1:]] = founded_relations
+        if founded_objects:
+            relations.append(([token[1] for token in founded_objects],
+                              [token[2] for token in founded_objects],
+                              founded_relations))
 
     t1 = time.perf_counter()
     status, solutions, complex_status = solve_puzzle(classified_objects, relations)
