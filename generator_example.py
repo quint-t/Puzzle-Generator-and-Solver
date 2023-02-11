@@ -202,7 +202,7 @@ def generate_puzzle(table: List[List[str]], *,
         rules_for_relations.pop(0)  # pop '!='
     is_minimized = False
     time_elapsed = False
-    tries_list = []
+    min_relations = None
     while True:
         ranges = [[set(table_wo_left[i]) for _ in range(len(table_wo_left[i]))] for i in range(len(table_wo_left))]
         relations = list()
@@ -222,15 +222,17 @@ def generate_puzzle(table: List[List[str]], *,
                         needs_clarification.append((i, j))
                 if no_solutions:
                     break
-            if solved:
-                tries_list.append(relations)
-                if len(tries_list) < tries:
+            if solved or min_relations is not None and len(relations) >= len(min_relations):
+                tries -= 1
+                if min_relations is None or len(relations) < len(min_relations):
+                    min_relations = relations
+                if tries > 0:
                     fail = True
                     continue
-                relations = min(tries_list, key=len)
+            if tries <= 0:
+                relations = min_relations
                 if not minimal_conditions:
                     break
-                relations_min = relations
                 number_of_relations_min = len(relations)
                 number_of_relations_before = len(relations)
                 start_time = time.monotonic()
@@ -291,7 +293,7 @@ def generate_puzzle(table: List[List[str]], *,
                             number_of_relations_after = len(new_relations)
                             if number_of_relations_min > number_of_relations_after:
                                 number_of_relations_min = number_of_relations_after
-                                relations_min = new_relations
+                                relations = new_relations
                                 main_q.append(new_relations)
                         if max_seconds_for_minimizing is not None and \
                                 time.monotonic() >= start_time + max_seconds_for_minimizing:
@@ -300,7 +302,6 @@ def generate_puzzle(table: List[List[str]], *,
                     if time_elapsed:
                         break
                 is_minimized = number_of_relations_min < number_of_relations_before or not time_elapsed
-                relations = relations_min
                 break
             if no_solutions or not needs_clarification:
                 fail = True

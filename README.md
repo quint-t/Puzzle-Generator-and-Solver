@@ -23,28 +23,27 @@ python3 generator_example.py
 Program possible output (**max level with minimization**, 4 objects with 4 attributes):
 ```
 .:: Puzzle ::.
-Food: broccoli chicken potato tomato
-Hobby: collecting gardening reading singing
-Movie-Genre: action fantasy romance thriller
-Pet: cat fish hamster snake
-1. Hobby:gardening is not to the right of Movie-Genre:thriller
-2. Food:broccoli == Movie-Genre:action or Movie-Genre:romance == Food:broccoli, but not both
-3. Food:potato == Food:chicken or Food:potato == Pet:snake or both
-4. Movie-Genre:fantasy is not to the right of Food:broccoli
-5. Movie-Genre:action == Pet:hamster or Movie-Genre:action == Pet:snake or both
-6. Pet:fish is somewhere between Pet:hamster and Food:broccoli
-7. Hobby:singing == Movie-Genre:fantasy or Movie-Genre:fantasy == Pet:hamster or both
-8. Movie-Genre:fantasy is somewhere between Food:potato and Food:chicken
-9. Hobby:reading and Food:tomato have different parity positions
-10. Hobby:singing == Pet:snake or Hobby:gardening == Hobby:singing, but not both
+Hobby: gardening painting playing singing
+Job: chef engineer scientist teacher
+Music-Genre: blues classical electronic rock
+Pet: hamster rabbit snake turtle
+1. Job:engineer == Hobby:gardening or Job:engineer == Hobby:gardening or both
+2. Music-Genre:rock is somewhere between Hobby:singing and Pet:rabbit
+3. Pet:hamster is somewhere between Music-Genre:rock and Hobby:painting
+4. Hobby:singing is somewhere between Hobby:painting and Job:teacher
+5. Hobby:singing is not to the right of Job:chef
+6. Job:engineer is not to the left of Music-Genre:classical
+7. Music-Genre:classical and Pet:hamster have different parity positions
+8. Hobby:singing == Music-Genre:electronic or Hobby:singing == Music-Genre:electronic or both
+9. Job:teacher == Pet:turtle or Pet:turtle == Music-Genre:blues, but not both
 
 .:: Answer ::.
-|               |    1    |     2     |    3     |     4      |
-| Food          | potato  | tomato    | chicken  | broccoli   |
-| Hobby         | singing | gardening | reading  | collecting |
-| Movie-Genre   | action  | fantasy   | thriller | romance    |
-| Pet           | snake   | hamster   | fish     | cat        |
-Time: 8.344000 seconds
+|               |     1     |     2      |    3    |     4     |
+| Hobby         | painting  | singing    | playing | gardening |
+| Job           | scientist | chef       | teacher | engineer  |
+| Music-Genre   | classical | electronic | rock    | blues     |
+| Pet           | snake     | hamster    | turtle  | rabbit    |
+Time: 10.062000 seconds
 ```
 
 ### Explanation of 20 levels with relations
