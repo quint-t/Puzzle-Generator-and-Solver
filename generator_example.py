@@ -445,7 +445,9 @@ def main():
     t1 = time.monotonic()
     premises = generate_puzzle(table, level=20, minimal_conditions=True, max_seconds_for_minimizing=30)
     t2 = time.monotonic()
+    indent = len(str(len(premises)))
     for i, premise in enumerate(premises, 1):
+        i = str(i).rjust(indent)
         print(f"{i}. {premise}")
     print('\n.:: Answer ::.')
     print(format_table(header, table))
