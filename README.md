@@ -12,7 +12,7 @@ Generator advantages:
 1. Uniform generation.
 2. Any number of attributes up to 10.
 3. Any number of objects up to 10.
-4. 17 levels.
+4. 20 levels.
 5. Minimization of the number of conditions with setting a timeout for minimization.
 6. One solution always.
 
@@ -23,32 +23,31 @@ python3 generator_example.py
 Program possible output (**max level with minimization**, 4 objects with 4 attributes):
 ```
 .:: Puzzle ::.
-Beverage: coffee cola juice mirinda
-Food: broccoli cheese chicken rice
-Hobby: painting photography singing traveling
-Nationality: norvegian russian scottish spannish
-1. Hobby:traveling and Nationality:spannish have the same parity positions
-2. Beverage:mirinda is somewhere between Hobby:traveling and Beverage:cola
-3. Hobby:photography is not to the right of Nationality:norvegian
-4. Food:broccoli is somewhere between Nationality:norvegian and Beverage:coffee
-5. Hobby:painting is not to the left of Hobby:singing
-6. Hobby:photography and Food:cheese have different parity positions
-7. Food:cheese is not to the right of Hobby:traveling
-8. Food:chicken and Hobby:painting have different parity positions
-9. Food:chicken is somewhere between Nationality:spannish and Food:broccoli
-10. Nationality:spannish and Nationality:scottish have different parity positions
-11. Hobby:photography != Food:rice
+Food: broccoli chicken potato tomato
+Hobby: collecting gardening reading singing
+Movie-Genre: action fantasy romance thriller
+Pet: cat fish hamster snake
+1. Hobby:gardening is not to the right of Movie-Genre:thriller
+2. Food:broccoli == Movie-Genre:action or Movie-Genre:romance == Food:broccoli, but not both
+3. Food:potato == Food:chicken or Food:potato == Pet:snake or both
+4. Movie-Genre:fantasy is not to the right of Food:broccoli
+5. Movie-Genre:action == Pet:hamster or Movie-Genre:action == Pet:snake or both
+6. Pet:fish is somewhere between Pet:hamster and Food:broccoli
+7. Hobby:singing == Movie-Genre:fantasy or Movie-Genre:fantasy == Pet:hamster or both
+8. Movie-Genre:fantasy is somewhere between Food:potato and Food:chicken
+9. Hobby:reading and Food:tomato have different parity positions
+10. Hobby:singing == Pet:snake or Hobby:gardening == Hobby:singing, but not both
 
 .:: Answer ::.
-|               |    1     |    2     |      3      |     4     |
-| Beverage      | coffee   | cola     | mirinda     | juice     |
-| Food          | rice     | broccoli | chicken     | cheese    |
-| Hobby         | singing  | painting | photography | traveling |
-| Nationality   | scottish | russian  | norvegian   | spannish  |
-Time: 5.437000 seconds
+|               |    1    |     2     |    3     |     4      |
+| Food          | potato  | tomato    | chicken  | broccoli   |
+| Hobby         | singing | gardening | reading  | collecting |
+| Movie-Genre   | action  | fantasy   | thriller | romance    |
+| Pet           | snake   | hamster   | fish     | cat        |
+Time: 8.344000 seconds
 ```
 
-### Explanation of 17 levels with relations
+### Explanation of 20 levels with relations
 
 - L1: `A == B`: An object that has attribute A has attribute B.
 - L1: `A is on the left of B`: An object with attribute A is **next** to the left of an object with attribute B (A-B).
@@ -63,19 +62,26 @@ Time: 5.437000 seconds
 - L4: `A is in an even position`: An object with attribute A is in an even position (even positions: 2, 4, 6, ...).
 - L5: `A is somewhere to the left of B`: An object with attribute A is **somewhere** to the left of an object with attribute B (any number of intermediates, including 0: A-...-B).
 - L5: `A is somewhere to the right of B`: An object with attribute A is **somewhere** to the right of an object with attribute B (any number of intermediates, including 0: B-...-A).
-- L6: `A is somewhere between B and C`: An object with attribute A is **somewhere** between an object with attribute B, and an object with attribute C (any number of intermediates, including 0: B-...-A-...-C, C-...-A-...-B).
-- L7: `A is not to the left of B`: An object with attribute A is not to the left of an object with attribute B.
-- L7: `A is not to the right of B`: An object with attribute A is not to the right of an object with attribute B.
-- L8: `A != B`: An object that has attribute A does not have attribute B.
+- L6: `A != B`: An object that has attribute A does not have attribute B.
+- L7: `A is somewhere between B and C`: An object with attribute A is **somewhere** between an object with attribute B, and an object with attribute C (any number of intermediates, including 0: B-...-A-...-C, C-...-A-...-B).
+- L8: `A is not to the left of B`: An object with attribute A is not to the left of an object with attribute B.
+- L8: `A is not to the right of B`: An object with attribute A is not to the right of an object with attribute B.
 - L9: `A and B have different parity positions`: An object with attribute A and an object with attribute B have different parity positions.
-- L10: `A and B have the same parity positions`: An object with attribute A and an object with attribute B have the same parity positions (positions may be the same or different, but the parity is always the same).
-- L11: L10 without `A == B`.
-- L12: L11 without `A is on the left of B`, `A is on the right of B`.
-- L13: L12 without `A is on the far left`, `A is on the far right`, `A is in the middle`.
-- L14: L13 without `A is between B and C`.
-- L15: L14 without `A is on the left or right of B`, `A is on the far left or far right`.
-- L16: L15 without `A is in an odd position`, `A is in an even position`.
-- L17: L16 without `A is somewhere to the left of B`, `A is somewhere to the right of B`.
+- L9: `A and B have the same parity positions`: An object with attribute A and an object with attribute B have the same parity positions (positions may be the same or different, but the parity is always the same).
+- L10: `A == B or A == C, but not both`: An object that has attribute A has attribute B, or an object that has attribute A has attribute C, but not both.
+- L10: `A == B or B == C, but not both`: An object that has attribute A has attribute B, or an object that has attribute B has attribute C, but not both.
+- L11: `A == B or A == C or both`: An object that has attribute A has attribute B, or an object that has attribute A has attribute C, or both.
+- L11: `A == B or B == C or both`: An object that has attribute A has attribute B, or an object that has attribute B has attribute C, or both.
+- L12: `A != B or A != C or both`: An object that has attribute A has not attribute B, or an object that has attribute A has not attribute C, or both.
+- L12: `A != B or B != C or both`: An object that has attribute A has not attribute B, or an object that has attribute B has not attribute C, or both.
+- L13: L12 without `A == B`.
+- L14: L13 without `A is on the left of B`, `A is on the right of B`.
+- L15: L14 without `A is on the far left`, `A is on the far right`, `A is in the middle`.
+- L16: L15 without `A is between B and C`.
+- L17: L16 without `A is on the left or right of B`, `A is on the far left or far right`.
+- L18: L17 without `A is in an odd position`, `A is in an even position`.
+- L19: L18 without `A is somewhere to the left of B`, `A is somewhere to the right of B`.
+- L20: L19 without `A != B`.
 
 ## Einstein's Riddle, Zebra Puzzle and Blood Donation Puzzle Solver
 

@@ -79,17 +79,18 @@ def update_ranges(relations: List[Tuple[List[int], List[str], Callable, ...]],
 
 
 def generate_puzzle(table: List[List[str]], *,
-                    level: Literal[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
-                    minimal_conditions: bool = False, max_seconds_for_minimizing: float = None):
-    if level not in range(1, 17 + 1):
-        raise ValueError('level must be >= 1 and <= 17')
+                    level: Literal[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+                    minimal_conditions: bool = False, max_seconds_for_minimizing: float = None,
+                    tries: int = 10):
+    if level not in range(1, 20 + 1):
+        raise ValueError('level must be >= 1 and <= 20')
 
     table_wo_left = [row[1:] for row in table]
     n_attributes = len(table_wo_left)
     m_objects = len(table_wo_left[0])
 
-    if level == 17 and m_objects == 2:
-        raise ValueError('too few objects for level 17')
+    if level >= 19 and m_objects == 2:
+        raise ValueError('too few objects for level >= 19')
     elif m_objects <= 1:
         raise ValueError('m_objects must be >= 2')
     elif n_attributes <= 0:
@@ -127,54 +128,81 @@ def generate_puzzle(table: List[List[str]], *,
         ]
     if level >= 6:
         rules_for_relations += [
+            (2, lambda j1, j2: j1 != j2, ['{0}:{1} != {2}:{3}', '{2}:{3} != {0}:{1}']),
+        ]
+    if level >= 7:
+        rules_for_relations += [
             (3, lambda j1, j2, j3: j2 < j1 < j3 or j3 < j1 < j2,
              ['{0}:{1} is somewhere between {2}:{3} and {4}:{5}',
               '{0}:{1} is somewhere between {4}:{5} and {2}:{3}']),
         ]
-    if level >= 7:
+    if level >= 8:
         rules_for_relations += [
             (2, lambda j1, j2: j1 >= j2, ['{0}:{1} is not to the left of {2}:{3}']),
             (2, lambda j1, j2: j1 <= j2, ['{0}:{1} is not to the right of {2}:{3}']),
-        ]
-    if level >= 8:
-        rules_for_relations += [
-            (2, lambda j1, j2: j1 != j2, ['{0}:{1} != {2}:{3}', '{2}:{3} != {0}:{1}']),
         ]
     if level >= 9:
         rules_for_relations += [
             (2, lambda j1, j2: j1 % 2 != j2 % 2,
              ['{0}:{1} and {2}:{3} have different parity positions',
               '{2}:{3} and {0}:{1} have different parity positions']),
-        ]
-    if level >= 10:
-        rules_for_relations += [
             (2, lambda j1, j2: j1 % 2 == j2 % 2,
              ['{0}:{1} and {2}:{3} have the same parity positions',
               '{2}:{3} and {0}:{1} have the same parity positions']),
         ]
+    if level >= 10:
+        rules_for_relations += [
+            (3, lambda j1, j2, j3: (j1 == j2 and j1 != j3) or (j1 != j2 and j1 == j3),
+             ['{0}:{1} == {2}:{3} or {0}:{1} == {4}:{5}, but not both',
+              '{0}:{1} == {4}:{5} or {0}:{1} == {2}:{3}, but not both']),
+            (3, lambda j1, j2, j3: (j1 == j2 and j2 != j3) or (j1 != j2 and j2 == j3),
+             ['{0}:{1} == {2}:{3} or {2}:{3} == {4}:{5}, but not both',
+              '{2}:{3} == {4}:{5} or {0}:{1} == {2}:{3}, but not both']),
+        ]
     if level >= 11:
-        rules_for_relations.pop(0)  # pop '=='
+        rules_for_relations += [
+            (3, lambda j1, j2, j3: j1 == j2 or j1 == j3,
+             ['{0}:{1} == {2}:{3} or {0}:{1} == {4}:{5} or both',
+              '{0}:{1} == {4}:{5} or {0}:{1} == {2}:{3} or both']),
+            (3, lambda j1, j2, j3: j1 == j2 or j2 == j3,
+             ['{0}:{1} == {2}:{3} or {2}:{3} == {4}:{5} or both',
+              '{2}:{3} == {4}:{5} or {0}:{1} == {2}:{3} or both']),
+        ]
     if level >= 12:
+        rules_for_relations += [
+            (3, lambda j1, j2, j3: j1 != j2 or j1 != j3,
+             ['{0}:{1} != {2}:{3} or {0}:{1} != {4}:{5} or both',
+              '{0}:{1} != {4}:{5} or {0}:{1} != {2}:{3} or both']),
+            (3, lambda j1, j2, j3: j1 != j2 or j2 != j3,
+             ['{0}:{1} != {2}:{3} or {2}:{3} != {4}:{5} or both',
+              '{2}:{3} != {4}:{5} or {0}:{1} != {2}:{3} or both']),
+        ]
+    if level >= 13:
+        rules_for_relations.pop(0)  # pop '=='
+    if level >= 14:
         rules_for_relations.pop(0)  # pop 'is on the left of'
         rules_for_relations.pop(0)  # pop 'is on the right of'
-    if level >= 13:
+    if level >= 15:
         rules_for_relations.pop(0)  # pop 'is on the far left'
         rules_for_relations.pop(0)  # pop 'is on the far right'
         if m_objects % 2 != 0:
             rules_for_relations.pop(0)  # pop 'is in the middle'
-    if level >= 14:
+    if level >= 16:
         rules_for_relations.pop(0)  # pop 'is between'
-    if level >= 15:
+    if level >= 17:
         rules_for_relations.pop(0)  # pop 'is on the left or right of'
         rules_for_relations.pop(0)  # pop 'is on the far left or far right'
-    if level >= 16:
+    if level >= 18:
         rules_for_relations.pop(0)  # pop 'is in an odd position'
         rules_for_relations.pop(0)  # pop 'is in an even position'
-    if level >= 17:
+    if level >= 19:
         rules_for_relations.pop(0)  # pop 'is somewhere to the left of'
         rules_for_relations.pop(0)  # pop 'is somewhere to the right of'
+    if level >= 20:
+        rules_for_relations.pop(0)  # pop '!='
     is_minimized = False
     time_elapsed = False
+    tries_list = []
     while True:
         ranges = [[set(table_wo_left[i]) for _ in range(len(table_wo_left[i]))] for i in range(len(table_wo_left))]
         relations = list()
@@ -195,6 +223,11 @@ def generate_puzzle(table: List[List[str]], *,
                 if no_solutions:
                     break
             if solved:
+                tries_list.append(relations)
+                if len(tries_list) < tries:
+                    fail = True
+                    continue
+                relations = min(tries_list, key=len)
                 if not minimal_conditions:
                     break
                 relations_min = relations
@@ -294,21 +327,33 @@ def generate_puzzle(table: List[List[str]], *,
             if not neighbours:
                 continue
             next_i, next_j = random.choice(neighbours)
-            if level >= 2 and (next2_i is None or random.choice([False, True])) and right_neighbours:
+            if level >= 2 and next2_i is None and right_neighbours:
                 next2_i, next2_j = random.choice(right_neighbours)
 
+            permutations3 = [
+                ((i, j), (next_i, next_j), (next2_i, next2_j)), ((i, j), (next2_i, next2_j), (next_i, next_j)),
+                ((next_i, next_j), (i, j), (next2_i, next2_j)), ((next_i, next_j), (next2_i, next2_j), (i, j)),
+                ((next2_i, next2_j), (i, j), (next_i, next_j)), ((next2_i, next2_j), (next_i, next_j), (i, j))
+            ] if next2_i is not None else []
+            permutations2 = [
+                ((i, j), (next_i, next_j)), ((next_i, next_j), (next2_i, next2_j)), ((i, j), (next2_i, next2_j)),
+                ((next_i, next_j), (i, j)), ((next2_i, next2_j), (next_i, next_j)), ((next2_i, next2_j), (i, j)),
+            ] if next2_i is not None else [
+                ((i, j), (next_i, next_j)), ((next_i, next_j), (i, j))
+            ]
             possible_variants = []
             for (n_args, cmp_function, str_variants) in rules_for_relations:
-                if n_args == 3 and next2_i is not None and cmp_function(j, next_j, next2_j):
-                    possible_variants.append((n_args, [(i, j), (next_i, next_j), (next2_i, next2_j)],
-                                              cmp_function, random.choice(str_variants)))
-                elif n_args == 2 and cmp_function(j, next_j):
-                    possible_variants.append((n_args, [(i, j), (next_i, next_j)],
-                                              cmp_function, random.choice(str_variants)))
-                elif n_args == 2 and next2_i is not None and cmp_function(next_j, next2_j):
-                    possible_variants.append((n_args, [(next_i, next_j), (next2_i, next2_j)],
-                                              cmp_function, random.choice(str_variants)))
-                elif n_args == 1 and cmp_function(j) and random.choice([False, True]):
+                if n_args == 3:
+                    for items in permutations3:
+                        (_, tj), (_, t_next_j), (_, t_next2_j) = items
+                        if cmp_function(tj, t_next_j, t_next2_j):
+                            possible_variants.append((n_args, items, cmp_function, random.choice(str_variants)))
+                elif n_args == 2:
+                    for items in permutations2:
+                        (_, tj), (_, t_next_j) = items
+                        if cmp_function(tj, t_next_j):
+                            possible_variants.append((n_args, items, cmp_function, random.choice(str_variants)))
+                elif n_args == 1 and cmp_function(j):
                     possible_variants.append((n_args, [(i, j)], cmp_function, random.choice(str_variants)))
             if not possible_variants:
                 continue
@@ -376,7 +421,7 @@ def main():
         },
         "Hobby": {
             "camping", "collecting", "cooking", "gardening", "painting",
-            "photography", "reading", "singing", "traveling", "writing",
+            "photography", "reading", "singing", "playing", "writing",
         }
     }
     kinds = sorted(kinds_dict)
@@ -397,7 +442,7 @@ def main():
     for row in table:
         print(f"{row[0]}:", ' '.join(sorted(row[1:])))
     t1 = time.monotonic()
-    premises = generate_puzzle(table, level=17, minimal_conditions=True, max_seconds_for_minimizing=30)
+    premises = generate_puzzle(table, level=20, minimal_conditions=True, max_seconds_for_minimizing=30)
     t2 = time.monotonic()
     for i, premise in enumerate(premises, 1):
         print(f"{i}. {premise}")
