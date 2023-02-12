@@ -23,27 +23,28 @@ python3 generator_example.py
 Program possible output (**max level with minimization**, 4 objects with 4 attributes):
 ```
 .:: Puzzle ::.
-Hobby: gardening painting playing singing
-Job: chef engineer scientist teacher
-Music-Genre: blues classical electronic rock
-Pet: hamster rabbit snake turtle
-1. Job:engineer == Hobby:gardening or Job:engineer == Hobby:gardening or both
-2. Music-Genre:rock is somewhere between Hobby:singing and Pet:rabbit
-3. Pet:hamster is somewhere between Music-Genre:rock and Hobby:painting
-4. Hobby:singing is somewhere between Hobby:painting and Job:teacher
-5. Hobby:singing is not to the right of Job:chef
-6. Job:engineer is not to the left of Music-Genre:classical
-7. Music-Genre:classical and Pet:hamster have different parity positions
-8. Hobby:singing == Music-Genre:electronic or Hobby:singing == Music-Genre:electronic or both
-9. Job:teacher == Pet:turtle or Pet:turtle == Music-Genre:blues, but not both
+Movie-Genre: comedy documentary fantasy romance
+Nationality: american german mexican scottish
+Pet: fish hamster horse turtle
+Transport: bike bus plane subway
+ 1. Transport:subway is somewhere between Pet:hamster and Movie-Genre:romance
+ 2. Transport:plane == Movie-Genre:romance or Nationality:mexican == Transport:plane or both
+ 3. Nationality:scottish is somewhere between Pet:hamster and Pet:fish
+ 4. Nationality:american and Movie-Genre:fantasy have the same parity positions
+ 5. Movie-Genre:fantasy is not to the left of Pet:turtle
+ 6. Transport:bus is somewhere between Nationality:scottish and Pet:horse
+ 7. Nationality:mexican == Transport:bus or Nationality:mexican == Pet:fish, but not both
+ 8. Transport:bike is not to the left of Movie-Genre:comedy
+ 9. Transport:subway is not to the right of Nationality:mexican
+10. Movie-Genre:fantasy is not to the right of Movie-Genre:romance
 
 .:: Answer ::.
-|               |     1     |     2      |    3    |     4     |
-| Hobby         | painting  | singing    | playing | gardening |
-| Job           | scientist | chef       | teacher | engineer  |
-| Music-Genre   | classical | electronic | rock    | blues     |
-| Pet           | snake     | hamster    | turtle  | rabbit    |
-Time: 10.062000 seconds
+|               |    1     |      2      |    3     |    4    |
+| Movie-Genre   | comedy   | documentary | fantasy  | romance |
+| Nationality   | american | german      | scottish | mexican |
+| Pet           | horse    | hamster     | turtle   | fish    |
+| Transport     | bike     | bus         | subway   | plane   |
+Time: 3.578000 seconds
 ```
 
 ### Explanation of 20 levels with relations

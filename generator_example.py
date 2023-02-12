@@ -97,6 +97,7 @@ def generate_puzzle(table: List[List[str]], *,
         raise ValueError('n_attributes must be >= 1')
 
     center = m_objects // 2
+    except_flag = True
     rules_for_relations = [
         (2, lambda j1, j2: j1 == j2, ['{0}:{1} == {2}:{3}', '{2}:{3} == {0}:{1}']),
         (2, lambda j1, j2: j1 == j2 - 1, ['{0}:{1} is on the left of {2}:{3}']),
@@ -128,7 +129,7 @@ def generate_puzzle(table: List[List[str]], *,
         ]
     if level >= 6:
         rules_for_relations += [
-            (2, lambda j1, j2: j1 != j2, ['{0}:{1} != {2}:{3}', '{2}:{3} != {0}:{1}']),
+            (2, lambda j1, j2: j1 != j2, ['{0}:{1} != {2}:{3}', '{2}:{3} != {0}:{1}'], except_flag),
         ]
     if level >= 7:
         rules_for_relations += [
@@ -145,37 +146,37 @@ def generate_puzzle(table: List[List[str]], *,
         rules_for_relations += [
             (2, lambda j1, j2: j1 % 2 != j2 % 2,
              ['{0}:{1} and {2}:{3} have different parity positions',
-              '{2}:{3} and {0}:{1} have different parity positions']),
+              '{2}:{3} and {0}:{1} have different parity positions'], except_flag),
             (2, lambda j1, j2: j1 % 2 == j2 % 2,
              ['{0}:{1} and {2}:{3} have the same parity positions',
-              '{2}:{3} and {0}:{1} have the same parity positions']),
+              '{2}:{3} and {0}:{1} have the same parity positions'], except_flag),
         ]
     if level >= 10:
         rules_for_relations += [
             (3, lambda j1, j2, j3: (j1 == j2 and j1 != j3) or (j1 != j2 and j1 == j3),
              ['{0}:{1} == {2}:{3} or {0}:{1} == {4}:{5}, but not both',
-              '{0}:{1} == {4}:{5} or {0}:{1} == {2}:{3}, but not both']),
+              '{0}:{1} == {4}:{5} or {0}:{1} == {2}:{3}, but not both'], except_flag),
             (3, lambda j1, j2, j3: (j1 == j2 and j2 != j3) or (j1 != j2 and j2 == j3),
              ['{0}:{1} == {2}:{3} or {2}:{3} == {4}:{5}, but not both',
-              '{2}:{3} == {4}:{5} or {0}:{1} == {2}:{3}, but not both']),
+              '{2}:{3} == {4}:{5} or {0}:{1} == {2}:{3}, but not both'], except_flag),
         ]
     if level >= 11:
         rules_for_relations += [
             (3, lambda j1, j2, j3: j1 == j2 or j1 == j3,
              ['{0}:{1} == {2}:{3} or {0}:{1} == {4}:{5} or both',
-              '{0}:{1} == {4}:{5} or {0}:{1} == {2}:{3} or both']),
+              '{0}:{1} == {4}:{5} or {0}:{1} == {2}:{3} or both'], except_flag),
             (3, lambda j1, j2, j3: j1 == j2 or j2 == j3,
              ['{0}:{1} == {2}:{3} or {2}:{3} == {4}:{5} or both',
-              '{2}:{3} == {4}:{5} or {0}:{1} == {2}:{3} or both']),
+              '{2}:{3} == {4}:{5} or {0}:{1} == {2}:{3} or both'], except_flag),
         ]
     if level >= 12:
         rules_for_relations += [
             (3, lambda j1, j2, j3: j1 != j2 or j1 != j3,
              ['{0}:{1} != {2}:{3} or {0}:{1} != {4}:{5} or both',
-              '{0}:{1} != {4}:{5} or {0}:{1} != {2}:{3} or both']),
+              '{0}:{1} != {4}:{5} or {0}:{1} != {2}:{3} or both'], except_flag),
             (3, lambda j1, j2, j3: j1 != j2 or j2 != j3,
              ['{0}:{1} != {2}:{3} or {2}:{3} != {4}:{5} or both',
-              '{2}:{3} != {4}:{5} or {0}:{1} != {2}:{3} or both']),
+              '{2}:{3} != {4}:{5} or {0}:{1} != {2}:{3} or both'], except_flag),
         ]
     if level >= 13:
         rules_for_relations.pop(0)  # pop '=='
@@ -343,15 +344,19 @@ def generate_puzzle(table: List[List[str]], *,
                 ((i, j), (next_i, next_j)), ((next_i, next_j), (i, j))
             ]
             possible_variants = []
-            for (n_args, cmp_function, str_variants) in rules_for_relations:
+            for (n_args, cmp_function, str_variants, *flags) in rules_for_relations:
                 if n_args == 3:
                     for items in permutations3:
-                        (_, tj), (_, t_next_j), (_, t_next2_j) = items
+                        (ti, tj), (t_next_i, t_next_j), (t_next2_i, t_next2_j) = items
+                        if flags and flags[0] and (ti == t_next_i or ti == t_next2_i or t_next_i == t_next2_i):
+                            continue
                         if cmp_function(tj, t_next_j, t_next2_j):
                             possible_variants.append((n_args, items, cmp_function, random.choice(str_variants)))
                 elif n_args == 2:
                     for items in permutations2:
-                        (_, tj), (_, t_next_j) = items
+                        (ti, tj), (t_next_i, t_next_j) = items
+                        if flags and flags[0] and ti == t_next_i:
+                            continue
                         if cmp_function(tj, t_next_j):
                             possible_variants.append((n_args, items, cmp_function, random.choice(str_variants)))
                 elif n_args == 1 and cmp_function(j):
