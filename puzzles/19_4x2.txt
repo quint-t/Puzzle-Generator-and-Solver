@@ -1,0 +1,566 @@
+====================================================================================
+.:: Puzzle 4x2 level=1 ::.
+Food: apple rice
+Hobby: playing reading
+Sport: climbing golf
+Transport: car subway
+1. Hobby:playing is on the right of Sport:climbing
+2. Food:apple is on the right of Transport:car
+
+.:: Answer ::.
+|             |    1     |    2    |
+| Food        | rice     | apple   |
+| Hobby       | reading  | playing |
+| Sport       | climbing | golf    |
+| Transport   | car      | subway  |
+====================================================================================
+.:: Puzzle 4x2 level=1 ::.
+Beverage: 7up fanta
+Food: broccoli rice
+Job: engineer firefighter
+Pet: fish hamster
+1. Job:firefighter is on the left of Pet:hamster
+2. Beverage:7up is on the right of Beverage:fanta
+3. Food:rice is on the right of Food:broccoli
+
+.:: Answer ::.
+|            |      1      |    2     |
+| Beverage   | fanta       | 7up      |
+| Food       | broccoli    | rice     |
+| Job        | firefighter | engineer |
+| Pet        | fish        | hamster  |
+====================================================================================
+.:: Puzzle 4x2 level=2 ::.
+Beverage: milk water
+Pet: cat hamster
+Sport: surfing swimming
+Transport: boat train
+1. Sport:surfing is on the left of Beverage:water
+2. Transport:train is on the left of Pet:hamster
+
+.:: Answer ::.
+|             |    1    |    2     |
+| Beverage    | milk    | water    |
+| Pet         | cat     | hamster  |
+| Sport       | surfing | swimming |
+| Transport   | train   | boat     |
+====================================================================================
+.:: Puzzle 4x2 level=2 ::.
+Beverage: mirinda sprite
+Movie-Genre: documentary fantasy
+Nationality: russian scottish
+Sport: basketball climbing
+1. Beverage:mirinda is on the right of Movie-Genre:documentary
+2. Beverage:sprite is on the left of Nationality:scottish
+3. Beverage:sprite == Sport:basketball
+
+.:: Answer ::.
+|               |      1      |    2     |
+| Beverage      | sprite      | mirinda  |
+| Movie-Genre   | documentary | fantasy  |
+| Nationality   | russian     | scottish |
+| Sport         | basketball  | climbing |
+====================================================================================
+.:: Puzzle 4x2 level=3 ::.
+Food: broccoli potato
+Hobby: painting writing
+Job: lawyer police-officer
+Sport: surfing volleyball
+1. Job:lawyer == Food:potato
+2. Job:lawyer == Hobby:writing
+3. Food:potato is on the left of Sport:volleyball
+
+.:: Answer ::.
+|         |    1    |       2        |
+| Food    | potato  | broccoli       |
+| Hobby   | writing | painting       |
+| Job     | lawyer  | police-officer |
+| Sport   | surfing | volleyball     |
+====================================================================================
+.:: Puzzle 4x2 level=3 ::.
+Food: broccoli chicken
+Hobby: gardening writing
+Music-Genre: country rock
+Pet: bird hamster
+1. Hobby:gardening == Food:chicken
+2. Pet:hamster is on the right of Music-Genre:country
+3. Hobby:writing is on the left of Pet:hamster
+
+.:: Answer ::.
+|               |    1     |     2     |
+| Food          | broccoli | chicken   |
+| Hobby         | writing  | gardening |
+| Music-Genre   | country  | rock      |
+| Pet           | bird     | hamster   |
+====================================================================================
+.:: Puzzle 4x2 level=4 ::.
+Beverage: juice mirinda
+Food: cheese egg
+Job: chef scientist
+Music-Genre: classical country
+1. Food:cheese is on the right of Music-Genre:classical
+2. Job:scientist is on the right of Beverage:mirinda
+
+.:: Answer ::.
+|               |     1     |     2     |
+| Beverage      | mirinda   | juice     |
+| Food          | egg       | cheese    |
+| Job           | chef      | scientist |
+| Music-Genre   | classical | country   |
+====================================================================================
+.:: Puzzle 4x2 level=4 ::.
+Food: apple bread
+Job: chef firefighter
+Music-Genre: electronic rock
+Transport: taxi train
+1. Food:bread is on the left of Food:apple
+2. Transport:taxi == Music-Genre:rock
+3. Transport:train is on the left of Job:firefighter
+
+.:: Answer ::.
+|               |     1      |      2      |
+| Food          | bread      | apple       |
+| Job           | chef       | firefighter |
+| Music-Genre   | electronic | rock        |
+| Transport     | train      | taxi        |
+====================================================================================
+.:: Puzzle 4x2 level=5 ::.
+Beverage: fanta tea
+Hobby: cooking painting
+Job: doctor journalist
+Nationality: russian scottish
+1. Hobby:painting is on the left of Beverage:fanta
+2. Job:doctor is somewhere to the right of Nationality:russian
+
+.:: Answer ::.
+|               |     1      |    2     |
+| Beverage      | tea        | fanta    |
+| Hobby         | painting   | cooking  |
+| Job           | journalist | doctor   |
+| Nationality   | russian    | scottish |
+====================================================================================
+.:: Puzzle 4x2 level=5 ::.
+Food: apple tomato
+Movie-Genre: family romance
+Pet: mouse rabbit
+Transport: motorbike roller
+1. Transport:roller is somewhere to the left of Pet:mouse
+2. Food:apple is on the right of Movie-Genre:family
+
+.:: Answer ::.
+|               |   1    |     2     |
+| Food          | tomato | apple     |
+| Movie-Genre   | family | romance   |
+| Pet           | rabbit | mouse     |
+| Transport     | roller | motorbike |
+====================================================================================
+.:: Puzzle 4x2 level=6 ::.
+Beverage: juice water
+Job: chef scientist
+Movie-Genre: action documentary
+Sport: baseball golf
+1. Movie-Genre:action is somewhere to the right of Beverage:water
+2. Job:scientist is in an even position
+3. Sport:baseball == Movie-Genre:action
+
+.:: Answer ::.
+|               |      1      |     2     |
+| Beverage      | water       | juice     |
+| Job           | chef        | scientist |
+| Movie-Genre   | documentary | action    |
+| Sport         | golf        | baseball  |
+====================================================================================
+.:: Puzzle 4x2 level=6 ::.
+Beverage: coffee water
+Food: chicken potato
+Movie-Genre: documentary family
+Pet: fish turtle
+1. Beverage:water is on the right of Food:potato
+2. Movie-Genre:documentary is on the right of Pet:turtle
+
+.:: Answer ::.
+|               |   1    |      2      |
+| Beverage      | coffee | water       |
+| Food          | potato | chicken     |
+| Movie-Genre   | family | documentary |
+| Pet           | turtle | fish        |
+====================================================================================
+.:: Puzzle 4x2 level=7 ::.
+Beverage: coffee sprite
+Movie-Genre: comedy thriller
+Music-Genre: jazz rock
+Nationality: french german
+1. Nationality:french == Beverage:sprite
+2. Music-Genre:rock != Nationality:french
+3. Beverage:sprite is somewhere to the right of Movie-Genre:comedy
+
+.:: Answer ::.
+|               |   1    |    2     |
+| Beverage      | coffee | sprite   |
+| Movie-Genre   | comedy | thriller |
+| Music-Genre   | rock   | jazz     |
+| Nationality   | german | french   |
+====================================================================================
+.:: Puzzle 4x2 level=7 ::.
+Food: broccoli chicken
+Music-Genre: jazz r&b
+Pet: cat turtle
+Transport: bike plane
+1. Music-Genre:jazz is on the right of Food:chicken
+2. Pet:turtle is on the right of Transport:plane
+
+.:: Answer ::.
+|               |    1    |    2     |
+| Food          | chicken | broccoli |
+| Music-Genre   | r&b     | jazz     |
+| Pet           | cat     | turtle   |
+| Transport     | plane   | bike     |
+====================================================================================
+.:: Puzzle 4x2 level=8 ::.
+Beverage: juice water
+Food: apple cheese
+Hobby: camping cooking
+Nationality: american french
+1. Beverage:juice is somewhere to the right of Nationality:american
+2. Food:cheese is somewhere to the right of Hobby:cooking
+
+.:: Answer ::.
+|               |    1     |    2    |
+| Beverage      | water    | juice   |
+| Food          | apple    | cheese  |
+| Hobby         | cooking  | camping |
+| Nationality   | american | french  |
+====================================================================================
+.:: Puzzle 4x2 level=8 ::.
+Food: bread cheese
+Hobby: camping gardening
+Job: chef firefighter
+Sport: soccer tennis
+1. Job:chef is on the far left
+2. Sport:tennis != Job:chef
+3. Hobby:camping is somewhere to the right of Food:bread
+
+.:: Answer ::.
+|         |     1     |      2      |
+| Food    | bread     | cheese      |
+| Hobby   | gardening | camping     |
+| Job     | chef      | firefighter |
+| Sport   | soccer    | tennis      |
+====================================================================================
+.:: Puzzle 4x2 level=9 ::.
+Food: broccoli egg
+Job: chef engineer
+Pet: fish rabbit
+Transport: motorbike plane
+1. Job:engineer is on the left of Food:broccoli
+2. Pet:fish is on the right of Transport:plane
+
+.:: Answer ::.
+|             |    1     |     2     |
+| Food        | egg      | broccoli  |
+| Job         | engineer | chef      |
+| Pet         | rabbit   | fish      |
+| Transport   | plane    | motorbike |
+====================================================================================
+.:: Puzzle 4x2 level=9 ::.
+Movie-Genre: action comedy
+Pet: cat hamster
+Sport: basketball volleyball
+Transport: bike bus
+1. Pet:cat and Movie-Genre:comedy have the same parity positions
+2. Sport:volleyball and Movie-Genre:action have the same parity positions
+3. Transport:bus is on the left of Pet:cat
+
+.:: Answer ::.
+|               |     1      |     2      |
+| Movie-Genre   | action     | comedy     |
+| Pet           | hamster    | cat        |
+| Sport         | volleyball | basketball |
+| Transport     | bus        | bike       |
+====================================================================================
+.:: Puzzle 4x2 level=10 ::.
+Beverage: fanta sprite
+Hobby: playing singing
+Job: firefighter police-officer
+Transport: roller train
+1. Job:police-officer is somewhere to the left of Transport:train
+2. Transport:train != Hobby:singing
+3. Beverage:fanta is on the far right
+
+.:: Answer ::.
+|             |       1        |      2      |
+| Beverage    | sprite         | fanta       |
+| Hobby       | singing        | playing     |
+| Job         | police-officer | firefighter |
+| Transport   | roller         | train       |
+====================================================================================
+.:: Puzzle 4x2 level=10 ::.
+Beverage: cola water
+Music-Genre: classical hip-hop
+Nationality: french norvegian
+Pet: cat dog
+1. Music-Genre:classical is on the right of Pet:cat
+2. Beverage:cola is somewhere to the right of Beverage:water
+3. Music-Genre:classical is on the left or right of Nationality:norvegian
+
+.:: Answer ::.
+|               |     1     |     2     |
+| Beverage      | water     | cola      |
+| Music-Genre   | hip-hop   | classical |
+| Nationality   | norvegian | french    |
+| Pet           | cat       | dog       |
+====================================================================================
+.:: Puzzle 4x2 level=11 ::.
+Beverage: coffee milk
+Nationality: british norvegian
+Pet: mouse turtle
+Sport: ice hockey swimming
+1. Sport:swimming != Beverage:coffee
+2. Beverage:coffee is on the left of Nationality:norvegian
+3. Pet:turtle is in an even position
+
+.:: Answer ::.
+|               |     1      |     2     |
+| Beverage      | coffee     | milk      |
+| Nationality   | british    | norvegian |
+| Pet           | mouse      | turtle    |
+| Sport         | ice hockey | swimming  |
+====================================================================================
+.:: Puzzle 4x2 level=11 ::.
+Beverage: juice tea
+Hobby: reading writing
+Job: lawyer police-officer
+Music-Genre: jazz metal
+1. Beverage:juice is on the left of Job:lawyer
+2. Hobby:reading is on the left of Hobby:writing
+3. Job:lawyer is on the right of Music-Genre:metal
+
+.:: Answer ::.
+|               |       1        |    2    |
+| Beverage      | juice          | tea     |
+| Hobby         | reading        | writing |
+| Job           | police-officer | lawyer  |
+| Music-Genre   | metal          | jazz    |
+====================================================================================
+.:: Puzzle 4x2 level=12 ::.
+Food: broccoli potato
+Job: firefighter police-officer
+Movie-Genre: action thriller
+Sport: basketball ice hockey
+1. Movie-Genre:action is somewhere to the left of Job:police-officer
+2. Job:firefighter == Food:potato or Sport:ice hockey == Job:firefighter, but not both
+3. Movie-Genre:action != Food:potato
+
+.:: Answer ::.
+|               |      1      |       2        |
+| Food          | broccoli    | potato         |
+| Job           | firefighter | police-officer |
+| Movie-Genre   | action      | thriller       |
+| Sport         | ice hockey  | basketball     |
+====================================================================================
+.:: Puzzle 4x2 level=12 ::.
+Beverage: cola water
+Hobby: reading writing
+Job: chef firefighter
+Nationality: russian spannish
+1. Beverage:water and Job:chef have the same parity positions
+2. Job:chef is on the left of Nationality:spannish
+3. Hobby:writing is not to the left of Job:firefighter
+
+.:: Answer ::.
+|               |    1    |      2      |
+| Beverage      | water   | cola        |
+| Hobby         | reading | writing     |
+| Job           | chef    | firefighter |
+| Nationality   | russian | spannish    |
+====================================================================================
+.:: Puzzle 4x2 level=13 ::.
+Job: doctor journalist
+Nationality: french portuguese
+Pet: cat snake
+Sport: baseball basketball
+1. Sport:basketball is somewhere to the right of Nationality:french
+2. Pet:cat is somewhere to the left of Job:journalist
+
+.:: Answer ::.
+|               |    1     |     2      |
+| Job           | doctor   | journalist |
+| Nationality   | french   | portuguese |
+| Pet           | cat      | snake      |
+| Sport         | baseball | basketball |
+====================================================================================
+.:: Puzzle 4x2 level=13 ::.
+Hobby: cooking reading
+Job: firefighter teacher
+Pet: cat snake
+Sport: basketball surfing
+1. Pet:snake is on the left of Hobby:reading
+2. Hobby:cooking is on the left or right of Sport:surfing
+3. Job:firefighter != Pet:snake
+
+.:: Answer ::.
+|         |     1      |      2      |
+| Hobby   | cooking    | reading     |
+| Job     | teacher    | firefighter |
+| Pet     | snake      | cat         |
+| Sport   | basketball | surfing     |
+====================================================================================
+.:: Puzzle 4x2 level=14 ::.
+Beverage: cola juice
+Job: nurse teacher
+Nationality: american norvegian
+Transport: bus taxi
+1. Job:nurse != Beverage:juice
+2. Beverage:juice and Nationality:american have different parity positions
+3. Beverage:cola is not to the right of Transport:taxi
+4. Beverage:juice is on the far left
+
+.:: Answer ::.
+|               |     1     |    2     |
+| Beverage      | juice     | cola     |
+| Job           | teacher   | nurse    |
+| Nationality   | norvegian | american |
+| Transport     | bus       | taxi     |
+====================================================================================
+.:: Puzzle 4x2 level=14 ::.
+Job: firefighter scientist
+Movie-Genre: animation comedy
+Nationality: french scottish
+Pet: cat rabbit
+1. Movie-Genre:animation is somewhere to the left of Pet:rabbit
+2. Job:firefighter != Movie-Genre:comedy or Pet:rabbit != Job:firefighter or both
+3. Job:scientist and Nationality:scottish have different parity positions
+
+.:: Answer ::.
+|               |      1      |     2     |
+| Job           | firefighter | scientist |
+| Movie-Genre   | animation   | comedy    |
+| Nationality   | scottish    | french    |
+| Pet           | cat         | rabbit    |
+====================================================================================
+.:: Puzzle 4x2 level=15 ::.
+Movie-Genre: animation thriller
+Music-Genre: classical metal
+Pet: rabbit snake
+Sport: surfing tennis
+1. Movie-Genre:thriller == Sport:surfing or Movie-Genre:thriller == Music-Genre:classical, but not both
+2. Music-Genre:classical is on the left or right of Movie-Genre:thriller
+3. Pet:snake is somewhere to the right of Movie-Genre:thriller
+
+.:: Answer ::.
+|               |    1     |     2     |
+| Movie-Genre   | thriller | animation |
+| Music-Genre   | metal    | classical |
+| Pet           | rabbit   | snake     |
+| Sport         | surfing  | tennis    |
+====================================================================================
+.:: Puzzle 4x2 level=15 ::.
+Hobby: painting writing
+Music-Genre: classical hip-hop
+Sport: baseball climbing
+Transport: plane roller
+1. Sport:climbing is somewhere to the left of Sport:baseball
+2. Hobby:painting is somewhere to the right of Music-Genre:hip-hop
+3. Transport:plane and Music-Genre:hip-hop have the same parity positions
+
+.:: Answer ::.
+|               |    1     |     2     |
+| Hobby         | writing  | painting  |
+| Music-Genre   | hip-hop  | classical |
+| Sport         | climbing | baseball  |
+| Transport     | plane    | roller    |
+====================================================================================
+.:: Puzzle 4x2 level=16 ::.
+Job: firefighter police-officer
+Movie-Genre: action animation
+Music-Genre: electronic metal
+Transport: bike motorbike
+1. Job:firefighter and Movie-Genre:animation have different parity positions
+2. Transport:motorbike is somewhere to the right of Movie-Genre:action
+3. Job:firefighter != Music-Genre:metal
+
+.:: Answer ::.
+|               |      1      |       2        |
+| Job           | firefighter | police-officer |
+| Movie-Genre   | action      | animation      |
+| Music-Genre   | electronic  | metal          |
+| Transport     | bike        | motorbike      |
+====================================================================================
+.:: Puzzle 4x2 level=16 ::.
+Food: bread cheese
+Job: journalist scientist
+Sport: climbing tennis
+Transport: bike car
+1. Food:bread is somewhere to the right of Food:cheese
+2. Job:scientist is not to the right of Food:cheese
+3. Transport:bike is in an even position
+4. Sport:climbing is in an odd position
+
+.:: Answer ::.
+|             |     1     |     2      |
+| Food        | cheese    | bread      |
+| Job         | scientist | journalist |
+| Sport       | climbing  | tennis     |
+| Transport   | car       | bike       |
+====================================================================================
+.:: Puzzle 4x2 level=17 ::.
+Beverage: mirinda water
+Hobby: camping reading
+Job: nurse teacher
+Movie-Genre: comedy documentary
+1. Hobby:reading is somewhere to the left of Beverage:water
+2. Movie-Genre:documentary is somewhere to the left of Job:nurse
+
+.:: Answer ::.
+|               |      1      |    2    |
+| Beverage      | mirinda     | water   |
+| Hobby         | reading     | camping |
+| Job           | teacher     | nurse   |
+| Movie-Genre   | documentary | comedy  |
+====================================================================================
+.:: Puzzle 4x2 level=17 ::.
+Beverage: coffee water
+Hobby: collecting gardening
+Job: journalist nurse
+Movie-Genre: animation comedy
+1. Movie-Genre:comedy is somewhere to the left of Hobby:collecting
+2. Job:journalist is somewhere to the left of Beverage:coffee
+
+.:: Answer ::.
+|               |     1      |     2      |
+| Beverage      | water      | coffee     |
+| Hobby         | gardening  | collecting |
+| Job           | journalist | nurse      |
+| Movie-Genre   | comedy     | animation  |
+====================================================================================
+.:: Puzzle 4x2 level=18 ::.
+Food: banana tomato
+Hobby: gardening photography
+Nationality: russian spannish
+Pet: cat dog
+1. Nationality:spannish is somewhere to the left of Food:tomato
+2. Hobby:gardening is not to the left of Pet:cat
+3. Hobby:photography is somewhere to the right of Food:banana
+
+.:: Answer ::.
+|               |     1     |      2      |
+| Food          | banana    | tomato      |
+| Hobby         | gardening | photography |
+| Nationality   | spannish  | russian     |
+| Pet           | cat       | dog         |
+====================================================================================
+.:: Puzzle 4x2 level=18 ::.
+Food: chicken egg
+Movie-Genre: action romance
+Pet: bird mouse
+Transport: motorbike roller
+1. Movie-Genre:action is somewhere to the right of Transport:motorbike
+2. Food:chicken is somewhere to the left of Pet:mouse
+
+.:: Answer ::.
+|               |     1     |   2    |
+| Food          | chicken   | egg    |
+| Movie-Genre   | romance   | action |
+| Pet           | bird      | mouse  |
+| Transport     | motorbike | roller |
+====================================================================================
