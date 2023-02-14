@@ -422,7 +422,7 @@ def main():
             "drama", "family", "fantasy", "romance", "thriller",
         },
         "Sport": {
-            "baseball", "basketball", "climbing", "golf", "ice hockey",
+            "baseball", "basketball", "climbing", "golf", "ice-hockey",
             "soccer", "surfing", "swimming", "tennis", "volleyball",
         },
         "Hobby": {
@@ -446,7 +446,7 @@ def main():
 
     print('.:: Puzzle ::.')
     for row in table:
-        print(f"{row[0]}:", ' '.join(sorted(row[1:])))
+        print(f"{row[0]}:", ', '.join(sorted(row[1:])))
     t1 = time.monotonic()
     premises = generate_puzzle(table, level=20, minimal_conditions=True, max_seconds_for_minimizing=30)
     t2 = time.monotonic()

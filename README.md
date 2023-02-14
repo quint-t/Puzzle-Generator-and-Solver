@@ -23,28 +23,28 @@ python3 generator_example.py
 Program possible output (**max level with minimization**, 4 objects with 4 attributes):
 ```
 .:: Puzzle ::.
-Movie-Genre: comedy documentary fantasy romance
-Nationality: american german mexican scottish
-Pet: fish hamster horse turtle
-Transport: bike bus plane subway
- 1. Transport:subway is somewhere between Pet:hamster and Movie-Genre:romance
- 2. Transport:plane == Movie-Genre:romance or Nationality:mexican == Transport:plane or both
- 3. Nationality:scottish is somewhere between Pet:hamster and Pet:fish
- 4. Nationality:american and Movie-Genre:fantasy have the same parity positions
- 5. Movie-Genre:fantasy is not to the left of Pet:turtle
- 6. Transport:bus is somewhere between Nationality:scottish and Pet:horse
- 7. Nationality:mexican == Transport:bus or Nationality:mexican == Pet:fish, but not both
- 8. Transport:bike is not to the left of Movie-Genre:comedy
- 9. Transport:subway is not to the right of Nationality:mexican
-10. Movie-Genre:fantasy is not to the right of Movie-Genre:romance
+Beverage: coffee, milk, mirinda, tea
+Job: chef, doctor, firefighter, lawyer
+Pet: bird, cat, dog, turtle
+Transport: bike, boat, motorbike, train
+ 1. Pet:turtle is not to the right of Beverage:coffee
+ 2. Pet:cat == Job:lawyer or Pet:cat == Beverage:mirinda, but not both
+ 3. Job:chef and Beverage:mirinda have different parity positions
+ 4. Job:lawyer and Beverage:milk have different parity positions
+ 5. Transport:boat and Job:doctor have different parity positions
+ 6. Pet:dog is somewhere between Transport:motorbike and Job:doctor
+ 7. Beverage:tea is not to the left of Job:doctor
+ 8. Transport:bike is somewhere between Transport:train and Beverage:mirinda
+ 9. Transport:train is somewhere between Transport:bike and Job:lawyer
+10. Pet:turtle == Transport:boat or Pet:turtle == Job:lawyer or both
 
 .:: Answer ::.
-|               |    1     |      2      |    3     |    4    |
-| Movie-Genre   | comedy   | documentary | fantasy  | romance |
-| Nationality   | american | german      | scottish | mexican |
-| Pet           | horse    | hamster     | turtle   | fish    |
-| Transport     | bike     | bus         | subway   | plane   |
-Time: 3.578000 seconds
+|             |   1    |   2    |  3   |      4      |
+| Beverage    | coffee | milk   | tea  | mirinda     |
+| Job         | lawyer | doctor | chef | firefighter |
+| Pet         | turtle | bird   | dog  | cat         |
+| Transport   | boat   | train  | bike | motorbike   |
+Time: 1.985000 seconds
 ```
 
 ### Explanation of 20 levels with relations
