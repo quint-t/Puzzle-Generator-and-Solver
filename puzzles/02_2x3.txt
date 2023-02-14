@@ -1,483 +1,449 @@
-====================================================================================
+====================================================================================================
 .:: Puzzle 2x3 level=1 ::.
-Beverage: 7up fanta tea
-Hobby: camping cooking painting
-1. Hobby:painting is on the right of Beverage:fanta
-2. Beverage:tea is on the far left
-3. Hobby:cooking is on the right of Beverage:tea
+Movie-Genre: action, family, fantasy
+Music-Genre: jazz, pop, rock
+1. Movie-Genre:fantasy is on the left of Music-Genre:rock
+2. Movie-Genre:family is in the middle
+3. Music-Genre:jazz is on the far right
 
 .:: Answer ::.
-|            |    1    |    2    |    3     |
-| Beverage   | tea     | fanta   | 7up      |
-| Hobby      | camping | cooking | painting |
-====================================================================================
-.:: Puzzle 2x3 level=1 ::.
-Beverage: coffee mirinda tea
-Transport: boat bus taxi
-1. Transport:taxi is on the left of Beverage:mirinda
-2. Beverage:coffee is on the far left
-3. Transport:boat == Beverage:coffee
-
-.:: Answer ::.
-|             |   1    |  2   |    3    |
-| Beverage    | coffee | tea  | mirinda |
-| Transport   | boat   | taxi | bus     |
-====================================================================================
+|               |    1    |   2    |   3    |
+| Movie-Genre   | fantasy | family | action |
+| Music-Genre   | pop     | rock   | jazz   |
+====================================================================================================
 .:: Puzzle 2x3 level=2 ::.
-Movie-Genre: action animation family
-Nationality: mexican portuguese scottish
-1. Movie-Genre:family is on the left of Nationality:portuguese
-2. Nationality:scottish is between Movie-Genre:action and Nationality:mexican
+Beverage: juice, milk, sprite
+Transport: bike, boat, car
+1. Transport:bike is on the left of Transport:car
+2. Beverage:sprite is on the left of Transport:bike
+3. Beverage:juice is on the left of Beverage:milk
 
 .:: Answer ::.
-|               |     1     |    2     |     3      |
-| Movie-Genre   | animation | family   | action     |
-| Nationality   | mexican   | scottish | portuguese |
-====================================================================================
-.:: Puzzle 2x3 level=2 ::.
-Beverage: milk mirinda sprite
-Music-Genre: blues country electronic
-1. Beverage:milk is on the right of Beverage:sprite
-2. Beverage:sprite is in the middle
-3. Music-Genre:country is between Beverage:mirinda and Music-Genre:blues
-
-.:: Answer ::.
-|               |     1      |    2    |   3   |
-| Beverage      | mirinda    | sprite  | milk  |
-| Music-Genre   | electronic | country | blues |
-====================================================================================
+|             |   1    |   2   |  3   |
+| Beverage    | sprite | juice | milk |
+| Transport   | boat   | bike  | car  |
+====================================================================================================
 .:: Puzzle 2x3 level=3 ::.
-Nationality: french german norvegian
-Pet: bird fish rabbit
-1. Nationality:french is on the right of Nationality:german
-2. Pet:fish is on the far left
-3. Pet:bird is between Nationality:norvegian and Nationality:french
+Job: firefighter, nurse, teacher
+Pet: dog, fish, hamster
+1. Pet:dog is on the left or right of Job:teacher
+2. Pet:dog is on the left of Pet:hamster
+3. Job:firefighter is on the left of Pet:dog
 
 .:: Answer ::.
-|               |     1     |   2    |   3    |
-| Nationality   | norvegian | german | french |
-| Pet           | fish      | bird   | rabbit |
-====================================================================================
-.:: Puzzle 2x3 level=3 ::.
-Movie-Genre: action family romance
-Sport: climbing soccer tennis
-1. Movie-Genre:action is on the far right
-2. Movie-Genre:action is on the left or right of Sport:tennis
-3. Movie-Genre:romance is between Sport:climbing and Movie-Genre:family
-
-.:: Answer ::.
-|               |   1    |    2    |    3     |
-| Movie-Genre   | family | romance | action   |
-| Sport         | soccer | tennis  | climbing |
-====================================================================================
+|       |      1      |   2   |    3    |
+| Job   | firefighter | nurse | teacher |
+| Pet   | fish        | dog   | hamster |
+====================================================================================================
 .:: Puzzle 2x3 level=4 ::.
-Movie-Genre: action family fantasy
-Sport: basketball ice hockey surfing
-1. Movie-Genre:fantasy is on the left or right of Sport:surfing
-2. Sport:basketball is on the right of Movie-Genre:fantasy
-3. Sport:basketball == Movie-Genre:family
-
-.:: Answer ::.
-|               |    1    |     2      |     3      |
-| Movie-Genre   | action  | fantasy    | family     |
-| Sport         | surfing | ice hockey | basketball |
-====================================================================================
-.:: Puzzle 2x3 level=4 ::.
-Nationality: norvegian russian spannish
-Pet: dog mouse turtle
-1. Pet:mouse is on the far left or far right
-2. Pet:mouse is on the left or right of Nationality:russian
-3. Nationality:norvegian is on the right of Nationality:russian
-4. Pet:turtle is on the far right
-
-.:: Answer ::.
-|               |    1     |    2    |     3     |
-| Nationality   | spannish | russian | norvegian |
-| Pet           | mouse    | dog     | turtle    |
-====================================================================================
-.:: Puzzle 2x3 level=5 ::.
-Music-Genre: classical metal pop
-Nationality: american russian scottish
-1. Nationality:scottish is somewhere to the left of Music-Genre:classical
-2. Music-Genre:pop is between Nationality:american and Music-Genre:classical
-
-.:: Answer ::.
-|               |    1     |    2     |     3     |
-| Music-Genre   | metal    | pop      | classical |
-| Nationality   | american | scottish | russian   |
-====================================================================================
-.:: Puzzle 2x3 level=5 ::.
-Beverage: coffee fanta water
-Food: banana cheese rice
-1. Food:banana is between Beverage:coffee and Beverage:water
-2. Beverage:coffee is somewhere to the left of Beverage:water
-3. Food:cheese is somewhere to the left of Food:rice
-
-.:: Answer ::.
-|            |   1    |   2    |   3   |
-| Beverage   | coffee | fanta  | water |
-| Food       | cheese | banana | rice  |
-====================================================================================
-.:: Puzzle 2x3 level=6 ::.
-Movie-Genre: adventure drama thriller
-Pet: hamster snake turtle
-1. Pet:snake is on the far left or far right
-2. Pet:hamster is somewhere to the right of Movie-Genre:thriller
-3. Pet:turtle is on the left or right of Movie-Genre:thriller
-4. Movie-Genre:adventure is on the right of Pet:snake
-
-.:: Answer ::.
-|               |    1     |     2     |    3    |
-| Movie-Genre   | thriller | adventure | drama   |
-| Pet           | snake    | turtle    | hamster |
-====================================================================================
-.:: Puzzle 2x3 level=6 ::.
-Music-Genre: electronic hip-hop rock
-Sport: baseball ice hockey tennis
-1. Music-Genre:rock is somewhere to the right of Sport:tennis
-2. Music-Genre:rock is between Music-Genre:electronic and Sport:baseball
-
-.:: Answer ::.
-|               |     1      |     2      |    3     |
-| Music-Genre   | electronic | rock       | hip-hop  |
-| Sport         | tennis     | ice hockey | baseball |
-====================================================================================
-.:: Puzzle 2x3 level=7 ::.
-Beverage: milk mirinda sprite
-Nationality: french german mexican
-1. Beverage:milk is on the far left or far right
-2. Nationality:mexican is somewhere to the right of Beverage:milk
-3. Nationality:french is on the right of Beverage:sprite
-
-.:: Answer ::.
-|               |   1    |    2    |    3    |
-| Beverage      | milk   | sprite  | mirinda |
-| Nationality   | german | mexican | french  |
-====================================================================================
-.:: Puzzle 2x3 level=7 ::.
-Music-Genre: classical country pop
-Nationality: german portuguese spannish
-1. Nationality:spannish is between Music-Genre:country and Nationality:portuguese
-2. Nationality:spannish is on the right of Music-Genre:pop
-
-.:: Answer ::.
-|               |     1      |     2     |    3    |
-| Music-Genre   | pop        | classical | country |
-| Nationality   | portuguese | spannish  | german  |
-====================================================================================
-.:: Puzzle 2x3 level=8 ::.
-Music-Genre: blues country hip-hop
-Pet: bird horse snake
-1. Pet:snake is not to the left of Music-Genre:hip-hop
-2. Pet:bird is somewhere to the right of Music-Genre:country
-3. Music-Genre:hip-hop is somewhere to the left of Pet:horse
-
-.:: Answer ::.
-|               |    1    |    2    |   3   |
-| Music-Genre   | hip-hop | country | blues |
-| Pet           | snake   | horse   | bird  |
-====================================================================================
-.:: Puzzle 2x3 level=8 ::.
-Sport: basketball swimming volleyball
-Transport: car taxi train
-1. Transport:car is on the left or right of Sport:basketball
-2. Sport:swimming is somewhere to the left of Sport:volleyball
-3. Sport:basketball is somewhere between Transport:train and Sport:swimming
-
-.:: Answer ::.
-|             |    1     |     2      |     3      |
-| Sport       | swimming | basketball | volleyball |
-| Transport   | car      | taxi       | train      |
-====================================================================================
-.:: Puzzle 2x3 level=9 ::.
-Job: firefighter lawyer police-officer
-Movie-Genre: action comedy family
-1. Movie-Genre:comedy and Job:firefighter have the same parity positions
-2. Movie-Genre:family is somewhere between Job:lawyer and Movie-Genre:comedy
-3. Job:firefighter is somewhere to the left of Job:police-officer
-
-.:: Answer ::.
-|               |      1      |       2        |   3    |
-| Job           | firefighter | police-officer | lawyer |
-| Movie-Genre   | comedy      | family         | action |
-====================================================================================
-.:: Puzzle 2x3 level=9 ::.
-Job: chef journalist scientist
-Pet: bird horse snake
-1. Job:journalist is on the left of Pet:horse
-2. Job:chef is on the right of Pet:horse
-3. Pet:snake is somewhere to the right of Job:journalist
-
-.:: Answer ::.
-|       |     1      |     2     |   3   |
-| Job   | journalist | scientist | chef  |
-| Pet   | bird       | horse     | snake |
-====================================================================================
-.:: Puzzle 2x3 level=10 ::.
-Food: broccoli potato tomato
-Nationality: norvegian portuguese scottish
-1. Food:tomato is on the left of Nationality:portuguese
-2. Nationality:scottish is on the left of Nationality:norvegian
-3. Food:tomato is somewhere to the right of Food:broccoli
-
-.:: Answer ::.
-|               |    1     |     2     |     3      |
-| Food          | broccoli | tomato    | potato     |
-| Nationality   | scottish | norvegian | portuguese |
-====================================================================================
-.:: Puzzle 2x3 level=10 ::.
-Food: bread egg rice
-Sport: basketball ice hockey soccer
-1. Food:egg is on the right of Food:bread
-2. Sport:ice hockey is somewhere between Food:egg and Sport:soccer
-
-.:: Answer ::.
-|         |   1    |     2      |     3      |
-| Food    | rice   | bread      | egg        |
-| Sport   | soccer | ice hockey | basketball |
-====================================================================================
-.:: Puzzle 2x3 level=11 ::.
-Food: bread broccoli egg
-Music-Genre: classical jazz r&b
-1. Food:egg is between Music-Genre:jazz and Food:broccoli
-2. Music-Genre:jazz is on the left of Music-Genre:r&b
-
-.:: Answer ::.
-|               |   1   |  2  |     3     |
-| Food          | bread | egg | broccoli  |
-| Music-Genre   | jazz  | r&b | classical |
-====================================================================================
-.:: Puzzle 2x3 level=11 ::.
-Hobby: cooking gardening singing
-Job: firefighter police-officer scientist
-1. Hobby:cooking is somewhere between Hobby:gardening and Hobby:singing
-2. Hobby:cooking == Job:police-officer
-3. Job:police-officer is on the left of Job:scientist
-4. Hobby:singing is not to the right of Job:firefighter
-
-.:: Answer ::.
-|         |      1      |       2        |     3     |
-| Hobby   | singing     | cooking        | gardening |
-| Job     | firefighter | police-officer | scientist |
-====================================================================================
-.:: Puzzle 2x3 level=12 ::.
-Beverage: cola milk sprite
-Transport: car plane roller
-1. Transport:car is somewhere between Transport:plane and Beverage:sprite
-2. Beverage:milk is somewhere to the left of Transport:car
-
-.:: Answer ::.
-|             |   1   |  2   |   3    |
-| Beverage    | milk  | cola | sprite |
-| Transport   | plane | car  | roller |
-====================================================================================
-.:: Puzzle 2x3 level=12 ::.
-Food: apple banana egg
-Music-Genre: blues hip-hop pop
-1. Food:banana is somewhere to the right of Food:egg
-2. Music-Genre:hip-hop is on the right of Food:banana
-3. Music-Genre:blues != Food:egg
-
-.:: Answer ::.
-|               |  1  |   2    |    3    |
-| Food          | egg | banana | apple   |
-| Music-Genre   | pop | blues  | hip-hop |
-====================================================================================
-.:: Puzzle 2x3 level=13 ::.
-Music-Genre: jazz pop r&b
-Transport: plane roller train
-1. Transport:roller is somewhere to the left of Transport:plane
-2. Music-Genre:pop is on the right of Transport:plane
-3. Music-Genre:r&b is on the left or right of Music-Genre:pop
-
-.:: Answer ::.
-|               |   1    |   2   |   3   |
-| Music-Genre   | jazz   | r&b   | pop   |
-| Transport     | roller | plane | train |
-====================================================================================
-.:: Puzzle 2x3 level=13 ::.
-Job: journalist police-officer teacher
-Transport: bus car plane
-1. Job:police-officer and Transport:plane have the same parity positions
-2. Transport:plane is on the right of Transport:bus
-3. Job:journalist is on the left or right of Job:teacher
-4. Job:journalist is on the far right
-
-.:: Answer ::.
-|             |       1        |    2    |     3      |
-| Job         | police-officer | teacher | journalist |
-| Transport   | car            | bus     | plane      |
-====================================================================================
-.:: Puzzle 2x3 level=14 ::.
-Music-Genre: blues country electronic
-Transport: bike car roller
-1. Music-Genre:electronic is somewhere to the left of Transport:roller
-2. Music-Genre:electronic is not to the left of Music-Genre:blues
-3. Transport:bike != Music-Genre:blues
-
-.:: Answer ::.
-|               |   1   |     2      |    3    |
-| Music-Genre   | blues | electronic | country |
-| Transport     | car   | bike       | roller  |
-====================================================================================
-.:: Puzzle 2x3 level=14 ::.
-Music-Genre: pop r&b rock
-Sport: climbing ice hockey tennis
-1. Music-Genre:r&b is in an odd position
-2. Sport:tennis is between Music-Genre:pop and Sport:climbing
-3. Music-Genre:pop is somewhere to the right of Music-Genre:rock
-
-.:: Answer ::.
-|               |    1     |   2    |     3      |
-| Music-Genre   | r&b      | rock   | pop        |
-| Sport         | climbing | tennis | ice hockey |
-====================================================================================
-.:: Puzzle 2x3 level=15 ::.
-Food: banana chicken potato
-Hobby: cooking playing singing
-1. Food:chicken is somewhere to the left of Hobby:playing
-2. Hobby:cooking is between Hobby:singing and Food:potato
-3. Food:chicken is on the far left or far right
-
-.:: Answer ::.
-|         |    1    |    2    |    3    |
-| Food    | chicken | banana  | potato  |
-| Hobby   | singing | cooking | playing |
-====================================================================================
-.:: Puzzle 2x3 level=15 ::.
-Hobby: camping collecting cooking
-Pet: horse mouse turtle
-1. Hobby:camping is between Hobby:collecting and Pet:turtle
-2. Hobby:camping and Pet:mouse have the same parity positions
-3. Pet:horse is somewhere to the right of Pet:turtle
+Food: cheese, chicken, potato
+Hobby: camping, collecting, singing
+1. Food:chicken is between Hobby:collecting and Food:cheese
+2. Hobby:singing is on the far left
 
 .:: Answer ::.
 |         |    1    |    2    |     3      |
-| Hobby   | cooking | camping | collecting |
-| Pet     | turtle  | mouse   | horse      |
-====================================================================================
+| Food    | cheese  | chicken | potato     |
+| Hobby   | singing | camping | collecting |
+====================================================================================================
+.:: Puzzle 2x3 level=5 ::.
+Pet: bird, fish, hamster
+Transport: bike, boat, train
+1. Pet:bird is on the right of Transport:bike
+2. Transport:train is somewhere to the left of Transport:boat
+3. Pet:hamster is on the left of Pet:fish
+
+.:: Answer ::.
+|             |    1    |  2   |  3   |
+| Pet         | hamster | fish | bird |
+| Transport   | train   | bike | boat |
+====================================================================================================
+.:: Puzzle 2x3 level=6 ::.
+Food: banana, broccoli, potato
+Transport: bus, subway, train
+1. Transport:bus is somewhere to the left of Transport:train
+2. Transport:train is on the left or right of Food:potato
+3. Transport:subway is somewhere to the right of Transport:train
+4. Food:broccoli is on the right of Food:potato
+
+.:: Answer ::.
+|             |   1    |    2     |   3    |
+| Food        | potato | broccoli | banana |
+| Transport   | bus    | train    | subway |
+====================================================================================================
+.:: Puzzle 2x3 level=7 ::.
+Movie-Genre: comedy, drama, thriller
+Nationality: mexican, russian, spannish
+1. Nationality:russian is somewhere between Movie-Genre:drama and Movie-Genre:thriller
+2. Movie-Genre:comedy is on the right of Movie-Genre:drama
+3. Nationality:russian is somewhere between Nationality:spannish and Movie-Genre:thriller
+
+.:: Answer ::.
+|               |    1     |    2    |    3     |
+| Movie-Genre   | drama    | comedy  | thriller |
+| Nationality   | spannish | russian | mexican  |
+====================================================================================================
+.:: Puzzle 2x3 level=8 ::.
+Nationality: american, german, scottish
+Transport: bus, car, motorbike
+1. Transport:bus is on the right of Nationality:american
+2. Transport:bus is somewhere between Nationality:scottish and Transport:car
+
+.:: Answer ::.
+|               |    1     |   2    |     3     |
+| Nationality   | american | german | scottish  |
+| Transport     | car      | bus    | motorbike |
+====================================================================================================
+.:: Puzzle 2x3 level=9 ::.
+Beverage: 7up, fanta, milk
+Pet: dog, hamster, snake
+1. Pet:dog is in the middle
+2. Beverage:7up == Pet:snake
+3. Pet:snake is on the left of Beverage:milk
+
+.:: Answer ::.
+|            |   1   |  2   |    3    |
+| Beverage   | 7up   | milk | fanta   |
+| Pet        | snake | dog  | hamster |
+====================================================================================================
+.:: Puzzle 2x3 level=9 ::.
+Movie-Genre: drama, fantasy, romance
+Nationality: german, norvegian, scottish
+1. Nationality:norvegian is on the far left
+2. Nationality:scottish is on the right of Movie-Genre:drama
+3. Movie-Genre:romance is on the far left
+
+.:: Answer ::.
+|               |     1     |   2    |    3     |
+| Movie-Genre   | romance   | drama  | fantasy  |
+| Nationality   | norvegian | german | scottish |
+====================================================================================================
+.:: Puzzle 2x3 level=10 ::.
+Food: cheese, egg, tomato
+Hobby: collecting, playing, writing
+1. Hobby:playing and Food:egg have different parity positions
+2. Hobby:collecting is not to the right of Hobby:writing
+3. Hobby:writing is on the left of Food:cheese
+
+.:: Answer ::.
+|         |     1      |    2    |    3    |
+| Food    | tomato     | egg     | cheese  |
+| Hobby   | collecting | writing | playing |
+====================================================================================================
+.:: Puzzle 2x3 level=10 ::.
+Job: firefighter, nurse, teacher
+Transport: boat, motorbike, roller
+1. Job:teacher is on the far left
+2. Transport:motorbike is on the left or right of Job:firefighter
+3. Transport:boat and Job:firefighter have different parity positions
+4. Job:nurse is not to the right of Transport:motorbike
+
+.:: Answer ::.
+|             |    1    |      2      |     3     |
+| Job         | teacher | firefighter | nurse     |
+| Transport   | boat    | roller      | motorbike |
+====================================================================================================
+.:: Puzzle 2x3 level=11 ::.
+Beverage: fanta, juice, sprite
+Transport: boat, plane, train
+1. Transport:train is somewhere to the right of Beverage:fanta
+2. Beverage:juice is somewhere between Beverage:fanta and Beverage:sprite
+3. Transport:boat is on the far right
+
+.:: Answer ::.
+|             |   1   |   2   |   3    |
+| Beverage    | fanta | juice | sprite |
+| Transport   | plane | train | boat   |
+====================================================================================================
+.:: Puzzle 2x3 level=11 ::.
+Music-Genre: classical, metal, r&b
+Nationality: british, french, russian
+1. Nationality:russian is on the left or right of Music-Genre:metal
+2. Nationality:russian != Music-Genre:classical
+3. Nationality:russian is somewhere to the left of Nationality:british
+4. Music-Genre:metal is on the far right
+
+.:: Answer ::.
+|               |     1     |    2    |    3    |
+| Music-Genre   | classical | r&b     | metal   |
+| Nationality   | french    | russian | british |
+====================================================================================================
+.:: Puzzle 2x3 level=12 ::.
+Food: broccoli, chicken, rice
+Movie-Genre: action, animation, comedy
+1. Movie-Genre:animation and Food:rice have the same parity positions
+2. Food:rice is on the right of Food:broccoli
+3. Food:broccoli is somewhere to the right of Food:chicken
+4. Food:chicken == Movie-Genre:comedy
+
+.:: Answer ::.
+|               |    1    |    2     |     3     |
+| Food          | chicken | broccoli | rice      |
+| Movie-Genre   | comedy  | action   | animation |
+====================================================================================================
+.:: Puzzle 2x3 level=12 ::.
+Hobby: painting, reading, singing
+Sport: baseball, ice-hockey, volleyball
+1. Hobby:singing is on the right of Hobby:reading
+2. Hobby:painting is somewhere to the right of Sport:volleyball
+3. Hobby:painting is on the left or right of Sport:ice-hockey
+
+.:: Answer ::.
+|         |     1      |     2      |    3     |
+| Hobby   | reading    | singing    | painting |
+| Sport   | volleyball | ice-hockey | baseball |
+====================================================================================================
+.:: Puzzle 2x3 level=13 ::.
+Hobby: collecting, playing, reading
+Job: lawyer, scientist, teacher
+1. Job:scientist is between Job:teacher and Hobby:playing
+2. Hobby:collecting is on the left of Job:lawyer
+
+.:: Answer ::.
+|         |    1    |     2      |    3    |
+| Hobby   | reading | collecting | playing |
+| Job     | teacher | scientist  | lawyer  |
+====================================================================================================
+.:: Puzzle 2x3 level=13 ::.
+Hobby: gardening, playing, singing
+Pet: mouse, rabbit, snake
+1. Hobby:gardening is somewhere between Pet:snake and Pet:rabbit
+2. Hobby:playing is on the right of Pet:mouse
+3. Pet:mouse is not to the left of Pet:rabbit
+
+.:: Answer ::.
+|         |    1    |     2     |    3    |
+| Hobby   | singing | gardening | playing |
+| Pet     | rabbit  | mouse     | snake   |
+====================================================================================================
+.:: Puzzle 2x3 level=14 ::.
+Hobby: gardening, reading, singing
+Job: chef, nurse, teacher
+1. Job:chef is between Hobby:reading and Job:nurse
+2. Hobby:singing is not to the left of Job:nurse
+3. Job:chef is not to the left of Job:teacher
+
+.:: Answer ::.
+|         |    1    |     2     |    3    |
+| Hobby   | reading | gardening | singing |
+| Job     | teacher | chef      | nurse   |
+====================================================================================================
+.:: Puzzle 2x3 level=14 ::.
+Music-Genre: classical, jazz, pop
+Pet: dog, mouse, rabbit
+1. Music-Genre:jazz is on the left or right of Music-Genre:classical
+2. Music-Genre:jazz is on the far left
+3. Pet:mouse is not to the right of Music-Genre:classical
+4. Pet:dog is somewhere to the left of Music-Genre:classical
+
+.:: Answer ::.
+|               |  1   |     2     |   3    |
+| Music-Genre   | jazz | classical | pop    |
+| Pet           | dog  | mouse     | rabbit |
+====================================================================================================
+.:: Puzzle 2x3 level=15 ::.
+Nationality: british, german, scottish
+Sport: golf, soccer, swimming
+1. Nationality:scottish is somewhere to the right of Nationality:british
+2. Nationality:british is on the left or right of Sport:swimming
+3. Nationality:scottish is somewhere to the left of Sport:soccer
+
+.:: Answer ::.
+|               |    1    |    2     |   3    |
+| Nationality   | british | scottish | german |
+| Sport         | golf    | swimming | soccer |
+====================================================================================================
+.:: Puzzle 2x3 level=15 ::.
+Nationality: portuguese, russian, scottish
+Pet: bird, dog, horse
+1. Pet:bird is between Pet:dog and Nationality:portuguese
+2. Pet:horse is not to the right of Pet:bird
+3. Nationality:scottish is somewhere between Nationality:russian and Nationality:portuguese
+
+.:: Answer ::.
+|               |     1      |    2     |    3    |
+| Nationality   | portuguese | scottish | russian |
+| Pet           | horse      | bird     | dog     |
+====================================================================================================
 .:: Puzzle 2x3 level=16 ::.
-Music-Genre: classical country metal
-Sport: ice hockey soccer tennis
-1. Music-Genre:classical is not to the left of Music-Genre:metal
-2. Music-Genre:country is somewhere between Sport:tennis and Sport:ice hockey
-3. Sport:soccer is not to the left of Sport:tennis
+Hobby: cooking, gardening, painting
+Movie-Genre: comedy, documentary, fantasy
+1. Movie-Genre:comedy is not to the right of Hobby:gardening
+2. Hobby:painting is somewhere to the left of Movie-Genre:fantasy
+3. Hobby:gardening is somewhere between Movie-Genre:documentary and Hobby:cooking
 
 .:: Answer ::.
-|               |   1    |    2    |     3      |
-| Music-Genre   | metal  | country | classical  |
-| Sport         | tennis | soccer  | ice hockey |
-====================================================================================
+|               |      1      |     2     |    3    |
+| Hobby         | painting    | gardening | cooking |
+| Movie-Genre   | documentary | comedy    | fantasy |
+====================================================================================================
 .:: Puzzle 2x3 level=16 ::.
-Food: cheese egg rice
-Sport: surfing tennis volleyball
-1. Sport:tennis is on the left or right of Sport:surfing
-2. Food:egg and Sport:volleyball have the same parity positions
-3. Food:cheese is somewhere to the right of Sport:surfing
-4. Food:rice is on the far left or far right
-5. Food:rice is somewhere to the left of Sport:volleyball
+Movie-Genre: drama, family, romance
+Transport: boat, motorbike, taxi
+1. Transport:taxi is in an even position
+2. Movie-Genre:romance is somewhere to the left of Transport:boat
+3. Transport:motorbike is not to the left of Movie-Genre:drama
 
 .:: Answer ::.
-|         |    1    |   2    |     3      |
-| Food    | rice    | cheese | egg        |
-| Sport   | surfing | tennis | volleyball |
-====================================================================================
+|               |     1     |    2    |   3    |
+| Movie-Genre   | drama     | romance | family |
+| Transport     | motorbike | taxi    | boat   |
+====================================================================================================
+.:: Puzzle 2x3 level=16 ::.
+Movie-Genre: adventure, documentary, family
+Nationality: mexican, norvegian, portuguese
+1. Nationality:norvegian is not to the right of Nationality:mexican
+2. Movie-Genre:family is somewhere to the right of Movie-Genre:adventure
+3. Movie-Genre:documentary is somewhere between Nationality:portuguese and Nationality:norvegian
+
+.:: Answer ::.
+|               |     1     |      2      |     3      |
+| Movie-Genre   | adventure | documentary | family     |
+| Nationality   | norvegian | mexican     | portuguese |
+====================================================================================================
 .:: Puzzle 2x3 level=17 ::.
-Food: apple broccoli potato
-Music-Genre: country metal r&b
-1. Music-Genre:country is in an even position
-2. Food:apple is not to the left of Food:potato
-3. Music-Genre:metal is somewhere to the right of Food:broccoli
-4. Food:potato is in an odd position
+Movie-Genre: action, animation, romance
+Music-Genre: blues, jazz, rock
+1. Movie-Genre:romance is somewhere to the left of Music-Genre:rock
+2. Music-Genre:rock is not to the right of Movie-Genre:action
+3. Music-Genre:jazz is somewhere to the left of Movie-Genre:romance
 
 .:: Answer ::.
-|               |   1    |    2     |   3   |
-| Food          | potato | broccoli | apple |
-| Music-Genre   | r&b    | country  | metal |
-====================================================================================
+|               |     1     |    2    |   3    |
+| Movie-Genre   | animation | romance | action |
+| Music-Genre   | jazz      | blues   | rock   |
+====================================================================================================
 .:: Puzzle 2x3 level=17 ::.
-Beverage: fanta mirinda sprite
-Movie-Genre: comedy drama romance
-1. Movie-Genre:drama is somewhere to the right of Movie-Genre:comedy
-2. Movie-Genre:comedy is not to the left of Beverage:fanta
-3. Beverage:sprite is somewhere to the left of Beverage:fanta
+Job: lawyer, nurse, teacher
+Movie-Genre: action, adventure, family
+1. Movie-Genre:adventure is somewhere to the right of Job:nurse
+2. Job:lawyer is somewhere between Movie-Genre:adventure and Movie-Genre:action
 
 .:: Answer ::.
-|               |    1    |   2    |    3    |
-| Beverage      | sprite  | fanta  | mirinda |
-| Movie-Genre   | romance | comedy | drama   |
-====================================================================================
+|               |   1    |   2    |     3     |
+| Job           | nurse  | lawyer | teacher   |
+| Movie-Genre   | action | family | adventure |
+====================================================================================================
+.:: Puzzle 2x3 level=17 ::.
+Beverage: 7up, mirinda, water
+Transport: boat, motorbike, taxi
+1. Beverage:mirinda is somewhere to the left of Beverage:water
+2. Transport:boat is somewhere to the left of Transport:taxi
+3. Transport:motorbike is somewhere to the left of Transport:boat
+4. Transport:taxi is not to the right of Beverage:7up
+
+.:: Answer ::.
+|             |     1     |   2   |  3   |
+| Beverage    | mirinda   | water | 7up  |
+| Transport   | motorbike | boat  | taxi |
+====================================================================================================
 .:: Puzzle 2x3 level=18 ::.
-Beverage: coffee mirinda sprite
-Food: chicken egg potato
-1. Beverage:sprite is not to the left of Beverage:mirinda
-2. Beverage:mirinda is somewhere between Food:egg and Beverage:coffee
-3. Food:potato is somewhere to the left of Food:chicken
+Music-Genre: blues, hip-hop, jazz
+Nationality: portuguese, russian, spannish
+1. Nationality:russian is somewhere to the right of Music-Genre:hip-hop
+2. Nationality:russian is somewhere to the right of Nationality:spannish
+3. Music-Genre:blues and Nationality:russian have the same parity positions
+4. Nationality:russian is somewhere between Nationality:spannish and Nationality:portuguese
 
 .:: Answer ::.
-|            |   1    |    2    |   3    |
-| Beverage   | coffee | mirinda | sprite |
-| Food       | potato | chicken | egg    |
-====================================================================================
+|               |    1     |    2    |     3      |
+| Music-Genre   | hip-hop  | blues   | jazz       |
+| Nationality   | spannish | russian | portuguese |
+====================================================================================================
 .:: Puzzle 2x3 level=18 ::.
-Beverage: cola juice mirinda
-Music-Genre: electronic jazz metal
-1. Music-Genre:jazz is somewhere to the right of Beverage:cola
-2. Beverage:mirinda is somewhere to the left of Beverage:juice
-3. Music-Genre:metal and Beverage:mirinda have the same parity positions
-4. Music-Genre:electronic is somewhere between Music-Genre:jazz and Music-Genre:metal
+Food: bread, cheese, chicken
+Job: nurse, police-officer, teacher
+1. Job:police-officer is somewhere to the right of Job:teacher
+2. Job:teacher is not to the left of Food:bread
+3. Job:police-officer is not to the right of Job:nurse
+4. Food:chicken is somewhere to the right of Food:cheese
 
 .:: Answer ::.
-|               |    1    |     2      |   3   |
-| Beverage      | mirinda | cola       | juice |
-| Music-Genre   | metal   | electronic | jazz  |
-====================================================================================
+|        |    1    |       2        |    3    |
+| Food   | bread   | cheese         | chicken |
+| Job    | teacher | police-officer | nurse   |
+====================================================================================================
+.:: Puzzle 2x3 level=18 ::.
+Job: chef, doctor, scientist
+Nationality: british, mexican, russian
+1. Job:doctor is not to the left of Nationality:mexican
+2. Job:doctor is somewhere between Job:scientist and Nationality:mexican
+3. Nationality:british is not to the left of Job:scientist
+
+.:: Answer ::.
+|               |    1    |    2    |     3     |
+| Job           | chef    | doctor  | scientist |
+| Nationality   | mexican | russian | british   |
+====================================================================================================
 .:: Puzzle 2x3 level=19 ::.
-Food: apple banana egg
-Hobby: camping painting writing
-1. Food:apple is not to the left of Food:banana
-2. Food:banana and Hobby:painting have the same parity positions
-3. Hobby:writing is somewhere between Food:egg and Hobby:painting
+Hobby: cooking, photography, singing
+Nationality: british, german, portuguese
+1. Nationality:german is not to the right of Nationality:british
+2. Nationality:british is somewhere between Hobby:cooking and Nationality:portuguese
+3. Nationality:british and Hobby:photography have the same parity positions
 
 .:: Answer ::.
-|         |    1     |    2    |    3    |
-| Food    | banana   | apple   | egg     |
-| Hobby   | painting | writing | camping |
-====================================================================================
+|               |    1    |      2      |     3      |
+| Hobby         | cooking | photography | singing    |
+| Nationality   | german  | british     | portuguese |
+====================================================================================================
 .:: Puzzle 2x3 level=19 ::.
-Beverage: 7up fanta milk
-Music-Genre: blues jazz rock
-1. Beverage:fanta is not to the right of Music-Genre:jazz
-2. Music-Genre:jazz is somewhere between Music-Genre:rock and Music-Genre:blues
-3. Beverage:7up and Music-Genre:blues have different parity positions
-4. Beverage:7up is not to the right of Music-Genre:rock
+Job: doctor, engineer, journalist
+Transport: boat, motorbike, plane
+1. Transport:motorbike != Job:doctor
+2. Transport:boat is somewhere between Job:engineer and Job:doctor
+3. Job:journalist is not to the left of Job:doctor
 
 .:: Answer ::.
-|               |   1   |  2   |  3   |
-| Beverage      | fanta | 7up  | milk |
-| Music-Genre   | blues | jazz | rock |
-====================================================================================
+|             |   1    |     2      |     3     |
+| Job         | doctor | journalist | engineer  |
+| Transport   | plane  | boat       | motorbike |
+====================================================================================================
+.:: Puzzle 2x3 level=19 ::.
+Pet: bird, dog, rabbit
+Transport: bus, motorbike, roller
+1. Transport:roller and Pet:dog have different parity positions
+2. Transport:motorbike is somewhere between Pet:bird and Transport:roller
+3. Pet:bird is not to the right of Pet:dog
+
+.:: Answer ::.
+|             |  1   |     2     |   3    |
+| Pet         | bird | dog       | rabbit |
+| Transport   | bus  | motorbike | roller |
+====================================================================================================
 .:: Puzzle 2x3 level=20 ::.
-Beverage: coffee milk tea
-Music-Genre: blues country metal
-1. Beverage:coffee is somewhere between Beverage:milk and Beverage:tea
-2. Music-Genre:country is somewhere between Beverage:tea and Music-Genre:metal
-3. Music-Genre:country is not to the left of Music-Genre:blues
+Food: apple, chicken, potato
+Music-Genre: blues, electronic, jazz
+1. Food:apple is not to the left of Food:potato
+2. Food:apple is not to the right of Music-Genre:jazz
+3. Music-Genre:blues is somewhere between Food:chicken and Food:apple
 
 .:: Answer ::.
-|               |   1   |    2    |   3   |
-| Beverage      | tea   | coffee  | milk  |
-| Music-Genre   | blues | country | metal |
-====================================================================================
+|               |     1      |   2    |   3   |
+| Food          | chicken    | potato | apple |
+| Music-Genre   | electronic | blues  | jazz  |
+====================================================================================================
 .:: Puzzle 2x3 level=20 ::.
-Music-Genre: classical hip-hop metal
-Nationality: british mexican norvegian
-1. Nationality:british is somewhere between Music-Genre:metal and Music-Genre:hip-hop
-2. Music-Genre:metal is not to the right of Nationality:norvegian
-3. Nationality:mexican is not to the left of Music-Genre:classical
+Movie-Genre: action, animation, documentary
+Nationality: british, norvegian, russian
+1. Movie-Genre:action is not to the left of Nationality:russian
+2. Nationality:russian is somewhere between Movie-Genre:action and Nationality:british
+3. Nationality:russian is not to the right of Movie-Genre:animation
 
 .:: Answer ::.
-|               |     1     |     2     |    3    |
-| Music-Genre   | metal     | classical | hip-hop |
-| Nationality   | norvegian | british   | mexican |
-====================================================================================
+|               |      1      |     2     |     3     |
+| Movie-Genre   | documentary | animation | action    |
+| Nationality   | british     | russian   | norvegian |
+====================================================================================================
+.:: Puzzle 2x3 level=20 ::.
+Beverage: mirinda, sprite, tea
+Food: banana, bread, rice
+1. Beverage:tea is not to the left of Food:rice
+2. Beverage:tea is somewhere between Food:banana and Food:rice
+3. Beverage:mirinda is not to the right of Beverage:tea
+
+.:: Answer ::.
+|            |    1    |   2   |   3    |
+| Beverage   | mirinda | tea   | sprite |
+| Food       | rice    | bread | banana |
+====================================================================================================

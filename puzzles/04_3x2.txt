@@ -1,0 +1,406 @@
+====================================================================================================
+.:: Puzzle 3x2 level=1 ::.
+Food: apple, egg
+Music-Genre: blues, electronic
+Sport: swimming, volleyball
+1. Sport:swimming is on the far right
+2. Music-Genre:blues is on the right of Food:apple
+
+.:: Answer ::.
+|               |     1      |    2     |
+| Food          | apple      | egg      |
+| Music-Genre   | electronic | blues    |
+| Sport         | volleyball | swimming |
+====================================================================================================
+.:: Puzzle 3x2 level=2 ::.
+Job: lawyer, police-officer
+Nationality: mexican, scottish
+Pet: horse, snake
+1. Nationality:mexican is on the left of Nationality:scottish
+2. Job:lawyer is on the left of Pet:snake
+
+.:: Answer ::.
+|               |    1    |       2        |
+| Job           | lawyer  | police-officer |
+| Nationality   | mexican | scottish       |
+| Pet           | horse   | snake          |
+====================================================================================================
+.:: Puzzle 3x2 level=3 ::.
+Food: apple, rice
+Pet: cat, snake
+Transport: plane, taxi
+1. Transport:plane is on the left of Transport:taxi
+2. Pet:snake is on the right of Food:apple
+
+.:: Answer ::.
+|             |   1   |   2   |
+| Food        | apple | rice  |
+| Pet         | cat   | snake |
+| Transport   | plane | taxi  |
+====================================================================================================
+.:: Puzzle 3x2 level=4 ::.
+Job: police-officer, scientist
+Pet: cat, rabbit
+Transport: bus, roller
+1. Pet:cat is on the far right
+2. Transport:bus is on the right of Job:police-officer
+
+.:: Answer ::.
+|             |       1        |     2     |
+| Job         | police-officer | scientist |
+| Pet         | rabbit         | cat       |
+| Transport   | roller         | bus       |
+====================================================================================================
+.:: Puzzle 3x2 level=5 ::.
+Beverage: 7up, mirinda
+Music-Genre: classical, electronic
+Transport: bike, train
+1. Music-Genre:electronic is somewhere to the right of Beverage:mirinda
+2. Transport:train is somewhere to the right of Music-Genre:classical
+
+.:: Answer ::.
+|               |     1     |     2      |
+| Beverage      | mirinda   | 7up        |
+| Music-Genre   | classical | electronic |
+| Transport     | bike      | train      |
+====================================================================================================
+.:: Puzzle 3x2 level=6 ::.
+Movie-Genre: action, animation
+Pet: hamster, rabbit
+Transport: plane, train
+1. Movie-Genre:action is on the left of Movie-Genre:animation
+2. Pet:rabbit is somewhere to the right of Transport:train
+
+.:: Answer ::.
+|               |    1    |     2     |
+| Movie-Genre   | action  | animation |
+| Pet           | hamster | rabbit    |
+| Transport     | train   | plane     |
+====================================================================================================
+.:: Puzzle 3x2 level=7 ::.
+Beverage: milk, sprite
+Hobby: camping, singing
+Job: chef, firefighter
+1. Hobby:camping != Beverage:milk
+2. Beverage:sprite is on the left of Job:firefighter
+
+.:: Answer ::.
+|            |    1    |      2      |
+| Beverage   | sprite  | milk        |
+| Hobby      | camping | singing     |
+| Job        | chef    | firefighter |
+====================================================================================================
+.:: Puzzle 3x2 level=8 ::.
+Job: engineer, police-officer
+Nationality: german, mexican
+Sport: baseball, soccer
+1. Job:engineer != Sport:baseball
+2. Nationality:german is somewhere to the right of Job:engineer
+
+.:: Answer ::.
+|               |    1     |       2        |
+| Job           | engineer | police-officer |
+| Nationality   | mexican  | german         |
+| Sport         | soccer   | baseball       |
+====================================================================================================
+.:: Puzzle 3x2 level=9 ::.
+Beverage: mirinda, sprite
+Pet: dog, horse
+Sport: baseball, swimming
+1. Pet:dog and Beverage:mirinda have the same parity positions
+2. Sport:swimming is somewhere to the right of Pet:horse
+
+.:: Answer ::.
+|            |    1     |    2     |
+| Beverage   | sprite   | mirinda  |
+| Pet        | horse    | dog      |
+| Sport      | baseball | swimming |
+====================================================================================================
+.:: Puzzle 3x2 level=9 ::.
+Movie-Genre: adventure, drama
+Nationality: french, spannish
+Transport: motorbike, train
+1. Nationality:spannish == Transport:train
+2. Transport:motorbike == Movie-Genre:adventure
+3. Movie-Genre:drama is on the far right
+
+.:: Answer ::.
+|               |     1     |    2     |
+| Movie-Genre   | adventure | drama    |
+| Nationality   | french    | spannish |
+| Transport     | motorbike | train    |
+====================================================================================================
+.:: Puzzle 3x2 level=10 ::.
+Music-Genre: blues, jazz
+Nationality: british, spannish
+Transport: bike, boat
+1. Transport:bike is on the left of Nationality:british
+2. Nationality:british is on the left or right of Music-Genre:blues
+
+.:: Answer ::.
+|               |    1     |    2    |
+| Music-Genre   | blues    | jazz    |
+| Nationality   | spannish | british |
+| Transport     | bike     | boat    |
+====================================================================================================
+.:: Puzzle 3x2 level=10 ::.
+Beverage: juice, tea
+Food: chicken, potato
+Music-Genre: country, rock
+1. Beverage:tea and Music-Genre:rock have the same parity positions
+2. Food:chicken is on the right of Beverage:juice
+
+.:: Answer ::.
+|               |    1    |    2    |
+| Beverage      | juice   | tea     |
+| Food          | potato  | chicken |
+| Music-Genre   | country | rock    |
+====================================================================================================
+.:: Puzzle 3x2 level=11 ::.
+Food: egg, rice
+Sport: basketball, soccer
+Transport: motorbike, taxi
+1. Sport:soccer == Food:rice
+2. Transport:taxi is somewhere to the right of Food:rice
+
+.:: Answer ::.
+|             |     1     |     2      |
+| Food        | rice      | egg        |
+| Sport       | soccer    | basketball |
+| Transport   | motorbike | taxi       |
+====================================================================================================
+.:: Puzzle 3x2 level=11 ::.
+Hobby: cooking, gardening
+Nationality: british, scottish
+Sport: baseball, climbing
+1. Hobby:gardening is not to the left of Sport:baseball
+2. Nationality:british is on the right of Hobby:gardening
+
+.:: Answer ::.
+|               |     1     |    2     |
+| Hobby         | gardening | cooking  |
+| Nationality   | scottish  | british  |
+| Sport         | baseball  | climbing |
+====================================================================================================
+.:: Puzzle 3x2 level=12 ::.
+Food: chicken, egg
+Job: nurse, scientist
+Movie-Genre: animation, documentary
+1. Job:scientist is somewhere to the left of Food:chicken
+2. Job:nurse == Movie-Genre:documentary
+
+.:: Answer ::.
+|               |     1     |      2      |
+| Food          | egg       | chicken     |
+| Job           | scientist | nurse       |
+| Movie-Genre   | animation | documentary |
+====================================================================================================
+.:: Puzzle 3x2 level=12 ::.
+Beverage: mirinda, sprite
+Job: engineer, firefighter
+Pet: rabbit, snake
+1. Job:engineer is on the right of Beverage:sprite
+2. Job:engineer is on the left or right of Pet:rabbit
+
+.:: Answer ::.
+|            |      1      |    2     |
+| Beverage   | sprite      | mirinda  |
+| Job        | firefighter | engineer |
+| Pet        | rabbit      | snake    |
+====================================================================================================
+.:: Puzzle 3x2 level=13 ::.
+Beverage: sprite, water
+Hobby: gardening, reading
+Music-Genre: metal, pop
+1. Hobby:reading is on the right of Music-Genre:pop
+2. Hobby:gardening and Beverage:sprite have different parity positions
+
+.:: Answer ::.
+|               |     1     |    2    |
+| Beverage      | water     | sprite  |
+| Hobby         | gardening | reading |
+| Music-Genre   | pop       | metal   |
+====================================================================================================
+.:: Puzzle 3x2 level=13 ::.
+Job: doctor, firefighter
+Nationality: american, spannish
+Pet: bird, turtle
+1. Nationality:american is on the far right
+2. Job:doctor is somewhere to the left of Pet:bird
+
+.:: Answer ::.
+|               |    1     |      2      |
+| Job           | doctor   | firefighter |
+| Nationality   | spannish | american    |
+| Pet           | turtle   | bird        |
+====================================================================================================
+.:: Puzzle 3x2 level=14 ::.
+Food: cheese, rice
+Job: doctor, journalist
+Pet: horse, mouse
+1. Pet:horse and Food:rice have the same parity positions
+2. Job:doctor is somewhere to the right of Food:rice
+
+.:: Answer ::.
+|        |     1      |   2    |
+| Food   | rice       | cheese |
+| Job    | journalist | doctor |
+| Pet    | horse      | mouse  |
+====================================================================================================
+.:: Puzzle 3x2 level=14 ::.
+Food: broccoli, cheese
+Music-Genre: electronic, rock
+Sport: baseball, swimming
+1. Music-Genre:rock is somewhere to the right of Sport:baseball
+2. Food:broccoli and Sport:baseball have different parity positions
+
+.:: Answer ::.
+|               |     1      |    2     |
+| Food          | cheese     | broccoli |
+| Music-Genre   | electronic | rock     |
+| Sport         | baseball   | swimming |
+====================================================================================================
+.:: Puzzle 3x2 level=15 ::.
+Hobby: camping, painting
+Movie-Genre: comedy, fantasy
+Sport: basketball, ice-hockey
+1. Movie-Genre:comedy is somewhere to the left of Hobby:camping
+2. Sport:basketball is somewhere to the left of Sport:ice-hockey
+
+.:: Answer ::.
+|               |     1      |     2      |
+| Hobby         | painting   | camping    |
+| Movie-Genre   | comedy     | fantasy    |
+| Sport         | basketball | ice-hockey |
+====================================================================================================
+.:: Puzzle 3x2 level=15 ::.
+Hobby: photography, writing
+Pet: dog, turtle
+Transport: plane, roller
+1. Hobby:writing is in an even position
+2. Pet:dog is in an even position
+3. Hobby:writing is on the left or right of Transport:plane
+
+.:: Answer ::.
+|             |      1      |    2    |
+| Hobby       | photography | writing |
+| Pet         | turtle      | dog     |
+| Transport   | plane       | roller  |
+====================================================================================================
+.:: Puzzle 3x2 level=16 ::.
+Job: scientist, teacher
+Music-Genre: hip-hop, metal
+Transport: boat, taxi
+1. Transport:taxi is on the left or right of Job:scientist
+2. Music-Genre:hip-hop is somewhere to the left of Transport:boat
+
+.:: Answer ::.
+|               |    1    |     2     |
+| Job           | teacher | scientist |
+| Music-Genre   | hip-hop | metal     |
+| Transport     | taxi    | boat      |
+====================================================================================================
+.:: Puzzle 3x2 level=16 ::.
+Food: banana, rice
+Hobby: cooking, painting
+Job: chef, nurse
+1. Food:rice is somewhere to the left of Hobby:painting
+2. Job:chef and Food:rice have the same parity positions
+
+.:: Answer ::.
+|         |    1    |    2     |
+| Food    | rice    | banana   |
+| Hobby   | cooking | painting |
+| Job     | chef    | nurse    |
+====================================================================================================
+.:: Puzzle 3x2 level=16 ::.
+Hobby: camping, photography
+Pet: fish, snake
+Transport: bike, plane
+1. Hobby:camping is on the left or right of Pet:snake
+2. Hobby:camping is somewhere to the right of Transport:plane
+
+.:: Answer ::.
+|             |      1      |    2    |
+| Hobby       | photography | camping |
+| Pet         | snake       | fish    |
+| Transport   | plane       | bike    |
+====================================================================================================
+.:: Puzzle 3x2 level=17 ::.
+Beverage: 7up, water
+Job: doctor, teacher
+Nationality: american, spannish
+1. Beverage:7up is not to the left of Nationality:american
+2. Job:doctor is somewhere to the left of Beverage:water
+
+.:: Answer ::.
+|               |    1     |    2     |
+| Beverage      | 7up      | water    |
+| Job           | doctor   | teacher  |
+| Nationality   | american | spannish |
+====================================================================================================
+.:: Puzzle 3x2 level=17 ::.
+Food: broccoli, potato
+Nationality: german, mexican
+Transport: bus, car
+1. Nationality:mexican is somewhere to the right of Transport:car
+2. Food:potato is somewhere to the left of Transport:bus
+
+.:: Answer ::.
+|               |   1    |    2     |
+| Food          | potato | broccoli |
+| Nationality   | german | mexican  |
+| Transport     | car    | bus      |
+====================================================================================================
+.:: Puzzle 3x2 level=17 ::.
+Beverage: milk, tea
+Hobby: cooking, gardening
+Movie-Genre: animation, comedy
+1. Movie-Genre:animation is somewhere to the left of Hobby:cooking
+2. Hobby:cooking and Beverage:milk have different parity positions
+
+.:: Answer ::.
+|               |     1     |    2    |
+| Beverage      | milk      | tea     |
+| Hobby         | gardening | cooking |
+| Movie-Genre   | animation | comedy  |
+====================================================================================================
+.:: Puzzle 3x2 level=18 ::.
+Music-Genre: blues, rock
+Nationality: mexican, russian
+Sport: climbing, soccer
+1. Nationality:mexican is somewhere to the right of Nationality:russian
+2. Sport:soccer is somewhere to the right of Music-Genre:blues
+
+.:: Answer ::.
+|               |    1     |    2    |
+| Music-Genre   | blues    | rock    |
+| Nationality   | russian  | mexican |
+| Sport         | climbing | soccer  |
+====================================================================================================
+.:: Puzzle 3x2 level=18 ::.
+Food: chicken, potato
+Hobby: gardening, painting
+Movie-Genre: drama, family
+1. Hobby:gardening is somewhere to the right of Movie-Genre:drama
+2. Movie-Genre:family and Food:chicken have different parity positions
+
+.:: Answer ::.
+|               |    1     |     2     |
+| Food          | chicken  | potato    |
+| Hobby         | painting | gardening |
+| Movie-Genre   | drama    | family    |
+====================================================================================================
+.:: Puzzle 3x2 level=18 ::.
+Job: doctor, lawyer
+Pet: dog, mouse
+Sport: ice-hockey, surfing
+1. Pet:mouse is somewhere to the right of Sport:ice-hockey
+2. Pet:mouse and Job:doctor have the same parity positions
+
+.:: Answer ::.
+|         |     1      |    2    |
+| Job     | lawyer     | doctor  |
+| Pet     | dog        | mouse   |
+| Sport   | ice-hockey | surfing |
+====================================================================================================

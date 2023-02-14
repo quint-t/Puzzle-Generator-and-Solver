@@ -1,0 +1,529 @@
+====================================================================================================
+.:: Puzzle 2x4 level=1 ::.
+Beverage: 7up, cola, fanta, juice
+Transport: car, plane, subway, taxi
+1. Beverage:juice is on the right of Beverage:cola
+2. Beverage:fanta is on the left of Transport:subway
+3. Beverage:7up is on the left of Transport:car
+4. Transport:taxi is on the left of Beverage:7up
+
+.:: Answer ::.
+|             |   1   |   2    |  3   |   4   |
+| Beverage    | fanta | 7up    | cola | juice |
+| Transport   | taxi  | subway | car  | plane |
+====================================================================================================
+.:: Puzzle 2x4 level=2 ::.
+Job: doctor, firefighter, nurse, police-officer
+Sport: climbing, soccer, surfing, volleyball
+1. Sport:surfing is on the left of Job:doctor
+2. Job:doctor is on the left of Sport:soccer
+3. Job:nurse is between Sport:volleyball and Job:police-officer
+4. Job:doctor is on the left of Job:firefighter
+
+.:: Answer ::.
+|         |       1        |    2    |     3      |      4      |
+| Job     | police-officer | nurse   | doctor     | firefighter |
+| Sport   | climbing       | surfing | volleyball | soccer      |
+====================================================================================================
+.:: Puzzle 2x4 level=3 ::.
+Movie-Genre: action, adventure, animation, documentary
+Music-Genre: blues, classical, hip-hop, jazz
+1. Music-Genre:hip-hop == Movie-Genre:action
+2. Music-Genre:blues is on the left or right of Music-Genre:hip-hop
+3. Music-Genre:jazz is between Music-Genre:classical and Movie-Genre:animation
+4. Music-Genre:jazz is on the left or right of Movie-Genre:documentary
+5. Music-Genre:hip-hop is on the far left
+
+.:: Answer ::.
+|               |    1    |     2     |     3     |      4      |
+| Movie-Genre   | action  | animation | adventure | documentary |
+| Music-Genre   | hip-hop | blues     | jazz      | classical   |
+====================================================================================================
+.:: Puzzle 2x4 level=4 ::.
+Food: banana, broccoli, cheese, potato
+Nationality: american, mexican, scottish, spannish
+1. Nationality:american is on the left of Food:banana
+2. Food:cheese is on the right of Food:potato
+3. Food:potato is in an even position
+4. Nationality:spannish is on the far left
+5. Nationality:american is on the left of Nationality:scottish
+
+.:: Answer ::.
+|               |    1     |    2    |    3     |    4     |
+| Food          | broccoli | potato  | cheese   | banana   |
+| Nationality   | spannish | mexican | american | scottish |
+====================================================================================================
+.:: Puzzle 2x4 level=5 ::.
+Job: chef, doctor, engineer, teacher
+Movie-Genre: adventure, documentary, drama, thriller
+1. Movie-Genre:documentary is in an odd position
+2. Movie-Genre:thriller is on the right of Movie-Genre:documentary
+3. Job:chef is somewhere to the left of Movie-Genre:adventure
+4. Job:teacher is somewhere to the left of Job:doctor
+5. Movie-Genre:documentary is between Job:teacher and Job:engineer
+
+.:: Answer ::.
+|               |   1   |     2     |      3      |    4     |
+| Job           | chef  | teacher   | doctor      | engineer |
+| Movie-Genre   | drama | adventure | documentary | thriller |
+====================================================================================================
+.:: Puzzle 2x4 level=6 ::.
+Job: doctor, firefighter, police-officer, scientist
+Transport: boat, motorbike, roller, train
+1. Job:scientist is between Transport:roller and Transport:boat
+2. Transport:motorbike is somewhere to the left of Transport:roller
+3. Transport:boat is somewhere to the right of Job:doctor
+4. Job:firefighter is somewhere to the left of Transport:motorbike
+
+.:: Answer ::.
+|             |   1    |      2      |     3     |       4        |
+| Job         | doctor | firefighter | scientist | police-officer |
+| Transport   | train  | boat        | motorbike | roller         |
+====================================================================================================
+.:: Puzzle 2x4 level=7 ::.
+Job: chef, engineer, firefighter, teacher
+Sport: climbing, soccer, swimming, tennis
+1. Job:engineer is on the left of Sport:swimming
+2. Job:teacher is between Sport:swimming and Sport:soccer
+3. Job:firefighter is on the far right
+4. Sport:tennis is on the far left
+
+.:: Answer ::.
+|         |    1     |    2     |    3     |      4      |
+| Job     | engineer | chef     | teacher  | firefighter |
+| Sport   | tennis   | swimming | climbing | soccer      |
+====================================================================================================
+.:: Puzzle 2x4 level=8 ::.
+Movie-Genre: comedy, drama, romance, thriller
+Music-Genre: electronic, hip-hop, metal, pop
+1. Music-Genre:pop is between Movie-Genre:romance and Music-Genre:metal
+2. Music-Genre:hip-hop is on the right of Music-Genre:electronic
+3. Movie-Genre:thriller is not to the left of Music-Genre:metal
+4. Movie-Genre:comedy is somewhere to the right of Music-Genre:hip-hop
+
+.:: Answer ::.
+|               |     1      |    2    |   3    |    4     |
+| Movie-Genre   | drama      | romance | comedy | thriller |
+| Music-Genre   | electronic | hip-hop | pop    | metal    |
+====================================================================================================
+.:: Puzzle 2x4 level=9 ::.
+Food: broccoli, cheese, potato, rice
+Hobby: gardening, painting, photography, playing
+1. Hobby:gardening is between Food:potato and Food:broccoli
+2. Hobby:painting and Food:rice have different parity positions
+3. Hobby:playing is somewhere to the right of Food:rice
+4. Food:rice is on the right of Food:broccoli
+5. Hobby:painting is in an even position
+
+.:: Answer ::.
+|         |      1      |    2     |     3     |    4    |
+| Food    | cheese      | broccoli | rice      | potato  |
+| Hobby   | photography | painting | gardening | playing |
+====================================================================================================
+.:: Puzzle 2x4 level=9 ::.
+Pet: bird, cat, horse, turtle
+Sport: ice-hockey, soccer, tennis, volleyball
+1. Pet:horse and Sport:volleyball have the same parity positions
+2. Pet:cat is somewhere between Pet:turtle and Pet:horse
+3. Sport:volleyball is not to the left of Sport:ice-hockey
+4. Pet:bird is somewhere to the right of Sport:soccer
+5. Sport:tennis and Pet:bird have the same parity positions
+6. Sport:tennis is on the left of Sport:ice-hockey
+
+.:: Answer ::.
+|         |   1    |   2    |     3      |     4      |
+| Pet     | turtle | bird   | cat        | horse      |
+| Sport   | soccer | tennis | ice-hockey | volleyball |
+====================================================================================================
+.:: Puzzle 2x4 level=10 ::.
+Nationality: american, norvegian, russian, spannish
+Pet: dog, fish, horse, mouse
+1. Pet:mouse and Nationality:american have the same parity positions
+2. Nationality:american is not to the left of Pet:fish
+3. Pet:mouse is on the left or right of Pet:fish
+4. Nationality:spannish is somewhere between Nationality:norvegian and Nationality:american
+5. Pet:fish is in an even position
+6. Nationality:spannish is on the right of Pet:horse
+
+.:: Answer ::.
+|               |     1     |    2     |    3     |    4    |
+| Nationality   | norvegian | spannish | american | russian |
+| Pet           | horse     | fish     | mouse    | dog     |
+====================================================================================================
+.:: Puzzle 2x4 level=10 ::.
+Food: apple, banana, egg, potato
+Movie-Genre: comedy, fantasy, romance, thriller
+1. Movie-Genre:comedy is on the right of Food:potato
+2. Movie-Genre:thriller is on the left or right of Movie-Genre:fantasy
+3. Movie-Genre:thriller is on the left of Food:egg
+4. Movie-Genre:fantasy is somewhere to the right of Food:apple
+5. Food:banana and Movie-Genre:comedy have different parity positions
+
+.:: Answer ::.
+|               |    1    |   2    |    3     |    4    |
+| Food          | potato  | apple  | banana   | egg     |
+| Movie-Genre   | romance | comedy | thriller | fantasy |
+====================================================================================================
+.:: Puzzle 2x4 level=11 ::.
+Food: apple, bread, broccoli, cheese
+Movie-Genre: action, adventure, comedy, thriller
+1. Food:apple is on the right of Movie-Genre:adventure
+2. Movie-Genre:thriller is in an odd position
+3. Food:bread is somewhere to the right of Food:cheese
+4. Movie-Genre:adventure is somewhere to the right of Movie-Genre:action
+5. Food:bread is not to the right of Movie-Genre:thriller
+
+.:: Answer ::.
+|               |   1    |     2     |    3     |    4     |
+| Food          | cheese | bread     | apple    | broccoli |
+| Movie-Genre   | action | adventure | thriller | comedy   |
+====================================================================================================
+.:: Puzzle 2x4 level=11 ::.
+Beverage: 7up, cola, fanta, water
+Job: doctor, firefighter, journalist, nurse
+1. Job:journalist == Beverage:cola
+2. Beverage:fanta is between Beverage:7up and Beverage:water
+3. Job:doctor is between Job:journalist and Job:firefighter
+4. Job:doctor is not to the left of Beverage:cola
+5. Job:nurse == Beverage:water
+
+.:: Answer ::.
+|            |     1      |   2    |      3      |   4   |
+| Beverage   | cola       | 7up    | fanta       | water |
+| Job        | journalist | doctor | firefighter | nurse |
+====================================================================================================
+.:: Puzzle 2x4 level=12 ::.
+Hobby: playing, reading, singing, writing
+Music-Genre: blues, classical, jazz, rock
+1. Hobby:writing is somewhere between Music-Genre:blues and Music-Genre:rock
+2. Music-Genre:rock is in an even position
+3. Hobby:playing is on the right of Hobby:singing
+4. Music-Genre:jazz is not to the left of Hobby:writing
+5. Hobby:singing is somewhere to the left of Music-Genre:classical
+
+.:: Answer ::.
+|               |    1    |     2     |    3    |    4    |
+| Hobby         | singing | playing   | writing | reading |
+| Music-Genre   | blues   | classical | jazz    | rock    |
+====================================================================================================
+.:: Puzzle 2x4 level=12 ::.
+Job: firefighter, police-officer, scientist, teacher
+Sport: basketball, soccer, swimming, volleyball
+1. Sport:soccer is somewhere between Job:firefighter and Sport:volleyball
+2. Sport:volleyball is on the left or right of Job:scientist
+3. Sport:basketball is on the far right
+4. Sport:swimming is on the right of Sport:soccer
+5. Sport:swimming is on the left of Job:teacher
+
+.:: Answer ::.
+|         |       1        |     2     |      3      |     4      |
+| Job     | police-officer | scientist | firefighter | teacher    |
+| Sport   | volleyball     | soccer    | swimming    | basketball |
+====================================================================================================
+.:: Puzzle 2x4 level=13 ::.
+Food: apple, egg, potato, rice
+Movie-Genre: action, animation, drama, fantasy
+1. Movie-Genre:animation != Food:apple
+2. Food:egg is somewhere to the right of Food:rice
+3. Movie-Genre:drama and Food:rice have the same parity positions
+4. Food:egg is not to the left of Food:potato
+5. Food:apple is somewhere to the right of Food:egg
+6. Movie-Genre:drama is somewhere between Movie-Genre:action and Food:egg
+
+.:: Answer ::.
+|               |   1    |   2   |     3     |    4    |
+| Food          | potato | rice  | egg       | apple   |
+| Movie-Genre   | action | drama | animation | fantasy |
+====================================================================================================
+.:: Puzzle 2x4 level=13 ::.
+Food: apple, chicken, potato, rice
+Music-Genre: blues, country, electronic, hip-hop
+1. Food:potato is somewhere between Music-Genre:blues and Music-Genre:electronic
+2. Food:potato and Music-Genre:blues have the same parity positions
+3. Music-Genre:hip-hop is not to the right of Food:chicken
+4. Food:rice is on the right of Food:potato
+5. Music-Genre:blues is on the far left
+
+.:: Answer ::.
+|               |   1   |    2    |    3    |     4      |
+| Food          | apple | chicken | potato  | rice       |
+| Music-Genre   | blues | hip-hop | country | electronic |
+====================================================================================================
+.:: Puzzle 2x4 level=14 ::.
+Hobby: camping, collecting, painting, photography
+Job: lawyer, nurse, scientist, teacher
+1. Hobby:collecting is on the left or right of Hobby:camping
+2. Hobby:collecting is on the far left
+3. Job:nurse and Hobby:painting have different parity positions
+4. Job:scientist is on the far left
+5. Job:nurse is on the far right
+6. Job:teacher is in an even position
+
+.:: Answer ::.
+|         |     1      |    2    |    3     |      4      |
+| Hobby   | collecting | camping | painting | photography |
+| Job     | scientist  | teacher | lawyer   | nurse       |
+====================================================================================================
+.:: Puzzle 2x4 level=14 ::.
+Sport: climbing, golf, swimming, volleyball
+Transport: bike, bus, motorbike, plane
+1. Sport:golf is somewhere to the left of Sport:volleyball
+2. Sport:swimming != Transport:bike
+3. Sport:climbing is on the left or right of Sport:swimming
+4. Sport:climbing and Transport:motorbike have different parity positions
+5. Transport:bike is between Transport:bus and Sport:climbing
+6. Sport:climbing is in an even position
+
+.:: Answer ::.
+|             |     1     |    2     |  3   |     4      |
+| Sport       | swimming  | climbing | golf | volleyball |
+| Transport   | motorbike | plane    | bike | bus        |
+====================================================================================================
+.:: Puzzle 2x4 level=15 ::.
+Job: doctor, lawyer, nurse, scientist
+Sport: basketball, surfing, swimming, tennis
+1. Job:doctor is somewhere to the right of Job:lawyer
+2. Job:nurse is in an odd position
+3. Sport:surfing is on the left or right of Job:nurse
+4. Sport:swimming is somewhere to the right of Sport:basketball
+5. Job:nurse is not to the left of Job:doctor
+6. Sport:basketball and Job:lawyer have different parity positions
+
+.:: Answer ::.
+|         |   1    |     2      |    3     |     4     |
+| Job     | lawyer | doctor     | nurse    | scientist |
+| Sport   | tennis | basketball | swimming | surfing   |
+====================================================================================================
+.:: Puzzle 2x4 level=15 ::.
+Hobby: camping, cooking, reading, writing
+Music-Genre: country, jazz, metal, r&b
+1. Hobby:camping is somewhere to the right of Hobby:writing
+2. Hobby:reading is somewhere to the left of Music-Genre:metal
+3. Music-Genre:r&b is somewhere to the left of Music-Genre:jazz
+4. Music-Genre:jazz is somewhere to the left of Hobby:reading
+5. Music-Genre:country and Hobby:cooking have the same parity positions
+
+.:: Answer ::.
+|               |    1    |    2    |    3    |    4    |
+| Hobby         | cooking | writing | reading | camping |
+| Music-Genre   | r&b     | jazz    | country | metal   |
+====================================================================================================
+.:: Puzzle 2x4 level=16 ::.
+Beverage: coffee, fanta, juice, sprite
+Job: firefighter, journalist, nurse, police-officer
+1. Job:police-officer is somewhere to the left of Job:journalist
+2. Beverage:sprite is somewhere to the right of Beverage:juice
+3. Job:firefighter is not to the right of Beverage:coffee
+4. Job:firefighter is somewhere between Beverage:coffee and Beverage:sprite
+5. Job:firefighter is not to the right of Job:nurse
+
+.:: Answer ::.
+|            |       1        |     2      |      3      |   4    |
+| Beverage   | juice          | sprite     | fanta       | coffee |
+| Job        | police-officer | journalist | firefighter | nurse  |
+====================================================================================================
+.:: Puzzle 2x4 level=16 ::.
+Food: bread, broccoli, potato, rice
+Pet: fish, hamster, rabbit, snake
+1. Food:potato and Pet:rabbit have the same parity positions
+2. Food:bread is on the left or right of Pet:snake
+3. Pet:fish and Food:potato have different parity positions
+4. Pet:snake is somewhere between Pet:rabbit and Food:rice
+5. Pet:hamster is somewhere to the right of Food:broccoli
+6. Pet:fish is in an odd position
+
+.:: Answer ::.
+|        |  1   |    2     |    3    |   4    |
+| Food   | rice | broccoli | bread   | potato |
+| Pet    | fish | snake    | hamster | rabbit |
+====================================================================================================
+.:: Puzzle 2x4 level=16 ::.
+Music-Genre: classical, hip-hop, metal, pop
+Nationality: german, norvegian, scottish, spannish
+1. Nationality:scottish is somewhere to the left of Nationality:norvegian
+2. Nationality:norvegian is somewhere to the left of Nationality:german
+3. Nationality:norvegian and Music-Genre:metal have different parity positions
+4. Music-Genre:pop is on the left or right of Music-Genre:hip-hop
+5. Nationality:german is somewhere to the left of Nationality:spannish
+6. Music-Genre:metal is somewhere to the right of Music-Genre:hip-hop
+7. Nationality:scottish is somewhere to the left of Music-Genre:hip-hop
+
+.:: Answer ::.
+|               |    1     |     2     |   3    |     4     |
+| Music-Genre   | pop      | hip-hop   | metal  | classical |
+| Nationality   | scottish | norvegian | german | spannish  |
+====================================================================================================
+.:: Puzzle 2x4 level=17 ::.
+Nationality: german, mexican, portuguese, russian
+Transport: boat, motorbike, plane, train
+1. Nationality:russian is somewhere to the left of Nationality:mexican
+2. Transport:plane is somewhere to the right of Transport:motorbike
+3. Nationality:portuguese != Transport:plane
+4. Nationality:mexican is somewhere between Nationality:portuguese and Nationality:german
+5. Nationality:russian is somewhere between Transport:train and Transport:plane
+6. Transport:train and Nationality:portuguese have different parity positions
+
+.:: Answer ::.
+|               |   1    |     2     |    3    |     4      |
+| Nationality   | german | russian   | mexican | portuguese |
+| Transport     | train  | motorbike | plane   | boat       |
+====================================================================================================
+.:: Puzzle 2x4 level=17 ::.
+Hobby: gardening, reading, singing, writing
+Sport: baseball, climbing, golf, ice-hockey
+1. Hobby:writing is somewhere to the right of Hobby:singing
+2. Sport:climbing is not to the left of Sport:ice-hockey
+3. Hobby:writing is somewhere to the left of Sport:baseball
+4. Hobby:gardening is somewhere to the left of Sport:golf
+5. Hobby:gardening and Sport:ice-hockey have different parity positions
+
+.:: Answer ::.
+|         |     1      |     2     |    3    |    4     |
+| Hobby   | singing    | gardening | writing | reading  |
+| Sport   | ice-hockey | climbing  | golf    | baseball |
+====================================================================================================
+.:: Puzzle 2x4 level=17 ::.
+Hobby: collecting, photography, playing, writing
+Nationality: american, mexican, portuguese, spannish
+1. Nationality:spannish is somewhere to the left of Nationality:american
+2. Hobby:playing is somewhere to the right of Hobby:collecting
+3. Hobby:writing is somewhere to the left of Nationality:american
+4. Nationality:american is somewhere to the right of Nationality:mexican
+5. Nationality:american is somewhere between Hobby:photography and Hobby:playing
+6. Nationality:spannish is in an even position
+7. Nationality:spannish != Hobby:writing
+
+.:: Answer ::.
+|               |    1    |      2      |     3      |     4      |
+| Hobby         | writing | photography | collecting | playing    |
+| Nationality   | mexican | spannish    | american   | portuguese |
+====================================================================================================
+.:: Puzzle 2x4 level=18 ::.
+Beverage: 7up, cola, milk, water
+Music-Genre: blues, country, pop, rock
+1. Beverage:water is somewhere between Beverage:milk and Beverage:7up
+2. Music-Genre:blues is somewhere between Music-Genre:country and Beverage:water
+3. Beverage:7up is somewhere to the left of Music-Genre:rock
+4. Beverage:milk is somewhere to the left of Music-Genre:country
+
+.:: Answer ::.
+|               |  1  |   2   |   3   |    4    |
+| Beverage      | 7up | water | milk  | cola    |
+| Music-Genre   | pop | rock  | blues | country |
+====================================================================================================
+.:: Puzzle 2x4 level=18 ::.
+Sport: basketball, climbing, swimming, volleyball
+Transport: boat, car, motorbike, train
+1. Sport:climbing is somewhere to the right of Transport:motorbike
+2. Transport:boat is not to the right of Sport:swimming
+3. Sport:volleyball is somewhere to the left of Transport:car
+4. Transport:car and Sport:swimming have the same parity positions
+5. Transport:car is somewhere to the left of Transport:boat
+6. Transport:boat is somewhere to the right of Transport:train
+7. Sport:climbing and Transport:motorbike have different parity positions
+
+.:: Answer ::.
+|             |     1      |    2     |     3      |    4     |
+| Sport       | volleyball | climbing | basketball | swimming |
+| Transport   | motorbike  | car      | train      | boat     |
+====================================================================================================
+.:: Puzzle 2x4 level=18 ::.
+Pet: dog, hamster, horse, rabbit
+Transport: bike, boat, bus, taxi
+1. Pet:dog is somewhere to the left of Transport:boat
+2. Pet:rabbit and Transport:bus have different parity positions
+3. Transport:bike is somewhere to the left of Pet:horse
+4. Pet:rabbit is somewhere to the right of Transport:boat
+5. Transport:bike is not to the left of Transport:taxi
+
+.:: Answer ::.
+|             |  1   |    2    |   3    |   4   |
+| Pet         | dog  | hamster | rabbit | horse |
+| Transport   | taxi | boat    | bike   | bus   |
+====================================================================================================
+.:: Puzzle 2x4 level=19 ::.
+Pet: fish, horse, rabbit, snake
+Transport: motorbike, subway, taxi, train
+1. Transport:subway and Pet:snake have different parity positions
+2. Pet:snake is not to the left of Transport:motorbike
+3. Transport:train is somewhere between Pet:rabbit and Pet:snake
+4. Transport:motorbike is not to the right of Pet:fish
+5. Transport:taxi is not to the right of Transport:motorbike
+
+.:: Answer ::.
+|             |   1    |   2   |     3     |   4    |
+| Pet         | rabbit | horse | snake     | fish   |
+| Transport   | taxi   | train | motorbike | subway |
+====================================================================================================
+.:: Puzzle 2x4 level=19 ::.
+Movie-Genre: adventure, comedy, documentary, fantasy
+Pet: cat, horse, snake, turtle
+1. Pet:turtle is not to the right of Movie-Genre:documentary
+2. Movie-Genre:adventure != Pet:horse
+3. Movie-Genre:comedy is somewhere between Pet:snake and Movie-Genre:documentary
+4. Pet:turtle is somewhere between Movie-Genre:adventure and Pet:cat
+5. Movie-Genre:adventure is not to the left of Movie-Genre:comedy
+
+.:: Answer ::.
+|               |    1    |      2      |   3    |     4     |
+| Movie-Genre   | fantasy | documentary | comedy | adventure |
+| Pet           | cat     | turtle      | horse  | snake     |
+====================================================================================================
+.:: Puzzle 2x4 level=19 ::.
+Hobby: cooking, painting, playing, writing
+Transport: car, plane, taxi, train
+1. Transport:plane and Hobby:painting have different parity positions
+2. Hobby:playing is not to the left of Hobby:cooking
+3. Transport:train is somewhere between Hobby:painting and Hobby:writing
+4. Transport:car is somewhere between Hobby:playing and Transport:plane
+5. Transport:car is not to the left of Hobby:painting
+
+.:: Answer ::.
+|             |    1    |    2     |    3    |    4    |
+| Hobby       | cooking | painting | playing | writing |
+| Transport   | plane   | car      | train   | taxi    |
+====================================================================================================
+.:: Puzzle 2x4 level=20 ::.
+Beverage: 7up, juice, mirinda, tea
+Transport: bike, boat, motorbike, train
+1. Beverage:mirinda is not to the left of Beverage:juice
+2. Beverage:juice is not to the left of Transport:motorbike
+3. Beverage:tea is not to the left of Transport:bike
+4. Beverage:mirinda is somewhere between Transport:boat and Transport:bike
+5. Transport:train and Beverage:tea have the same parity positions
+
+.:: Answer ::.
+|             |  1   |     2     |    3    |  4   |
+| Beverage    | tea  | juice     | mirinda | 7up  |
+| Transport   | bike | motorbike | train   | boat |
+====================================================================================================
+.:: Puzzle 2x4 level=20 ::.
+Hobby: camping, painting, singing, writing
+Sport: baseball, basketball, golf, surfing
+1. Sport:surfing and Hobby:painting have the same parity positions
+2. Hobby:writing is not to the right of Sport:golf
+3. Hobby:camping is not to the right of Sport:golf
+4. Sport:basketball is somewhere between Sport:surfing and Sport:baseball
+5. Sport:golf and Hobby:writing have different parity positions
+6. Sport:golf is somewhere between Hobby:camping and Hobby:painting
+
+.:: Answer ::.
+|         |    1     |     2      |    3    |    4     |
+| Hobby   | camping  | writing    | singing | painting |
+| Sport   | baseball | basketball | golf    | surfing  |
+====================================================================================================
+.:: Puzzle 2x4 level=20 ::.
+Movie-Genre: adventure, fantasy, romance, thriller
+Transport: boat, roller, subway, train
+1. Movie-Genre:adventure and Transport:boat have different parity positions
+2. Transport:subway is somewhere between Transport:roller and Transport:boat
+3. Transport:train is not to the left of Transport:roller
+4. Transport:boat and Movie-Genre:romance have different parity positions
+5. Movie-Genre:fantasy is not to the right of Movie-Genre:thriller
+6. Transport:roller is somewhere between Movie-Genre:adventure and Transport:train
+
+.:: Answer ::.
+|               |    1    |     2     |    3     |    4    |
+| Movie-Genre   | fantasy | adventure | thriller | romance |
+| Transport     | boat    | subway    | roller   | train   |
+====================================================================================================

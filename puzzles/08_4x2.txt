@@ -1,0 +1,494 @@
+====================================================================================================
+.:: Puzzle 4x2 level=1 ::.
+Hobby: collecting, painting
+Movie-Genre: family, fantasy
+Music-Genre: jazz, pop
+Pet: horse, turtle
+1. Music-Genre:jazz is on the left of Hobby:collecting
+2. Movie-Genre:family is on the left of Pet:turtle
+
+.:: Answer ::.
+|               |    1     |     2      |
+| Hobby         | painting | collecting |
+| Movie-Genre   | family   | fantasy    |
+| Music-Genre   | jazz     | pop        |
+| Pet           | horse    | turtle     |
+====================================================================================================
+.:: Puzzle 4x2 level=2 ::.
+Food: banana, egg
+Hobby: camping, reading
+Movie-Genre: action, documentary
+Music-Genre: classical, jazz
+1. Food:egg is on the far left
+2. Music-Genre:classical is on the left of Music-Genre:jazz
+3. Movie-Genre:action is on the left of Hobby:camping
+
+.:: Answer ::.
+|               |     1     |      2      |
+| Food          | egg       | banana      |
+| Hobby         | reading   | camping     |
+| Movie-Genre   | action    | documentary |
+| Music-Genre   | classical | jazz        |
+====================================================================================================
+.:: Puzzle 4x2 level=3 ::.
+Beverage: 7up, coffee
+Job: engineer, journalist
+Movie-Genre: documentary, fantasy
+Sport: basketball, ice-hockey
+1. Movie-Genre:documentary is on the left or right of Beverage:7up
+2. Movie-Genre:fantasy is on the left of Sport:basketball
+3. Job:journalist is on the left of Job:engineer
+
+.:: Answer ::.
+|               |     1      |      2      |
+| Beverage      | 7up        | coffee      |
+| Job           | journalist | engineer    |
+| Movie-Genre   | fantasy    | documentary |
+| Sport         | ice-hockey | basketball  |
+====================================================================================================
+.:: Puzzle 4x2 level=4 ::.
+Hobby: gardening, playing
+Music-Genre: electronic, rock
+Pet: cat, hamster
+Transport: motorbike, roller
+1. Hobby:gardening == Pet:hamster
+2. Hobby:gardening is on the right of Transport:motorbike
+3. Music-Genre:rock is in an odd position
+
+.:: Answer ::.
+|               |     1     |     2      |
+| Hobby         | playing   | gardening  |
+| Music-Genre   | rock      | electronic |
+| Pet           | cat       | hamster    |
+| Transport     | motorbike | roller     |
+====================================================================================================
+.:: Puzzle 4x2 level=5 ::.
+Hobby: collecting, gardening
+Job: engineer, nurse
+Nationality: american, mexican
+Pet: dog, horse
+1. Hobby:collecting is on the left of Nationality:mexican
+2. Job:engineer is on the right of Pet:dog
+
+.:: Answer ::.
+|               |     1      |     2     |
+| Hobby         | collecting | gardening |
+| Job           | nurse      | engineer  |
+| Nationality   | american   | mexican   |
+| Pet           | dog        | horse     |
+====================================================================================================
+.:: Puzzle 4x2 level=6 ::.
+Beverage: coffee, tea
+Food: banana, cheese
+Music-Genre: country, pop
+Nationality: portuguese, russian
+1. Food:cheese == Music-Genre:country
+2. Food:banana is on the left of Nationality:russian
+3. Food:cheese == Beverage:tea
+
+.:: Answer ::.
+|               |     1      |    2    |
+| Beverage      | coffee     | tea     |
+| Food          | banana     | cheese  |
+| Music-Genre   | pop        | country |
+| Nationality   | portuguese | russian |
+====================================================================================================
+.:: Puzzle 4x2 level=7 ::.
+Beverage: tea, water
+Movie-Genre: fantasy, romance
+Pet: hamster, rabbit
+Transport: car, plane
+1. Pet:hamster is somewhere to the right of Beverage:water
+2. Movie-Genre:romance is on the right of Transport:car
+
+.:: Answer ::.
+|               |    1    |    2    |
+| Beverage      | water   | tea     |
+| Movie-Genre   | fantasy | romance |
+| Pet           | rabbit  | hamster |
+| Transport     | car     | plane   |
+====================================================================================================
+.:: Puzzle 4x2 level=8 ::.
+Beverage: cola, water
+Hobby: camping, singing
+Job: police-officer, scientist
+Nationality: american, spannish
+1. Beverage:water is on the left of Job:scientist
+2. Nationality:spannish is not to the right of Hobby:singing
+3. Hobby:camping is somewhere to the right of Hobby:singing
+
+.:: Answer ::.
+|               |       1        |     2     |
+| Beverage      | water          | cola      |
+| Hobby         | singing        | camping   |
+| Job           | police-officer | scientist |
+| Nationality   | spannish       | american  |
+====================================================================================================
+.:: Puzzle 4x2 level=9 ::.
+Beverage: cola, milk
+Food: broccoli, chicken
+Hobby: painting, singing
+Pet: bird, dog
+1. Food:chicken is on the right of Beverage:cola
+2. Pet:bird and Beverage:milk have different parity positions
+3. Food:broccoli != Hobby:singing
+
+.:: Answer ::.
+|            |    1     |    2    |
+| Beverage   | cola     | milk    |
+| Food       | broccoli | chicken |
+| Hobby      | painting | singing |
+| Pet        | bird     | dog     |
+====================================================================================================
+.:: Puzzle 4x2 level=9 ::.
+Food: apple, tomato
+Job: engineer, teacher
+Music-Genre: jazz, rock
+Pet: horse, snake
+1. Music-Genre:jazz is on the right of Pet:horse
+2. Food:apple is on the right of Food:tomato
+3. Food:apple == Job:engineer
+
+.:: Answer ::.
+|               |    1    |    2     |
+| Food          | tomato  | apple    |
+| Job           | teacher | engineer |
+| Music-Genre   | rock    | jazz     |
+| Pet           | horse   | snake    |
+====================================================================================================
+.:: Puzzle 4x2 level=10 ::.
+Hobby: cooking, writing
+Job: chef, engineer
+Pet: bird, fish
+Transport: bike, plane
+1. Hobby:cooking is on the left of Transport:bike
+2. Hobby:writing and Pet:bird have different parity positions
+3. Job:chef is not to the right of Pet:bird
+
+.:: Answer ::.
+|             |    1    |    2     |
+| Hobby       | cooking | writing  |
+| Job         | chef    | engineer |
+| Pet         | bird    | fish     |
+| Transport   | plane   | bike     |
+====================================================================================================
+.:: Puzzle 4x2 level=10 ::.
+Food: apple, egg
+Movie-Genre: action, animation
+Sport: ice-hockey, soccer
+Transport: bike, motorbike
+1. Movie-Genre:action is somewhere to the right of Transport:motorbike
+2. Food:apple is somewhere to the left of Sport:ice-hockey
+
+.:: Answer ::.
+|               |     1     |     2      |
+| Food          | apple     | egg        |
+| Movie-Genre   | animation | action     |
+| Sport         | soccer    | ice-hockey |
+| Transport     | motorbike | bike       |
+====================================================================================================
+.:: Puzzle 4x2 level=11 ::.
+Food: bread, chicken
+Music-Genre: hip-hop, pop
+Nationality: british, german
+Pet: bird, cat
+1. Pet:cat is on the left of Nationality:german
+2. Food:chicken is on the left of Food:bread
+3. Music-Genre:pop is not to the right of Nationality:british
+
+.:: Answer ::.
+|               |    1    |    2    |
+| Food          | chicken | bread   |
+| Music-Genre   | pop     | hip-hop |
+| Nationality   | british | german  |
+| Pet           | cat     | bird    |
+====================================================================================================
+.:: Puzzle 4x2 level=11 ::.
+Food: broccoli, chicken
+Hobby: camping, reading
+Movie-Genre: adventure, fantasy
+Nationality: german, russian
+1. Hobby:reading and Food:broccoli have the same parity positions
+2. Hobby:reading is on the right of Nationality:german
+3. Nationality:german == Movie-Genre:fantasy
+
+.:: Answer ::.
+|               |    1    |     2     |
+| Food          | chicken | broccoli  |
+| Hobby         | camping | reading   |
+| Movie-Genre   | fantasy | adventure |
+| Nationality   | german  | russian   |
+====================================================================================================
+.:: Puzzle 4x2 level=12 ::.
+Food: bread, broccoli
+Pet: cat, dog
+Sport: climbing, golf
+Transport: motorbike, plane
+1. Food:broccoli is on the left or right of Pet:dog
+2. Transport:motorbike != Sport:golf
+3. Sport:golf is somewhere to the left of Food:bread
+
+.:: Answer ::.
+|             |    1     |     2     |
+| Food        | broccoli | bread     |
+| Pet         | cat      | dog       |
+| Sport       | golf     | climbing  |
+| Transport   | plane    | motorbike |
+====================================================================================================
+.:: Puzzle 4x2 level=12 ::.
+Beverage: 7up, fanta
+Hobby: camping, writing
+Movie-Genre: adventure, fantasy
+Music-Genre: classical, rock
+1. Beverage:7up is on the left of Hobby:camping
+2. Movie-Genre:fantasy is on the far left
+3. Movie-Genre:adventure is on the left or right of Music-Genre:classical
+
+.:: Answer ::.
+|               |     1     |     2     |
+| Beverage      | 7up       | fanta     |
+| Hobby         | writing   | camping   |
+| Movie-Genre   | fantasy   | adventure |
+| Music-Genre   | classical | rock      |
+====================================================================================================
+.:: Puzzle 4x2 level=13 ::.
+Beverage: mirinda, tea
+Job: chef, scientist
+Sport: soccer, tennis
+Transport: roller, taxi
+1. Job:scientist is on the right of Sport:tennis
+2. Beverage:tea is on the left or right of Job:chef
+3. Transport:roller is on the left of Job:scientist
+
+.:: Answer ::.
+|             |    1    |     2     |
+| Beverage    | mirinda | tea       |
+| Job         | chef    | scientist |
+| Sport       | tennis  | soccer    |
+| Transport   | roller  | taxi      |
+====================================================================================================
+.:: Puzzle 4x2 level=13 ::.
+Beverage: mirinda, tea
+Music-Genre: blues, metal
+Nationality: mexican, norvegian
+Transport: bus, taxi
+1. Music-Genre:metal is somewhere to the right of Transport:taxi
+2. Beverage:tea is on the left of Nationality:norvegian
+
+.:: Answer ::.
+|               |    1    |     2     |
+| Beverage      | tea     | mirinda   |
+| Music-Genre   | blues   | metal     |
+| Nationality   | mexican | norvegian |
+| Transport     | taxi    | bus       |
+====================================================================================================
+.:: Puzzle 4x2 level=14 ::.
+Nationality: french, portuguese
+Pet: fish, turtle
+Sport: ice-hockey, surfing
+Transport: bike, plane
+1. Pet:fish is in an odd position
+2. Transport:plane is somewhere to the right of Sport:ice-hockey
+3. Transport:bike and Nationality:french have the same parity positions
+
+.:: Answer ::.
+|               |     1      |     2      |
+| Nationality   | french     | portuguese |
+| Pet           | fish       | turtle     |
+| Sport         | ice-hockey | surfing    |
+| Transport     | bike       | plane      |
+====================================================================================================
+.:: Puzzle 4x2 level=14 ::.
+Beverage: milk, sprite
+Food: apple, broccoli
+Hobby: collecting, painting
+Nationality: norvegian, spannish
+1. Nationality:spannish is not to the right of Beverage:sprite
+2. Beverage:sprite is somewhere to the left of Food:apple
+3. Hobby:collecting and Beverage:sprite have different parity positions
+
+.:: Answer ::.
+|               |    1     |     2      |
+| Beverage      | sprite   | milk       |
+| Food          | broccoli | apple      |
+| Hobby         | painting | collecting |
+| Nationality   | spannish | norvegian  |
+====================================================================================================
+.:: Puzzle 4x2 level=15 ::.
+Food: cheese, rice
+Hobby: collecting, writing
+Nationality: german, mexican
+Pet: rabbit, snake
+1. Hobby:writing != Food:cheese or Nationality:german != Hobby:writing or both
+2. Food:cheese is somewhere to the right of Food:rice
+3. Pet:snake is somewhere to the left of Pet:rabbit
+4. Hobby:collecting is on the left or right of Food:cheese
+
+.:: Answer ::.
+|               |     1      |    2    |
+| Food          | rice       | cheese  |
+| Hobby         | collecting | writing |
+| Nationality   | german     | mexican |
+| Pet           | snake      | rabbit  |
+====================================================================================================
+.:: Puzzle 4x2 level=15 ::.
+Beverage: 7up, sprite
+Food: apple, banana
+Hobby: cooking, photography
+Music-Genre: electronic, rock
+1. Hobby:photography is somewhere to the right of Food:banana
+2. Beverage:sprite is somewhere to the left of Beverage:7up
+3. Music-Genre:electronic is somewhere to the right of Music-Genre:rock
+
+.:: Answer ::.
+|               |    1    |      2      |
+| Beverage      | sprite  | 7up         |
+| Food          | banana  | apple       |
+| Hobby         | cooking | photography |
+| Music-Genre   | rock    | electronic  |
+====================================================================================================
+.:: Puzzle 4x2 level=16 ::.
+Food: apple, bread
+Music-Genre: jazz, rock
+Sport: baseball, soccer
+Transport: motorbike, roller
+1. Sport:baseball is somewhere to the left of Transport:motorbike
+2. Music-Genre:rock is somewhere to the right of Food:apple
+
+.:: Answer ::.
+|               |    1     |     2     |
+| Food          | apple    | bread     |
+| Music-Genre   | jazz     | rock      |
+| Sport         | baseball | soccer    |
+| Transport     | roller   | motorbike |
+====================================================================================================
+.:: Puzzle 4x2 level=16 ::.
+Beverage: cola, milk
+Music-Genre: hip-hop, metal
+Nationality: british, norvegian
+Sport: climbing, swimming
+1. Music-Genre:metal and Nationality:norvegian have different parity positions
+2. Sport:swimming is somewhere to the left of Nationality:norvegian
+3. Beverage:cola and Music-Genre:hip-hop have different parity positions
+
+.:: Answer ::.
+|               |    1     |     2     |
+| Beverage      | cola     | milk      |
+| Music-Genre   | metal    | hip-hop   |
+| Nationality   | british  | norvegian |
+| Sport         | swimming | climbing  |
+====================================================================================================
+.:: Puzzle 4x2 level=16 ::.
+Hobby: collecting, playing
+Movie-Genre: drama, family
+Nationality: german, norvegian
+Sport: baseball, tennis
+1. Sport:baseball != Movie-Genre:family
+2. Nationality:norvegian is somewhere to the left of Movie-Genre:family
+3. Nationality:german and Hobby:collecting have different parity positions
+
+.:: Answer ::.
+|               |     1      |    2    |
+| Hobby         | collecting | playing |
+| Movie-Genre   | drama      | family  |
+| Nationality   | norvegian  | german  |
+| Sport         | baseball   | tennis  |
+====================================================================================================
+.:: Puzzle 4x2 level=17 ::.
+Food: bread, cheese
+Music-Genre: electronic, metal
+Pet: dog, rabbit
+Sport: basketball, surfing
+1. Food:cheese is somewhere to the left of Food:bread
+2. Sport:basketball and Pet:rabbit have the same parity positions
+3. Sport:surfing == Music-Genre:electronic or Music-Genre:electronic == Food:cheese, but not both
+4. Music-Genre:metal is not to the right of Sport:basketball
+
+.:: Answer ::.
+|               |     1      |     2      |
+| Food          | cheese     | bread      |
+| Music-Genre   | metal      | electronic |
+| Pet           | rabbit     | dog        |
+| Sport         | basketball | surfing    |
+====================================================================================================
+.:: Puzzle 4x2 level=17 ::.
+Job: engineer, teacher
+Movie-Genre: adventure, comedy
+Sport: climbing, tennis
+Transport: bike, car
+1. Movie-Genre:comedy != Transport:car
+2. Movie-Genre:adventure is somewhere to the right of Movie-Genre:comedy
+3. Job:teacher is not to the left of Movie-Genre:adventure
+4. Sport:climbing != Transport:bike
+
+.:: Answer ::.
+|               |    1     |     2     |
+| Job           | engineer | teacher   |
+| Movie-Genre   | comedy   | adventure |
+| Sport         | tennis   | climbing  |
+| Transport     | bike     | car       |
+====================================================================================================
+.:: Puzzle 4x2 level=17 ::.
+Beverage: milk, tea
+Food: banana, broccoli
+Sport: ice-hockey, tennis
+Transport: boat, plane
+1. Sport:ice-hockey is somewhere to the right of Sport:tennis
+2. Beverage:tea is somewhere to the right of Transport:boat
+3. Beverage:tea is not to the right of Food:banana
+
+.:: Answer ::.
+|             |    1     |     2      |
+| Beverage    | milk     | tea        |
+| Food        | broccoli | banana     |
+| Sport       | tennis   | ice-hockey |
+| Transport   | boat     | plane      |
+====================================================================================================
+.:: Puzzle 4x2 level=18 ::.
+Beverage: sprite, water
+Hobby: painting, singing
+Music-Genre: electronic, rock
+Nationality: german, mexican
+1. Music-Genre:electronic is somewhere to the left of Beverage:sprite
+2. Nationality:german and Hobby:painting have the same parity positions
+3. Beverage:sprite and Nationality:german have the same parity positions
+
+.:: Answer ::.
+|               |     1      |    2     |
+| Beverage      | water      | sprite   |
+| Hobby         | singing    | painting |
+| Music-Genre   | electronic | rock     |
+| Nationality   | mexican    | german   |
+====================================================================================================
+.:: Puzzle 4x2 level=18 ::.
+Food: broccoli, tomato
+Job: engineer, nurse
+Movie-Genre: adventure, fantasy
+Nationality: american, portuguese
+1. Movie-Genre:adventure is somewhere to the right of Movie-Genre:fantasy
+2. Movie-Genre:adventure is not to the right of Job:engineer
+3. Food:broccoli is somewhere to the right of Nationality:portuguese
+
+.:: Answer ::.
+|               |     1      |     2     |
+| Food          | tomato     | broccoli  |
+| Job           | nurse      | engineer  |
+| Movie-Genre   | fantasy    | adventure |
+| Nationality   | portuguese | american  |
+====================================================================================================
+.:: Puzzle 4x2 level=18 ::.
+Job: journalist, police-officer
+Movie-Genre: action, thriller
+Music-Genre: classical, r&b
+Nationality: british, french
+1. Nationality:british and Job:police-officer have the same parity positions
+2. Movie-Genre:action is somewhere to the left of Music-Genre:r&b
+3. Music-Genre:r&b != Movie-Genre:thriller or Music-Genre:r&b != Job:police-officer or both
+
+.:: Answer ::.
+|               |       1        |     2      |
+| Job           | police-officer | journalist |
+| Movie-Genre   | action         | thriller   |
+| Music-Genre   | classical      | r&b        |
+| Nationality   | british        | french     |
+====================================================================================================
