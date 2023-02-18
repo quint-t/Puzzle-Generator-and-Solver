@@ -1,0 +1,1189 @@
+====================================================================================================
+.:: Puzzle 3x4 level=1 ::.
+Hobby: gardening, hiking, photography, writing
+Job: doctor, engineer, journalist, teacher
+Sport: climbing, golf, rowing, swimming
+1. Job:engineer is on the left of Job:teacher
+2. Hobby:photography == Sport:golf
+3. Sport:golf is on the right of Job:journalist
+4. Sport:climbing is on the right of Hobby:gardening
+5. Sport:rowing is on the right of Sport:climbing
+6. Sport:climbing == Hobby:hiking
+
+.:: Answer ::.
+|         |     1     |    2     |     3      |      4      |
+| Hobby   | gardening | hiking   | writing    | photography |
+| Job     | engineer  | teacher  | journalist | doctor      |
+| Sport   | swimming  | climbing | rowing     | golf        |
+====================================================================================================
+.:: Puzzle 3x4 level=1 ::.
+Food: cucumber, grapefruit, papaya, radish
+Hobby: baking, singing, traveling, writing
+Sport: skateboarding, snowboarding, volleyball, water-polo
+1. Sport:skateboarding == Hobby:baking
+2. Hobby:writing == Sport:water-polo
+3. Sport:water-polo is on the right of Hobby:singing
+4. Sport:snowboarding is on the left of Hobby:baking
+5. Food:papaya is on the far right
+6. Food:radish is on the left of Hobby:traveling
+7. Food:grapefruit is on the right of Hobby:writing
+
+.:: Answer ::.
+|         |     1      |     2      |      3       |       4       |
+| Food    | cucumber   | radish     | grapefruit   | papaya        |
+| Hobby   | singing    | writing    | traveling    | baking        |
+| Sport   | volleyball | water-polo | snowboarding | skateboarding |
+====================================================================================================
+.:: Puzzle 3x4 level=1 ::.
+Beverage: fanta, iced-tea, soy-milk, tea
+Movie-Genre: crime, epic, horror, satire
+Music-Genre: dubstep, hip-hop, rock, salsa
+1. Music-Genre:rock is on the far left
+2. Movie-Genre:crime is on the left of Movie-Genre:epic
+3. Music-Genre:hip-hop is on the right of Beverage:fanta
+4. Music-Genre:hip-hop is on the far right
+5. Beverage:iced-tea is on the left of Beverage:soy-milk
+6. Beverage:soy-milk is on the left of Movie-Genre:satire
+7. Beverage:tea is on the right of Music-Genre:dubstep
+
+.:: Answer ::.
+|               |    1     |    2     |    3    |    4    |
+| Beverage      | iced-tea | soy-milk | fanta   | tea     |
+| Movie-Genre   | crime    | epic     | satire  | horror  |
+| Music-Genre   | rock     | salsa    | dubstep | hip-hop |
+====================================================================================================
+.:: Puzzle 3x4 level=2 ::.
+Beverage: coffee, fanta, juice, water
+Job: chef, journalist, librarian, paramedic
+Nationality: american, british, dutch, polish
+1. Nationality:american is on the right of Nationality:british
+2. Nationality:polish == Beverage:water
+3. Job:librarian is on the left of Beverage:water
+4. Beverage:juice is on the left of Job:librarian
+5. Beverage:coffee is on the left of Job:chef
+6. Beverage:fanta is on the far left
+7. Job:paramedic is on the right of Nationality:dutch
+
+.:: Answer ::.
+|               |     1      |     2     |     3     |   4    |
+| Beverage      | fanta      | juice     | coffee    | water  |
+| Job           | journalist | paramedic | librarian | chef   |
+| Nationality   | dutch      | british   | american  | polish |
+====================================================================================================
+.:: Puzzle 3x4 level=2 ::.
+Movie-Genre: action, disaster, fantasy, zombie
+Music-Genre: country, gospel, metal, r&b
+Nationality: egyptian, malaysian, polish, thai
+1. Nationality:polish is on the right of Nationality:thai
+2. Movie-Genre:zombie is on the far right
+3. Music-Genre:country is on the right of Music-Genre:gospel
+4. Movie-Genre:action is on the right of Music-Genre:country
+5. Nationality:malaysian == Movie-Genre:action
+6. Music-Genre:r&b is between Nationality:egyptian and Movie-Genre:fantasy
+
+.:: Answer ::.
+|               |    1     |    2    |     3     |    4     |
+| Movie-Genre   | disaster | fantasy | action    | zombie   |
+| Music-Genre   | gospel   | country | r&b       | metal    |
+| Nationality   | thai     | polish  | malaysian | egyptian |
+====================================================================================================
+.:: Puzzle 3x4 level=2 ::.
+Beverage: almond-milk, coffee, mirinda, tea
+Food: cherry, garlic, peas, potato
+Music-Genre: electronic, jazz, rock, techno
+1. Beverage:coffee is on the right of Music-Genre:rock
+2. Food:garlic == Beverage:tea
+3. Music-Genre:jazz is between Music-Genre:rock and Beverage:almond-milk
+4. Beverage:almond-milk is on the left of Music-Genre:electronic
+5. Food:potato is on the far right
+6. Food:peas is on the left of Food:cherry
+
+.:: Answer ::.
+|               |   1    |   2    |      3      |     4      |
+| Beverage      | tea    | coffee | almond-milk | mirinda    |
+| Food          | garlic | peas   | cherry      | potato     |
+| Music-Genre   | rock   | jazz   | techno      | electronic |
+====================================================================================================
+.:: Puzzle 3x4 level=3 ::.
+Beverage: 7up, cola, soy-milk, water
+Nationality: australian, malaysian, nigerian, pakistani
+Sport: baseball, rowing, skiing, weightlifting
+1. Sport:rowing is on the left or right of Nationality:pakistani
+2. Nationality:nigerian == Beverage:soy-milk
+3. Nationality:pakistani is on the far left or far right
+4. Beverage:cola is on the left or right of Sport:weightlifting
+5. Sport:skiing is on the right of Nationality:nigerian
+6. Nationality:malaysian is on the far right
+7. Sport:rowing == Beverage:7up
+
+.:: Answer ::.
+|               |     1     |     2      |       3       |     4     |
+| Beverage      | water     | 7up        | soy-milk      | cola      |
+| Nationality   | pakistani | australian | nigerian      | malaysian |
+| Sport         | baseball  | rowing     | weightlifting | skiing    |
+====================================================================================================
+.:: Puzzle 3x4 level=3 ::.
+Music-Genre: blues, disco, reggae, salsa
+Nationality: american, indonesian, italian, turkish
+Transport: bus, helicopter, ship, snowmobile
+1. Transport:bus is between Nationality:american and Music-Genre:reggae
+2. Nationality:indonesian is between Nationality:italian and Transport:helicopter
+3. Transport:helicopter is on the right of Music-Genre:reggae
+4. Nationality:american is on the left of Music-Genre:salsa
+5. Music-Genre:disco is on the left or right of Transport:snowmobile
+
+.:: Answer ::.
+|               |    1     |    2    |     3      |     4      |
+| Music-Genre   | blues    | salsa   | reggae     | disco      |
+| Nationality   | american | italian | indonesian | turkish    |
+| Transport     | ship     | bus     | snowmobile | helicopter |
+====================================================================================================
+.:: Puzzle 3x4 level=3 ::.
+Beverage: cola, hot-chocolate, iced-tea, lemonade
+Food: carrot, cherry, pear, peas
+Hobby: photography, reading, video-games, writing
+1. Beverage:lemonade is on the left or right of Beverage:iced-tea
+2. Hobby:reading is between Beverage:lemonade and Hobby:writing
+3. Food:cherry is on the far left or far right
+4. Hobby:photography is between Beverage:hot-chocolate and Food:pear
+5. Beverage:lemonade is on the right of Hobby:reading
+6. Food:carrot is on the left or right of Hobby:writing
+
+.:: Answer ::.
+|            |    1    |       2       |      3      |      4      |
+| Beverage   | cola    | hot-chocolate | lemonade    | iced-tea    |
+| Food       | cherry  | carrot        | peas        | pear        |
+| Hobby      | writing | reading       | photography | video-games |
+====================================================================================================
+.:: Puzzle 3x4 level=4 ::.
+Job: dancer, engineer, freelancer, journalist
+Music-Genre: blues, d&b, funk, salsa
+Nationality: indian, mexican, nigerian, russian
+1. Nationality:indian == Music-Genre:salsa
+2. Job:dancer == Music-Genre:salsa
+3. Job:engineer is on the left or right of Job:journalist
+4. Music-Genre:blues is on the left of Music-Genre:d&b
+5. Nationality:mexican is on the left of Job:engineer
+6. Nationality:nigerian is on the left of Nationality:indian
+7. Music-Genre:funk is in an even position
+
+.:: Answer ::.
+|               |     1      |    2     |   3    |     4      |
+| Job           | journalist | engineer | dancer | freelancer |
+| Music-Genre   | blues      | d&b      | salsa  | funk       |
+| Nationality   | mexican    | nigerian | indian | russian    |
+====================================================================================================
+.:: Puzzle 3x4 level=4 ::.
+Beverage: almond-milk, mirinda, soy-milk, water
+Food: broccoli, cucumber, spinach, strawberry
+Transport: car, helicopter, motorbike, subway
+1. Transport:motorbike == Beverage:almond-milk
+2. Transport:helicopter is between Beverage:mirinda and Beverage:soy-milk
+3. Food:strawberry is on the left or right of Food:cucumber
+4. Beverage:soy-milk is on the right of Food:broccoli
+5. Transport:helicopter is on the left of Transport:subway
+6. Transport:motorbike is on the left of Food:spinach
+7. Beverage:mirinda is on the left or right of Food:cucumber
+
+.:: Answer ::.
+|             |      1      |    2     |     3      |     4      |
+| Beverage    | almond-milk | soy-milk | water      | mirinda    |
+| Food        | broccoli    | spinach  | cucumber   | strawberry |
+| Transport   | motorbike   | car      | helicopter | subway     |
+====================================================================================================
+.:: Puzzle 3x4 level=4 ::.
+Hobby: chess, fishing, traveling, writing
+Movie-Genre: fantasy, horror, mystery, thriller
+Nationality: brazilian, indonesian, thai, turkish
+1. Hobby:writing == Nationality:turkish
+2. Nationality:brazilian == Movie-Genre:thriller
+3. Hobby:traveling is in an odd position
+4. Nationality:thai is on the far right
+5. Movie-Genre:thriller is on the right of Movie-Genre:horror
+6. Hobby:fishing is on the left of Hobby:traveling
+7. Nationality:brazilian is on the left or right of Nationality:turkish
+8. Movie-Genre:mystery is on the far right
+
+.:: Answer ::.
+|               |    1    |     2     |     3      |    4    |
+| Hobby         | writing | fishing   | traveling  | chess   |
+| Movie-Genre   | horror  | thriller  | fantasy    | mystery |
+| Nationality   | turkish | brazilian | indonesian | thai    |
+====================================================================================================
+.:: Puzzle 3x4 level=5 ::.
+Beverage: cola, fanta, iced-tea, soy-milk
+Food: apple, onion, pepper, pineapple
+Hobby: baking, camping, rock-climbing, woodworking
+1. Food:apple is on the right of Hobby:camping
+2. Beverage:iced-tea is on the right of Beverage:cola
+3. Beverage:soy-milk is somewhere to the left of Hobby:rock-climbing
+4. Hobby:woodworking is on the right of Food:pepper
+5. Food:pineapple is on the left or right of Beverage:soy-milk
+6. Hobby:rock-climbing is on the left of Hobby:woodworking
+
+.:: Answer ::.
+|            |     1     |    2     |       3       |      4      |
+| Beverage   | fanta     | soy-milk | cola          | iced-tea    |
+| Food       | pineapple | apple    | pepper        | onion       |
+| Hobby      | camping   | baking   | rock-climbing | woodworking |
+====================================================================================================
+.:: Puzzle 3x4 level=5 ::.
+Hobby: baking, chess, drawing, woodworking
+Movie-Genre: adventure, musical, spy, western
+Nationality: chinese, german, italian, spanish
+1. Nationality:german is on the far right
+2. Movie-Genre:musical == Hobby:chess
+3. Movie-Genre:western is on the left of Hobby:woodworking
+4. Nationality:italian is somewhere to the left of Nationality:chinese
+5. Hobby:baking is somewhere to the left of Movie-Genre:western
+6. Nationality:italian is on the left or right of Hobby:woodworking
+7. Movie-Genre:spy is on the far left
+
+.:: Answer ::.
+|               |    1    |    2    |      3      |    4    |
+| Hobby         | baking  | drawing | woodworking | chess   |
+| Movie-Genre   | spy     | western | adventure   | musical |
+| Nationality   | spanish | italian | chinese     | german  |
+====================================================================================================
+.:: Puzzle 3x4 level=5 ::.
+Job: architect, designer, fisherman, lawyer
+Pet: cat, dog, hamster, mouse
+Transport: motorbike, snowmobile, taxi, van
+1. Transport:taxi is between Pet:cat and Pet:hamster
+2. Pet:cat is between Job:architect and Job:designer
+3. Job:lawyer is somewhere to the left of Transport:motorbike
+4. Pet:dog is somewhere to the left of Pet:hamster
+5. Job:designer is somewhere to the right of Pet:dog
+6. Transport:van is somewhere to the left of Pet:cat
+
+.:: Answer ::.
+|             |     1     |     2      |    3     |     4     |
+| Job         | architect | lawyer     | designer | fisherman |
+| Pet         | dog       | cat        | mouse    | hamster   |
+| Transport   | van       | snowmobile | taxi     | motorbike |
+====================================================================================================
+.:: Puzzle 3x4 level=6 ::.
+Pet: cat, goat, horse, rat
+Sport: basketball, golf, rowing, surfing
+Transport: boat, helicopter, scooter, train
+1. Sport:basketball is between Transport:scooter and Sport:rowing
+2. Transport:boat is somewhere to the right of Sport:surfing
+3. Sport:surfing is somewhere to the right of Pet:horse
+4. Pet:cat is on the left or right of Transport:helicopter
+5. Pet:goat is on the left of Pet:horse
+
+.:: Answer ::.
+|             |   1    |     2      |    3    |  4   |
+| Pet         | goat   | horse      | cat     | rat  |
+| Sport       | rowing | basketball | surfing | golf |
+| Transport   | train  | helicopter | scooter | boat |
+====================================================================================================
+.:: Puzzle 3x4 level=6 ::.
+Hobby: card-games, collecting, hiking, skydiving
+Movie-Genre: comedy, disaster, drama, romance
+Pet: bird, ferret, guinea-pig, rabbit
+1. Hobby:collecting is on the far left
+2. Pet:ferret != Movie-Genre:romance
+3. Hobby:card-games is on the far right
+4. Hobby:hiking == Movie-Genre:drama
+5. Movie-Genre:romance is on the right of Movie-Genre:comedy
+6. Movie-Genre:disaster == Pet:rabbit
+7. Movie-Genre:disaster is on the right of Pet:guinea-pig
+
+.:: Answer ::.
+|               |     1      |     2     |     3      |     4      |
+| Hobby         | collecting | skydiving | hiking     | card-games |
+| Movie-Genre   | comedy     | romance   | drama      | disaster   |
+| Pet           | ferret     | bird      | guinea-pig | rabbit     |
+====================================================================================================
+.:: Puzzle 3x4 level=6 ::.
+Beverage: fanta, iced-tea, mirinda, soy-milk
+Nationality: brazilian, chinese, egyptian, indian
+Transport: boat, quad-bike, subway, tram
+1. Nationality:brazilian == Beverage:iced-tea
+2. Transport:quad-bike is on the left or right of Beverage:mirinda
+3. Beverage:soy-milk is between Transport:subway and Transport:tram
+4. Nationality:indian == Transport:quad-bike
+5. Transport:tram is somewhere to the right of Transport:subway
+6. Beverage:mirinda is somewhere to the left of Beverage:soy-milk
+7. Nationality:egyptian is between Transport:tram and Transport:subway
+
+.:: Answer ::.
+|               |     1     |    2    |    3     |     4     |
+| Beverage      | fanta     | mirinda | soy-milk | iced-tea  |
+| Nationality   | indian    | chinese | egyptian | brazilian |
+| Transport     | quad-bike | subway  | boat     | tram      |
+====================================================================================================
+.:: Puzzle 3x4 level=7 ::.
+Food: cherry, cucumber, orange, papaya
+Sport: rowing, rugby, sailing, volleyball
+Transport: car, motorbike, roller, van
+1. Transport:van == Sport:volleyball
+2. Sport:sailing is between Transport:van and Sport:rowing
+3. Transport:van == Food:orange
+4. Food:cherry is somewhere to the right of Food:papaya
+5. Sport:volleyball is in an even position
+6. Transport:roller is on the right of Transport:motorbike
+7. Food:papaya == Sport:sailing
+
+.:: Answer ::.
+|             |    1     |     2      |     3     |   4    |
+| Food        | cucumber | orange     | papaya    | cherry |
+| Sport       | rugby    | volleyball | sailing   | rowing |
+| Transport   | car      | van        | motorbike | roller |
+====================================================================================================
+.:: Puzzle 3x4 level=7 ::.
+Movie-Genre: comedy, martial-arts, mystery, spy
+Nationality: chinese, colombian, german, japanese
+Transport: bike, boat, car, subway
+1. Nationality:chinese is on the right of Movie-Genre:spy
+2. Movie-Genre:mystery is on the left of Transport:subway
+3. Nationality:german is somewhere to the left of Transport:boat
+4. Movie-Genre:comedy is between Movie-Genre:martial-arts and Nationality:chinese
+5. Nationality:japanese is on the left of Nationality:colombian
+6. Transport:car == Nationality:chinese
+
+.:: Answer ::.
+|               |   1    |    2    |    3     |      4       |
+| Movie-Genre   | spy    | mystery | comedy   | martial-arts |
+| Nationality   | german | chinese | japanese | colombian    |
+| Transport     | bike   | car     | subway   | boat         |
+====================================================================================================
+.:: Puzzle 3x4 level=7 ::.
+Pet: fish, guinea-pig, rabbit, turtle
+Sport: handball, rowing, snowboarding, surfing
+Transport: airplane, boat, jet-ski, scooter
+1. Transport:scooter is on the right of Transport:jet-ski
+2. Pet:rabbit is on the left of Transport:jet-ski
+3. Sport:handball is on the right of Pet:rabbit
+4. Sport:surfing is somewhere between Sport:rowing and Transport:airplane
+5. Transport:boat is on the right of Sport:snowboarding
+6. Pet:guinea-pig is on the right of Pet:fish
+
+.:: Answer ::.
+|             |      1       |    2    |    3     |     4      |
+| Pet         | turtle       | rabbit  | fish     | guinea-pig |
+| Sport       | snowboarding | surfing | handball | rowing     |
+| Transport   | airplane     | boat    | jet-ski  | scooter    |
+====================================================================================================
+.:: Puzzle 3x4 level=8 ::.
+Hobby: board-games, collecting, dancing, sudoku
+Movie-Genre: adventure, documentary, scientific, time-travel
+Nationality: colombian, italian, nigerian, turkish
+1. Hobby:collecting is not to the left of Nationality:turkish
+2. Movie-Genre:documentary is on the left or right of Nationality:nigerian
+3. Movie-Genre:documentary is on the left or right of Movie-Genre:time-travel
+4. Nationality:colombian is on the far left
+5. Nationality:colombian is on the left of Movie-Genre:scientific
+6. Movie-Genre:time-travel is on the left or right of Hobby:board-games
+7. Movie-Genre:documentary is somewhere to the left of Hobby:dancing
+
+.:: Answer ::.
+|               |     1     |     2      |      3      |      4      |
+| Hobby         | sudoku    | collecting | board-games | dancing     |
+| Movie-Genre   | adventure | scientific | documentary | time-travel |
+| Nationality   | colombian | turkish    | italian     | nigerian    |
+====================================================================================================
+.:: Puzzle 3x4 level=8 ::.
+Beverage: almond-milk, hot-chocolate, lemonade, water
+Nationality: canadian, japanese, polish, turkish
+Sport: cycling, golf, rugby, water-polo
+1. Sport:golf == Beverage:lemonade
+2. Beverage:water is on the left of Beverage:almond-milk
+3. Beverage:lemonade is between Sport:cycling and Nationality:polish
+4. Nationality:turkish is somewhere to the left of Nationality:japanese
+5. Nationality:canadian is on the right of Nationality:turkish
+6. Sport:rugby != Nationality:polish
+7. Beverage:water is on the left or right of Nationality:turkish
+
+.:: Answer ::.
+|               |       1       |    2     |    3     |      4      |
+| Beverage      | hot-chocolate | lemonade | water    | almond-milk |
+| Nationality   | polish        | turkish  | canadian | japanese    |
+| Sport         | water-polo    | golf     | cycling  | rugby       |
+====================================================================================================
+.:: Puzzle 3x4 level=8 ::.
+Beverage: 7up, mirinda, sprite, tea
+Hobby: camping, cooking, rock-climbing, traveling
+Job: designer, electrician, paramedic, police-officer
+1. Hobby:camping is between Hobby:cooking and Job:paramedic
+2. Job:electrician is somewhere between Job:paramedic and Beverage:7up
+3. Hobby:traveling is somewhere between Hobby:rock-climbing and Job:electrician
+4. Hobby:camping is not to the right of Hobby:cooking
+5. Beverage:tea is on the right of Job:designer
+6. Beverage:sprite == Hobby:rock-climbing
+
+.:: Answer ::.
+|            |       1       |     2     |      3      |       4        |
+| Beverage   | sprite        | tea       | mirinda     | 7up            |
+| Hobby      | rock-climbing | traveling | camping     | cooking        |
+| Job        | designer      | paramedic | electrician | police-officer |
+====================================================================================================
+.:: Puzzle 3x4 level=9 ::.
+Beverage: cola, juice, tea, water
+Hobby: card-games, photography, puzzles, reading
+Sport: badminton, baseball, volleyball, water-polo
+1. Beverage:tea is not to the left of Sport:volleyball
+2. Sport:badminton == Hobby:puzzles
+3. Hobby:card-games is somewhere to the right of Hobby:photography
+4. Sport:badminton is between Sport:volleyball and Beverage:water
+5. Hobby:photography is on the right of Beverage:cola
+6. Hobby:reading is on the left or right of Sport:water-polo
+
+.:: Answer ::.
+|            |    1     |      2      |     3     |     4      |
+| Beverage   | cola     | water       | juice     | tea        |
+| Hobby      | reading  | photography | puzzles   | card-games |
+| Sport      | baseball | water-polo  | badminton | volleyball |
+====================================================================================================
+.:: Puzzle 3x4 level=9 ::.
+Food: asparagus, cabbage, kiwi, zucchini
+Nationality: german, indonesian, spanish, thai
+Sport: climbing, rowing, sailing, snowboarding
+1. Food:cabbage is on the right of Nationality:indonesian
+2. Nationality:indonesian is somewhere to the left of Food:kiwi
+3. Sport:climbing is on the right of Food:cabbage
+4. Nationality:thai == Sport:rowing
+5. Food:asparagus is between Sport:rowing and Food:kiwi
+6. Sport:snowboarding is somewhere to the right of Nationality:german
+
+.:: Answer ::.
+|               |     1      |    2    |     3     |      4       |
+| Food          | zucchini   | cabbage | asparagus | kiwi         |
+| Nationality   | indonesian | thai    | german    | spanish      |
+| Sport         | sailing    | rowing  | climbing  | snowboarding |
+====================================================================================================
+.:: Puzzle 3x4 level=9 ::.
+Nationality: egyptian, italian, mexican, polish
+Pet: chinchilla, fish, frog, hamster
+Transport: quad-bike, roller, skateboard, tram
+1. Transport:quad-bike is somewhere between Pet:frog and Pet:hamster
+2. Transport:skateboard is on the right of Nationality:italian
+3. Pet:fish == Transport:quad-bike
+4. Pet:frog is not to the right of Nationality:italian
+5. Pet:frog and Nationality:polish have the same parity positions
+6. Nationality:egyptian is not to the right of Transport:tram
+7. Transport:quad-bike == Nationality:egyptian
+8. Pet:frog is somewhere to the right of Nationality:egyptian
+
+.:: Answer ::.
+|               |    1    |     2     |    3    |     4      |
+| Nationality   | polish  | egyptian  | italian | mexican    |
+| Pet           | hamster | fish      | frog    | chinchilla |
+| Transport     | roller  | quad-bike | tram    | skateboard |
+====================================================================================================
+.:: Puzzle 3x4 level=10 ::.
+Food: kiwi, lime, orange, pomegranate
+Job: analyst, dressmaker, photographer, project-manager
+Nationality: american, chinese, indian, polish
+1. Nationality:polish is not to the left of Food:kiwi
+2. Food:pomegranate is on the left or right of Nationality:chinese
+3. Job:analyst is on the right of Job:photographer
+4. Food:lime == Nationality:indian
+5. Nationality:polish is somewhere to the left of Job:dressmaker
+6. Job:photographer is somewhere to the right of Food:pomegranate
+7. Nationality:indian and Job:analyst have the same parity positions
+
+.:: Answer ::.
+|               |        1        |      2      |      3       |    4    |
+| Food          | kiwi            | pomegranate | orange       | lime    |
+| Job           | project-manager | dressmaker  | photographer | analyst |
+| Nationality   | polish          | american    | chinese      | indian  |
+====================================================================================================
+.:: Puzzle 3x4 level=10 ::.
+Job: architect, bartender, nurse, paramedic
+Music-Genre: indie, r&b, techno, trance
+Pet: fish, goat, guinea-pig, rat
+1. Job:architect is somewhere between Job:paramedic and Pet:fish
+2. Pet:fish is somewhere to the left of Job:bartender
+3. Music-Genre:indie == Pet:goat or Pet:goat == Job:nurse, but not both
+4. Music-Genre:techno is somewhere to the right of Job:paramedic
+5. Pet:goat is on the far left or far right
+6. Job:nurse is somewhere to the right of Music-Genre:trance
+7. Music-Genre:techno is on the left of Pet:rat
+
+.:: Answer ::.
+|               |     1     |     2      |   3    |     4     |
+| Job           | paramedic | architect  | nurse  | bartender |
+| Music-Genre   | indie     | trance     | techno | r&b       |
+| Pet           | goat      | guinea-pig | fish   | rat       |
+====================================================================================================
+.:: Puzzle 3x4 level=10 ::.
+Job: architect, doctor, engineer, social-worker
+Pet: lizard, pony, rabbit, turtle
+Transport: helicopter, skateboard, subway, tram
+1. Pet:lizard is somewhere to the left of Transport:tram
+2. Transport:skateboard is somewhere to the left of Job:doctor
+3. Transport:helicopter is somewhere between Transport:skateboard and Pet:turtle
+4. Job:engineer is somewhere to the right of Job:social-worker
+5. Job:architect is somewhere between Transport:helicopter and Pet:rabbit
+6. Pet:pony is somewhere to the left of Transport:skateboard
+
+.:: Answer ::.
+|             |       1       |     2      |     3      |   4    |
+| Job         | social-worker | engineer   | architect  | doctor |
+| Pet         | turtle        | pony       | lizard     | rabbit |
+| Transport   | subway        | helicopter | skateboard | tram   |
+====================================================================================================
+.:: Puzzle 3x4 level=11 ::.
+Food: apple, plum, spinach, watermelon
+Pet: dog, goat, guinea-pig, hamster
+Transport: boat, bus, roller, subway
+1. Transport:bus is between Transport:roller and Food:apple
+2. Food:watermelon is somewhere to the right of Transport:roller
+3. Food:spinach == Transport:subway
+4. Transport:bus is not to the right of Pet:dog
+5. Pet:goat is in an even position
+6. Food:apple is somewhere between Pet:hamster and Food:watermelon
+
+.:: Answer ::.
+|             |     1      |     2      |   3   |    4    |
+| Food        | plum       | watermelon | apple | spinach |
+| Pet         | guinea-pig | goat       | dog   | hamster |
+| Transport   | roller     | bus        | boat  | subway  |
+====================================================================================================
+.:: Puzzle 3x4 level=11 ::.
+Movie-Genre: action, horror, romance, sports
+Nationality: australian, brazilian, british, russian
+Transport: bike, helicopter, motorbike, snowmobile
+1. Nationality:russian is on the left of Movie-Genre:action
+2. Nationality:australian and Transport:motorbike have the same parity positions
+3. Movie-Genre:action is somewhere to the left of Movie-Genre:romance
+4. Nationality:british is not to the right of Movie-Genre:sports
+5. Movie-Genre:sports is on the left of Transport:motorbike
+6. Transport:helicopter is on the right of Transport:bike
+7. Transport:snowmobile is on the right of Transport:motorbike
+
+.:: Answer ::.
+|               |    1    |     2      |     3      |     4      |
+| Movie-Genre   | horror  | sports     | action     | romance    |
+| Nationality   | british | russian    | australian | brazilian  |
+| Transport     | bike    | helicopter | motorbike  | snowmobile |
+====================================================================================================
+.:: Puzzle 3x4 level=11 ::.
+Movie-Genre: comedy, fantasy, horror, zombie
+Nationality: egyptian, italian, japanese, russian
+Transport: ship, snowmobile, subway, taxi
+1. Transport:snowmobile is on the right of Nationality:russian
+2. Nationality:russian is not to the right of Movie-Genre:comedy
+3. Nationality:italian is on the far left or far right
+4. Transport:taxi is somewhere to the right of Nationality:italian
+5. Transport:subway is on the left or right of Transport:snowmobile
+6. Nationality:egyptian is somewhere to the left of Movie-Genre:zombie
+7. Nationality:japanese is on the left or right of Movie-Genre:zombie
+8. Movie-Genre:fantasy is on the left of Transport:subway
+
+.:: Answer ::.
+|               |    1    |    2     |    3    |     4      |
+| Movie-Genre   | horror  | fantasy  | zombie  | comedy     |
+| Nationality   | italian | egyptian | russian | japanese   |
+| Transport     | ship    | taxi     | subway  | snowmobile |
+====================================================================================================
+.:: Puzzle 3x4 level=12 ::.
+Food: cucumber, pear, pineapple, radish
+Job: accountant, doctor, manager, writer
+Sport: badminton, baseball, skiing, snowboarding
+1. Sport:baseball is somewhere between Food:cucumber and Sport:skiing
+2. Job:writer is in an odd position
+3. Food:pineapple is on the far left
+4. Sport:skiing is in an even position
+5. Job:writer is somewhere between Job:accountant and Job:doctor
+6. Job:doctor is on the left of Sport:badminton
+7. Job:writer and Food:radish have the same parity positions
+
+.:: Answer ::.
+|         |      1       |     2     |    3     |     4      |
+| Food    | pineapple    | cucumber  | radish   | pear       |
+| Job     | doctor       | manager   | writer   | accountant |
+| Sport   | snowboarding | badminton | baseball | skiing     |
+====================================================================================================
+.:: Puzzle 3x4 level=12 ::.
+Job: accountant, architect, freelancer, scientist
+Nationality: italian, malaysian, thai, turkish
+Pet: goldfish, guinea-pig, rat, snake
+1. Job:freelancer is between Nationality:thai and Nationality:turkish
+2. Pet:guinea-pig is not to the right of Job:accountant
+3. Pet:guinea-pig and Job:accountant have different parity positions
+4. Job:accountant == Pet:rat or Pet:rat == Nationality:malaysian or both
+5. Pet:goldfish == Nationality:turkish
+6. Nationality:turkish is on the left of Job:architect
+
+.:: Answer ::.
+|               |     1     |     2      |     3      |     4     |
+| Job           | scientist | freelancer | accountant | architect |
+| Nationality   | thai      | italian    | turkish    | malaysian |
+| Pet           | snake     | guinea-pig | goldfish   | rat       |
+====================================================================================================
+.:: Puzzle 3x4 level=12 ::.
+Job: designer, paramedic, scientist, software-developer
+Sport: handball, volleyball, water-polo, weightlifting
+Transport: bike, helicopter, roller, snowmobile
+1. Transport:snowmobile is not to the left of Sport:volleyball
+2. Sport:weightlifting and Job:designer have the same parity positions
+3. Transport:snowmobile is somewhere to the right of Sport:handball
+4. Sport:volleyball == Transport:roller or Transport:roller == Job:software-developer, but not both
+5. Transport:bike is not to the right of Job:designer
+6. Transport:snowmobile is somewhere to the left of Job:paramedic
+7. Transport:bike is somewhere to the right of Transport:helicopter
+
+.:: Answer ::.
+|             |         1          |     2      |     3      |       4       |
+| Job         | software-developer | scientist  | paramedic  | designer      |
+| Sport       | handball           | volleyball | water-polo | weightlifting |
+| Transport   | roller             | snowmobile | helicopter | bike          |
+====================================================================================================
+.:: Puzzle 3x4 level=13 ::.
+Beverage: almond-milk, coffee, hot-chocolate, milk
+Hobby: board-games, card-games, sudoku, woodworking
+Sport: badminton, parkour, rugby, surfing
+1. Sport:rugby is between Beverage:almond-milk and Sport:surfing
+2. Beverage:coffee == Hobby:woodworking or Beverage:coffee == Sport:rugby or both
+3. Hobby:board-games and Beverage:hot-chocolate have the same parity positions
+4. Hobby:sudoku is not to the right of Hobby:woodworking
+5. Hobby:woodworking is somewhere between Sport:parkour and Hobby:sudoku
+6. Sport:badminton and Hobby:board-games have different parity positions
+7. Sport:badminton is somewhere to the right of Beverage:almond-milk
+
+.:: Answer ::.
+|            |       1       |      2      |      3      |     4      |
+| Beverage   | hot-chocolate | coffee      | almond-milk | milk       |
+| Hobby      | sudoku        | woodworking | board-games | card-games |
+| Sport      | surfing       | rugby       | parkour     | badminton  |
+====================================================================================================
+.:: Puzzle 3x4 level=13 ::.
+Hobby: gardening, photography, sudoku, video-games
+Job: fisherman, journalist, photographer, security-guard
+Sport: badminton, ice-hockey, skiing, weightlifting
+1. Job:fisherman is on the far right
+2. Sport:ice-hockey is on the left of Hobby:video-games
+3. Sport:ice-hockey is between Sport:weightlifting and Job:fisherman
+4. Hobby:video-games == Sport:badminton or Hobby:video-games == Job:photographer or both
+5. Job:journalist == Hobby:sudoku or Hobby:sudoku == Sport:badminton or both
+6. Sport:weightlifting == Job:photographer or Sport:weightlifting == Hobby:gardening or both
+7. Sport:weightlifting is on the right of Hobby:gardening
+
+.:: Answer ::.
+|         |       1        |       2       |     3      |      4      |
+| Hobby   | gardening      | photography   | sudoku     | video-games |
+| Job     | security-guard | photographer  | journalist | fisherman   |
+| Sport   | skiing         | weightlifting | ice-hockey | badminton   |
+====================================================================================================
+.:: Puzzle 3x4 level=13 ::.
+Hobby: camping, chess, dancing, fishing
+Nationality: egyptian, german, malaysian, mexican
+Transport: quad-bike, roller, tram, van
+1. Transport:quad-bike is on the left of Transport:roller
+2. Nationality:malaysian is somewhere between Hobby:fishing and Transport:quad-bike
+3. Nationality:german is on the left of Transport:tram
+4. Nationality:mexican is on the far left
+5. Hobby:fishing is on the left of Hobby:chess
+6. Transport:roller == Hobby:dancing or Transport:roller == Nationality:mexican or both
+
+.:: Answer ::.
+|               |     1     |     2     |    3    |    4     |
+| Hobby         | camping   | dancing   | fishing | chess    |
+| Nationality   | mexican   | malaysian | german  | egyptian |
+| Transport     | quad-bike | roller    | van     | tram     |
+====================================================================================================
+.:: Puzzle 3x4 level=14 ::.
+Hobby: baking, fishing, singing, skydiving
+Nationality: american, brazilian, german, italian
+Pet: cat, chinchilla, dog, mouse
+1. Nationality:italian is somewhere to the right of Pet:chinchilla
+2. Pet:dog is somewhere to the right of Nationality:german
+3. Nationality:brazilian is somewhere to the right of Hobby:baking
+4. Hobby:baking is somewhere between Pet:cat and Hobby:singing
+5. Hobby:skydiving is somewhere to the right of Pet:chinchilla
+6. Hobby:fishing == Pet:chinchilla or Hobby:fishing == Nationality:italian or both
+7. Pet:dog is somewhere to the left of Pet:chinchilla
+
+.:: Answer ::.
+|               |    1    |    2     |     3      |     4     |
+| Hobby         | singing | baking   | fishing    | skydiving |
+| Nationality   | german  | american | brazilian  | italian   |
+| Pet           | mouse   | dog      | chinchilla | cat       |
+====================================================================================================
+.:: Puzzle 3x4 level=14 ::.
+Beverage: fanta, lemonade, sprite, tea
+Nationality: brazilian, italian, pakistani, turkish
+Pet: bird, cat, fish, rat
+1. Nationality:italian is somewhere to the right of Nationality:pakistani
+2. Pet:cat is somewhere to the left of Nationality:brazilian
+3. Pet:rat and Beverage:fanta have different parity positions
+4. Pet:fish and Beverage:sprite have different parity positions
+5. Nationality:italian is somewhere to the left of Beverage:lemonade
+6. Pet:fish is not to the right of Nationality:brazilian
+7. Nationality:brazilian is between Nationality:pakistani and Beverage:fanta
+
+.:: Answer ::.
+|               |     1     |     2     |    3    |    4     |
+| Beverage      | sprite    | tea       | fanta   | lemonade |
+| Nationality   | pakistani | brazilian | italian | turkish  |
+| Pet           | cat       | fish      | bird    | rat      |
+====================================================================================================
+.:: Puzzle 3x4 level=14 ::.
+Music-Genre: ambient, dubstep, folk, indie
+Nationality: chinese, german, russian, turkish
+Pet: bird, cat, goldfish, hedgehog
+1. Music-Genre:indie and Nationality:turkish have the same parity positions
+2. Pet:bird and Music-Genre:ambient have different parity positions
+3. Music-Genre:indie is somewhere between Music-Genre:ambient and Music-Genre:folk
+4. Music-Genre:indie and Nationality:german have the same parity positions
+5. Pet:goldfish is not to the right of Music-Genre:ambient
+6. Pet:goldfish is not to the right of Pet:hedgehog
+7. Nationality:chinese is not to the right of Music-Genre:dubstep
+8. Music-Genre:indie is somewhere between Nationality:chinese and Music-Genre:folk
+9. Nationality:german is somewhere between Music-Genre:dubstep and Pet:hedgehog
+
+.:: Answer ::.
+|               |    1     |    2    |   3    |    4     |
+| Music-Genre   | ambient  | dubstep | indie  | folk     |
+| Nationality   | turkish  | chinese | german | russian  |
+| Pet           | goldfish | bird    | cat    | hedgehog |
+====================================================================================================
+.:: Puzzle 3x4 level=15 ::.
+Movie-Genre: crime, fantasy, mystery, zombie
+Music-Genre: ambient, country, dubstep, trance
+Transport: jet-ski, roller, skateboard, trike
+1. Transport:roller is in an even position
+2. Music-Genre:trance is not to the right of Movie-Genre:zombie
+3. Music-Genre:country == Transport:skateboard or Transport:skateboard == Movie-Genre:crime or both
+4. Transport:trike is somewhere to the right of Movie-Genre:crime
+5. Music-Genre:ambient is not to the left of Transport:trike
+6. Movie-Genre:crime is on the left or right of Transport:skateboard
+7. Movie-Genre:crime is somewhere to the left of Transport:jet-ski
+8. Music-Genre:ambient is somewhere to the left of Music-Genre:trance
+9. Movie-Genre:fantasy is not to the left of Music-Genre:ambient
+
+.:: Answer ::.
+|               |     1      |    2    |    3    |    4    |
+| Movie-Genre   | mystery    | crime   | fantasy | zombie  |
+| Music-Genre   | country    | dubstep | ambient | trance  |
+| Transport     | skateboard | roller  | trike   | jet-ski |
+====================================================================================================
+.:: Puzzle 3x4 level=15 ::.
+Hobby: board-games, gardening, skydiving, video-games
+Nationality: american, brazilian, british, japanese
+Sport: cricket, skateboarding, surfing, swimming
+ 1. Sport:surfing is on the left or right of Hobby:board-games
+ 2. Nationality:brazilian is not to the left of Nationality:japanese
+ 3. Hobby:board-games is on the far left or far right
+ 4. Nationality:brazilian and Sport:skateboarding have the same parity positions
+ 5. Nationality:brazilian is between Hobby:board-games and Sport:cricket
+ 6. Hobby:video-games is in an odd position
+ 7. Hobby:video-games != Sport:skateboarding
+ 8. Nationality:brazilian is not to the right of Hobby:skydiving
+ 9. Nationality:american is somewhere to the right of Hobby:skydiving
+10. Hobby:gardening is not to the right of Nationality:american
+
+.:: Answer ::.
+|               |      1      |     2     |      3      |       4       |
+| Hobby         | board-games | skydiving | video-games | gardening     |
+| Nationality   | japanese    | brazilian | british     | american      |
+| Sport         | swimming    | surfing   | cricket     | skateboarding |
+====================================================================================================
+.:: Puzzle 3x4 level=15 ::.
+Food: avocado, cauliflower, garlic, peach
+Job: journalist, police-officer, scientist, teacher
+Movie-Genre: adventure, documentary, fantasy, mystery
+1. Food:garlic is somewhere to the right of Food:peach
+2. Job:police-officer is not to the right of Food:cauliflower
+3. Movie-Genre:mystery is between Job:teacher and Job:journalist
+4. Job:journalist is somewhere between Movie-Genre:adventure and Movie-Genre:mystery
+5. Job:journalist is somewhere to the left of Job:police-officer
+6. Movie-Genre:mystery is somewhere to the left of Movie-Genre:adventure
+7. Movie-Genre:documentary is not to the left of Movie-Genre:mystery
+8. Food:avocado is on the left or right of Food:cauliflower
+
+.:: Answer ::.
+|               |    1    |     2     |      3      |       4        |
+| Food          | peach   | garlic    | avocado     | cauliflower    |
+| Job           | teacher | scientist | journalist  | police-officer |
+| Movie-Genre   | fantasy | mystery   | documentary | adventure      |
+====================================================================================================
+.:: Puzzle 3x4 level=16 ::.
+Job: engineer, manager, software-developer, videographer
+Music-Genre: jazz, pop, reggae, trance
+Transport: bus, car, quad-bike, taxi
+1. Job:engineer and Transport:taxi have different parity positions
+2. Music-Genre:pop and Transport:car have the same parity positions
+3. Transport:bus is not to the right of Job:videographer
+4. Music-Genre:reggae is on the left or right of Music-Genre:trance
+5. Music-Genre:reggae == Transport:car or Job:software-developer == Music-Genre:reggae, but not both
+6. Job:engineer is somewhere to the right of Job:videographer
+7. Music-Genre:trance and Job:videographer have the same parity positions
+8. Music-Genre:pop is on the left or right of Job:engineer
+9. Music-Genre:pop is somewhere to the left of Transport:taxi
+
+.:: Answer ::.
+|               |      1       |    2    |     3     |         4          |
+| Job           | videographer | manager | engineer  | software-developer |
+| Music-Genre   | jazz         | pop     | trance    | reggae             |
+| Transport     | bus          | car     | quad-bike | taxi               |
+====================================================================================================
+.:: Puzzle 3x4 level=16 ::.
+Food: kiwi, onion, peas, zucchini
+Movie-Genre: adventure, comedy, fantasy, sports
+Nationality: american, brazilian, canadian, russian
+1. Nationality:russian != Movie-Genre:adventure
+2. Food:kiwi is not to the left of Movie-Genre:fantasy
+3. Food:onion is somewhere to the right of Movie-Genre:adventure
+4. Movie-Genre:adventure is somewhere to the right of Nationality:brazilian
+5. Movie-Genre:comedy is not to the right of Food:onion
+6. Nationality:american and Movie-Genre:comedy have the same parity positions
+7. Nationality:russian is somewhere between Movie-Genre:comedy and Nationality:canadian
+8. Movie-Genre:sports and Food:peas have different parity positions
+9. Nationality:canadian is not to the right of Food:zucchini
+
+.:: Answer ::.
+|               |     1     |     2     |    3     |    4     |
+| Food          | kiwi      | peas      | zucchini | onion    |
+| Movie-Genre   | fantasy   | adventure | sports   | comedy   |
+| Nationality   | brazilian | canadian  | russian  | american |
+====================================================================================================
+.:: Puzzle 3x4 level=16 ::.
+Food: avocado, corn, tomato, zucchini
+Job: accountant, engineer, manager, videographer
+Pet: cat, fish, hedgehog, pony
+ 1. Food:zucchini is somewhere to the right of Pet:cat
+ 2. Job:videographer == Pet:cat or Job:videographer == Food:zucchini, but not both
+ 3. Food:avocado is on the left or right of Food:corn
+ 4. Pet:fish is somewhere to the left of Food:corn
+ 5. Pet:pony is not to the right of Job:accountant
+ 6. Job:videographer and Food:corn have the same parity positions
+ 7. Job:engineer is not to the right of Food:tomato
+ 8. Job:videographer is in an odd position
+ 9. Job:engineer and Pet:fish have the same parity positions
+10. Pet:cat is not to the right of Job:manager
+
+.:: Answer ::.
+|        |    1     |     2      |      3       |    4     |
+| Food   | tomato   | avocado    | corn         | zucchini |
+| Job    | engineer | accountant | videographer | manager  |
+| Pet    | fish     | pony       | cat          | hedgehog |
+====================================================================================================
+.:: Puzzle 3x4 level=16 ::.
+Nationality: chinese, indian, mexican, turkish
+Sport: badminton, climbing, ice-hockey, skateboarding
+Transport: car, quad-bike, roller, taxi
+ 1. Nationality:chinese is not to the left of Sport:badminton
+ 2. Sport:badminton and Nationality:chinese have different parity positions
+ 3. Sport:skateboarding is not to the left of Transport:quad-bike
+ 4. Transport:taxi is somewhere to the right of Transport:quad-bike
+ 5. Nationality:mexican is in an even position
+ 6. Sport:ice-hockey is somewhere between Transport:car and Sport:skateboarding
+ 7. Nationality:turkish and Sport:badminton have different parity positions
+ 8. Transport:taxi is on the left or right of Transport:car
+ 9. Sport:climbing is not to the left of Transport:taxi
+10. Sport:ice-hockey is somewhere to the right of Nationality:mexican
+
+.:: Answer ::.
+|               |       1       |     2     |     3      |    4     |
+| Nationality   | turkish       | mexican   | chinese    | indian   |
+| Sport         | skateboarding | badminton | ice-hockey | climbing |
+| Transport     | quad-bike     | roller    | taxi       | car      |
+====================================================================================================
+.:: Puzzle 3x4 level=17 ::.
+Food: asparagus, avocado, papaya, strawberry
+Movie-Genre: martial-arts, scientific, spy, superhero
+Sport: badminton, baseball, lacrosse, volleyball
+ 1. Food:avocado is in an even position
+ 2. Food:asparagus is somewhere to the left of Food:papaya
+ 3. Movie-Genre:martial-arts is not to the left of Food:avocado
+ 4. Sport:volleyball is not to the right of Movie-Genre:scientific
+ 5. Food:papaya != Movie-Genre:spy
+ 6. Movie-Genre:spy is somewhere between Sport:badminton and Food:strawberry
+ 7. Movie-Genre:martial-arts == Sport:badminton or Movie-Genre:martial-arts == Food:papaya, but not both
+ 8. Food:avocado is not to the left of Movie-Genre:martial-arts
+ 9. Sport:lacrosse is somewhere to the left of Sport:volleyball
+10. Sport:lacrosse is somewhere to the right of Sport:baseball
+
+.:: Answer ::.
+|               |     1      |     2     |     3      |      4       |
+| Food          | strawberry | asparagus | papaya     | avocado      |
+| Movie-Genre   | superhero  | spy       | scientific | martial-arts |
+| Sport         | baseball   | lacrosse  | volleyball | badminton    |
+====================================================================================================
+.:: Puzzle 3x4 level=17 ::.
+Beverage: 7up, iced-tea, juice, mirinda
+Movie-Genre: family, martial-arts, thriller, western
+Pet: goldfish, hedgehog, horse, rat
+1. Movie-Genre:western and Beverage:iced-tea have the same parity positions
+2. Pet:rat is somewhere to the right of Beverage:mirinda
+3. Movie-Genre:western is not to the right of Pet:hedgehog
+4. Pet:hedgehog is not to the right of Movie-Genre:martial-arts
+5. Beverage:juice is somewhere to the right of Movie-Genre:thriller
+6. Movie-Genre:western is not to the right of Pet:goldfish
+7. Movie-Genre:western is somewhere between Pet:goldfish and Beverage:juice
+
+.:: Answer ::.
+|               |    1     |   2    |    3     |      4       |
+| Beverage      | mirinda  | juice  | iced-tea | 7up          |
+| Movie-Genre   | thriller | family | western  | martial-arts |
+| Pet           | horse    | rat    | hedgehog | goldfish     |
+====================================================================================================
+.:: Puzzle 3x4 level=17 ::.
+Food: cabbage, pear, plum, potato
+Hobby: dancing, gardening, hiking, photography
+Pet: fish, frog, guinea-pig, hamster
+1. Hobby:hiking is not to the left of Food:plum
+2. Food:pear is somewhere between Hobby:dancing and Food:potato
+3. Food:plum is somewhere to the right of Food:cabbage
+4. Hobby:dancing is somewhere between Hobby:hiking and Hobby:gardening
+5. Pet:hamster and Hobby:hiking have different parity positions
+6. Pet:frog != Food:cabbage
+7. Hobby:hiking is somewhere to the left of Pet:fish
+
+.:: Answer ::.
+|         |     1      |    2    |   3    |      4      |
+| Food    | cabbage    | plum    | pear   | potato      |
+| Hobby   | gardening  | dancing | hiking | photography |
+| Pet     | guinea-pig | hamster | frog   | fish        |
+====================================================================================================
+.:: Puzzle 3x4 level=17 ::.
+Movie-Genre: crime, martial-arts, musical, romance
+Music-Genre: hip-hop, house, metal, soul
+Pet: bird, goldfish, mouse, rat
+1. Pet:goldfish and Music-Genre:hip-hop have different parity positions
+2. Movie-Genre:crime is somewhere between Pet:rat and Pet:bird
+3. Movie-Genre:romance is not to the right of Movie-Genre:martial-arts
+4. Pet:bird is not to the right of Music-Genre:hip-hop
+5. Movie-Genre:martial-arts and Music-Genre:hip-hop have the same parity positions
+6. Movie-Genre:romance is not to the left of Pet:goldfish
+7. Music-Genre:house is somewhere to the right of Music-Genre:soul
+8. Music-Genre:metal is somewhere between Pet:bird and Pet:mouse
+
+.:: Answer ::.
+|               |    1    |   2   |    3     |      4       |
+| Movie-Genre   | musical | crime | romance  | martial-arts |
+| Music-Genre   | soul    | house | metal    | hip-hop      |
+| Pet           | rat     | mouse | goldfish | bird         |
+====================================================================================================
+.:: Puzzle 3x4 level=18 ::.
+Food: kale, lettuce, pineapple, potato
+Job: analyst, freelancer, journalist, pilot
+Sport: sailing, skiing, surfing, volleyball
+1. Job:pilot and Sport:sailing have different parity positions
+2. Job:journalist is somewhere between Sport:sailing and Sport:volleyball
+3. Food:pineapple is somewhere to the right of Job:analyst
+4. Job:analyst is not to the left of Job:journalist
+5. Job:freelancer is somewhere to the left of Food:potato
+6. Sport:surfing is not to the right of Food:lettuce
+7. Sport:surfing is somewhere to the right of Sport:skiing
+
+.:: Answer ::.
+|         |     1      |     2      |    3    |     4      |
+| Food    | kale       | potato     | lettuce | pineapple  |
+| Job     | freelancer | journalist | analyst | pilot      |
+| Sport   | sailing    | skiing     | surfing | volleyball |
+====================================================================================================
+.:: Puzzle 3x4 level=18 ::.
+Movie-Genre: animation, comedy, epic, zombie
+Music-Genre: blues, dubstep, jazz, salsa
+Pet: fish, goldfish, hamster, horse
+1. Music-Genre:jazz is somewhere between Pet:goldfish and Movie-Genre:comedy
+2. Music-Genre:jazz is somewhere to the left of Pet:fish
+3. Pet:horse is not to the left of Music-Genre:dubstep
+4. Movie-Genre:zombie and Pet:hamster have different parity positions
+5. Pet:fish is not to the left of Movie-Genre:comedy
+6. Music-Genre:salsa is somewhere to the left of Pet:hamster
+7. Music-Genre:blues is somewhere to the left of Music-Genre:dubstep
+8. Music-Genre:jazz is not to the left of Movie-Genre:epic
+
+.:: Answer ::.
+|               |    1     |    2    |   3    |     4     |
+| Movie-Genre   | zombie   | epic    | comedy | animation |
+| Music-Genre   | salsa    | jazz    | blues  | dubstep   |
+| Pet           | goldfish | hamster | fish   | horse     |
+====================================================================================================
+.:: Puzzle 3x4 level=18 ::.
+Movie-Genre: drama, fantasy, satire, zombie
+Sport: badminton, skateboarding, swimming, water-polo
+Transport: bike, quad-bike, tram, van
+1. Sport:water-polo is somewhere to the right of Sport:skateboarding
+2. Sport:badminton and Movie-Genre:satire have the same parity positions
+3. Movie-Genre:satire is somewhere between Sport:water-polo and Movie-Genre:zombie
+4. Movie-Genre:drama is somewhere between Transport:van and Movie-Genre:zombie
+5. Movie-Genre:fantasy and Transport:tram have different parity positions
+6. Sport:water-polo and Transport:quad-bike have the same parity positions
+7. Transport:bike is not to the right of Transport:tram
+8. Movie-Genre:zombie is somewhere to the right of Movie-Genre:satire
+
+.:: Answer ::.
+|               |       1       |     2      |     3     |    4     |
+| Movie-Genre   | fantasy       | drama      | satire    | zombie   |
+| Sport         | skateboarding | water-polo | badminton | swimming |
+| Transport     | van           | quad-bike  | bike      | tram     |
+====================================================================================================
+.:: Puzzle 3x4 level=18 ::.
+Music-Genre: funk, indie, r&b, trance
+Nationality: dutch, german, japanese, pakistani
+Sport: baseball, cycling, soccer, surfing
+1. Sport:soccer and Music-Genre:trance have different parity positions
+2. Sport:soccer is somewhere between Nationality:german and Sport:baseball
+3. Music-Genre:r&b is not to the right of Music-Genre:funk
+4. Music-Genre:indie == Sport:soccer or Nationality:japanese == Music-Genre:indie or both
+5. Sport:cycling is somewhere to the left of Nationality:japanese
+6. Music-Genre:trance and Nationality:japanese have different parity positions
+7. Nationality:pakistani is somewhere to the left of Nationality:german
+8. Music-Genre:trance is somewhere between Sport:cycling and Sport:surfing
+9. Sport:baseball is somewhere to the right of Nationality:pakistani
+
+.:: Answer ::.
+|               |     1     |    2     |    3     |    4    |
+| Music-Genre   | r&b       | trance   | indie    | funk    |
+| Nationality   | pakistani | dutch    | japanese | german  |
+| Sport         | cycling   | baseball | soccer   | surfing |
+====================================================================================================
+.:: Puzzle 3x4 level=19 ::.
+Pet: bird, dog, goat, lizard
+Sport: climbing, cricket, parkour, volleyball
+Transport: boat, bus, helicopter, van
+1. Sport:volleyball is not to the right of Transport:helicopter
+2. Pet:goat and Sport:volleyball have the same parity positions
+3. Pet:dog is not to the left of Pet:goat
+4. Pet:lizard is somewhere between Pet:bird and Transport:boat
+5. Sport:parkour and Transport:helicopter have different parity positions
+6. Sport:volleyball is not to the left of Transport:bus
+7. Transport:boat is somewhere between Transport:van and Sport:climbing
+8. Transport:helicopter is not to the right of Pet:goat
+
+.:: Answer ::.
+|             |     1      |     2      |    3    |    4    |
+| Pet         | bird       | lizard     | goat    | dog     |
+| Sport       | volleyball | climbing   | parkour | cricket |
+| Transport   | bus        | helicopter | boat    | van     |
+====================================================================================================
+.:: Puzzle 3x4 level=19 ::.
+Food: broccoli, lime, pomegranate, watermelon
+Movie-Genre: animation, drama, epic, fantasy
+Transport: bike, helicopter, ship, subway
+1. Movie-Genre:fantasy is somewhere between Transport:subway and Transport:ship
+2. Transport:bike and Food:pomegranate have different parity positions
+3. Food:watermelon != Transport:helicopter
+4. Transport:helicopter is somewhere between Transport:subway and Transport:bike
+5. Food:broccoli is not to the left of Movie-Genre:animation
+6. Food:watermelon is somewhere between Food:broccoli and Movie-Genre:fantasy
+7. Movie-Genre:drama is somewhere between Movie-Genre:animation and Transport:ship
+
+.:: Answer ::.
+|               |     1     |      2      |     3      |    4     |
+| Food          | lime      | pomegranate | watermelon | broccoli |
+| Movie-Genre   | animation | fantasy     | drama      | epic     |
+| Transport     | subway    | helicopter  | bike       | ship     |
+====================================================================================================
+.:: Puzzle 3x4 level=19 ::.
+Beverage: cola, fanta, milk, mirinda
+Pet: bird, ferret, goldfish, rat
+Transport: bus, helicopter, ship, taxi
+1. Pet:rat is not to the left of Pet:bird
+2. Transport:taxi == Beverage:cola or Beverage:cola == Pet:rat or both
+3. Transport:bus is somewhere between Beverage:fanta and Pet:ferret
+4. Beverage:mirinda is not to the right of Beverage:cola
+5. Pet:ferret is not to the left of Transport:taxi
+6. Pet:bird is not to the right of Beverage:fanta
+7. Pet:ferret != Beverage:milk
+8. Pet:bird is somewhere between Transport:bus and Transport:helicopter
+9. Beverage:milk is not to the left of Pet:rat
+
+.:: Answer ::.
+|             |     1      |   2   |  3   |   4    |
+| Beverage    | mirinda    | fanta | milk | cola   |
+| Pet         | goldfish   | bird  | rat  | ferret |
+| Transport   | helicopter | ship  | bus  | taxi   |
+====================================================================================================
+.:: Puzzle 3x4 level=19 ::.
+Job: coach, lawyer, mechanic, social-worker
+Pet: bird, goat, horse, pony
+Transport: helicopter, train, trike, van
+1. Pet:goat and Job:social-worker have different parity positions
+2. Transport:helicopter is somewhere between Job:mechanic and Transport:trike
+3. Transport:train is somewhere between Pet:goat and Pet:bird
+4. Transport:train is somewhere between Transport:van and Pet:pony
+5. Transport:helicopter is not to the left of Transport:van
+6. Transport:van == Pet:horse or Pet:horse == Job:lawyer, but not both
+7. Transport:helicopter is not to the left of Pet:bird
+8. Transport:helicopter is somewhere between Pet:goat and Transport:trike
+
+.:: Answer ::.
+|             |    1     |   2    |     3      |       4       |
+| Job         | mechanic | lawyer | coach      | social-worker |
+| Pet         | goat     | horse  | bird       | pony          |
+| Transport   | van      | train  | helicopter | trike         |
+====================================================================================================
+.:: Puzzle 3x4 level=20 ::.
+Beverage: cola, hot-chocolate, iced-tea, milk
+Job: chef, firefighter, freelancer, social-worker
+Movie-Genre: disaster, drama, family, fantasy
+1. Beverage:hot-chocolate == Movie-Genre:family or Job:firefighter == Beverage:hot-chocolate, but not both
+2. Movie-Genre:disaster is somewhere between Job:chef and Movie-Genre:family
+3. Movie-Genre:fantasy is not to the right of Beverage:milk
+4. Movie-Genre:family is not to the right of Beverage:cola
+5. Beverage:hot-chocolate is not to the left of Job:chef
+6. Job:social-worker is not to the right of Beverage:iced-tea
+7. Movie-Genre:family is somewhere between Movie-Genre:disaster and Job:social-worker
+
+.:: Answer ::.
+|               |    1    |       2       |     3      |       4       |
+| Beverage      | milk    | hot-chocolate | cola       | iced-tea      |
+| Job           | chef    | firefighter   | freelancer | social-worker |
+| Movie-Genre   | fantasy | disaster      | family     | drama         |
+====================================================================================================
+.:: Puzzle 3x4 level=20 ::.
+Hobby: card-games, singing, skydiving, woodworking
+Sport: cricket, golf, skiing, tennis
+Transport: roller, ship, subway, tram
+1. Hobby:singing is somewhere between Transport:roller and Hobby:card-games
+2. Sport:golf is not to the right of Transport:tram
+3. Hobby:skydiving is not to the right of Hobby:woodworking
+4. Transport:ship is not to the left of Hobby:woodworking
+5. Sport:cricket and Hobby:card-games have different parity positions
+6. Transport:roller and Sport:golf have the same parity positions
+7. Hobby:card-games and Sport:skiing have different parity positions
+8. Transport:subway is somewhere between Sport:cricket and Hobby:singing
+
+.:: Answer ::.
+|             |     1     |    2    |     3      |      4      |
+| Hobby       | skydiving | singing | card-games | woodworking |
+| Sport       | golf      | skiing  | tennis     | cricket     |
+| Transport   | roller    | tram    | subway     | ship        |
+====================================================================================================
+.:: Puzzle 3x4 level=20 ::.
+Job: architect, chef, doctor, scientist
+Movie-Genre: action, crime, disaster, martial-arts
+Sport: badminton, golf, lacrosse, weightlifting
+1. Sport:weightlifting is not to the left of Movie-Genre:disaster
+2. Movie-Genre:martial-arts is not to the right of Job:architect
+3. Movie-Genre:action and Job:chef have the same parity positions
+4. Sport:weightlifting is not to the right of Movie-Genre:martial-arts
+5. Sport:badminton is not to the right of Job:doctor
+6. Sport:lacrosse is somewhere between Sport:weightlifting and Sport:badminton
+7. Job:architect == Movie-Genre:disaster or Movie-Genre:disaster == Sport:weightlifting, but not both
+8. Movie-Genre:disaster is somewhere between Job:doctor and Job:chef
+
+.:: Answer ::.
+|               |   1    |       2       |      3       |     4     |
+| Job           | chef   | scientist     | architect    | doctor    |
+| Movie-Genre   | action | disaster      | martial-arts | crime     |
+| Sport         | golf   | weightlifting | lacrosse     | badminton |
+====================================================================================================
+.:: Puzzle 3x4 level=20 ::.
+Food: cauliflower, lemon, raspberry, watermelon
+Job: accountant, lawyer, librarian, videographer
+Music-Genre: classical, folk, jazz, salsa
+1. Food:raspberry and Music-Genre:salsa have the same parity positions
+2. Job:accountant is not to the right of Job:lawyer
+3. Job:librarian and Music-Genre:folk have different parity positions
+4. Music-Genre:folk and Food:cauliflower have the same parity positions
+5. Music-Genre:folk and Food:raspberry have the same parity positions
+6. Food:lemon != Job:videographer or Music-Genre:classical != Food:lemon or both
+7. Food:cauliflower is not to the right of Food:watermelon
+8. Music-Genre:folk is not to the right of Food:cauliflower
+9. Job:librarian is somewhere between Music-Genre:classical and Job:lawyer
+
+.:: Answer ::.
+|               |     1      |      2       |     3      |     4     |
+| Food          | lemon      | cauliflower  | watermelon | raspberry |
+| Job           | accountant | videographer | librarian  | lawyer    |
+| Music-Genre   | classical  | folk         | jazz       | salsa     |
+====================================================================================================

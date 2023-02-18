@@ -1,0 +1,405 @@
+====================================================================================================
+.:: Puzzle 3x2 level=1 ::.
+Food: cranberry, garlic
+Job: firefighter, lawyer
+Sport: badminton, rowing
+1. Sport:badminton is on the right of Job:lawyer
+2. Food:garlic is on the far right
+
+.:: Answer ::.
+|         |     1     |      2      |
+| Food    | cranberry | garlic      |
+| Job     | lawyer    | firefighter |
+| Sport   | rowing    | badminton   |
+====================================================================================================
+.:: Puzzle 3x2 level=2 ::.
+Music-Genre: folk, rock
+Pet: lizard, mouse
+Sport: rugby, water-polo
+1. Music-Genre:rock is on the right of Pet:lizard
+2. Sport:rugby is on the left of Music-Genre:rock
+
+.:: Answer ::.
+|               |   1    |     2      |
+| Music-Genre   | folk   | rock       |
+| Pet           | lizard | mouse      |
+| Sport         | rugby  | water-polo |
+====================================================================================================
+.:: Puzzle 3x2 level=3 ::.
+Hobby: fishing, video-games
+Music-Genre: electronic, salsa
+Sport: lacrosse, weightlifting
+1. Sport:lacrosse is on the left of Sport:weightlifting
+2. Music-Genre:salsa is on the right of Hobby:video-games
+
+.:: Answer ::.
+|               |      1      |       2       |
+| Hobby         | video-games | fishing       |
+| Music-Genre   | electronic  | salsa         |
+| Sport         | lacrosse    | weightlifting |
+====================================================================================================
+.:: Puzzle 3x2 level=4 ::.
+Food: cranberry, watermelon
+Job: nurse, videographer
+Nationality: egyptian, turkish
+1. Nationality:egyptian is on the left of Job:videographer
+2. Food:cranberry is on the far right
+
+.:: Answer ::.
+|               |     1      |      2       |
+| Food          | watermelon | cranberry    |
+| Job           | nurse      | videographer |
+| Nationality   | egyptian   | turkish      |
+====================================================================================================
+.:: Puzzle 3x2 level=5 ::.
+Movie-Genre: disaster, musical
+Nationality: argentine, colombian
+Pet: hedgehog, rat
+1. Nationality:colombian is on the right of Pet:hedgehog
+2. Movie-Genre:musical == Pet:rat
+
+.:: Answer ::.
+|               |     1     |     2     |
+| Movie-Genre   | disaster  | musical   |
+| Nationality   | argentine | colombian |
+| Pet           | hedgehog  | rat       |
+====================================================================================================
+.:: Puzzle 3x2 level=6 ::.
+Food: plum, strawberry
+Hobby: card-games, rock-climbing
+Sport: basketball, tennis
+1. Food:strawberry is on the left or right of Sport:basketball
+2. Hobby:card-games is somewhere to the right of Food:plum
+
+.:: Answer ::.
+|         |       1       |     2      |
+| Food    | plum          | strawberry |
+| Hobby   | rock-climbing | card-games |
+| Sport   | basketball    | tennis     |
+====================================================================================================
+.:: Puzzle 3x2 level=7 ::.
+Beverage: milk, soy-milk
+Movie-Genre: animation, sports
+Sport: biathlon, rowing
+1. Movie-Genre:animation is on the left of Sport:rowing
+2. Sport:rowing is on the right of Beverage:soy-milk
+
+.:: Answer ::.
+|               |     1     |   2    |
+| Beverage      | soy-milk  | milk   |
+| Movie-Genre   | animation | sports |
+| Sport         | biathlon  | rowing |
+====================================================================================================
+.:: Puzzle 3x2 level=8 ::.
+Job: dressmaker, scientist
+Movie-Genre: horror, satire
+Transport: motorbike, quad-bike
+1. Transport:motorbike is somewhere to the right of Movie-Genre:satire
+2. Transport:quad-bike == Job:dressmaker
+
+.:: Answer ::.
+|               |     1      |     2     |
+| Job           | dressmaker | scientist |
+| Movie-Genre   | satire     | horror    |
+| Transport     | quad-bike  | motorbike |
+====================================================================================================
+.:: Puzzle 3x2 level=9 ::.
+Beverage: sprite, water
+Food: kale, papaya
+Transport: quad-bike, van
+1. Beverage:sprite is not to the right of Food:papaya
+2. Transport:van is on the right of Beverage:water
+
+.:: Answer ::.
+|             |     1     |   2    |
+| Beverage    | water     | sprite |
+| Food        | kale      | papaya |
+| Transport   | quad-bike | van    |
+====================================================================================================
+.:: Puzzle 3x2 level=9 ::.
+Job: architect, firefighter
+Music-Genre: indie, techno
+Nationality: indian, russian
+1. Job:architect is on the right of Job:firefighter
+2. Music-Genre:techno is on the left of Nationality:russian
+
+.:: Answer ::.
+|               |      1      |     2     |
+| Job           | firefighter | architect |
+| Music-Genre   | techno      | indie     |
+| Nationality   | indian      | russian   |
+====================================================================================================
+.:: Puzzle 3x2 level=10 ::.
+Job: bartender, photographer
+Music-Genre: classical, d&b
+Sport: baseball, surfing
+1. Sport:baseball is somewhere to the left of Music-Genre:d&b
+2. Job:photographer is on the far left
+
+.:: Answer ::.
+|               |      1       |     2     |
+| Job           | photographer | bartender |
+| Music-Genre   | classical    | d&b       |
+| Sport         | baseball     | surfing   |
+====================================================================================================
+.:: Puzzle 3x2 level=10 ::.
+Movie-Genre: horror, sports
+Sport: baseball, basketball
+Transport: helicopter, ship
+1. Transport:helicopter is on the right of Movie-Genre:horror
+2. Sport:baseball is not to the right of Movie-Genre:horror
+
+.:: Answer ::.
+|               |    1     |     2      |
+| Movie-Genre   | horror   | sports     |
+| Sport         | baseball | basketball |
+| Transport     | ship     | helicopter |
+====================================================================================================
+.:: Puzzle 3x2 level=11 ::.
+Movie-Genre: documentary, family
+Nationality: nigerian, turkish
+Sport: parkour, snowboarding
+1. Movie-Genre:documentary is on the left of Sport:parkour
+2. Movie-Genre:documentary is on the left of Nationality:turkish
+
+.:: Answer ::.
+|               |      1       |    2    |
+| Movie-Genre   | documentary  | family  |
+| Nationality   | nigerian     | turkish |
+| Sport         | snowboarding | parkour |
+====================================================================================================
+.:: Puzzle 3x2 level=11 ::.
+Nationality: brazilian, indian
+Pet: cat, goat
+Transport: ship, van
+1. Transport:ship is on the left of Transport:van
+2. Nationality:brazilian is somewhere to the left of Pet:cat
+
+.:: Answer ::.
+|               |     1     |   2    |
+| Nationality   | brazilian | indian |
+| Pet           | goat      | cat    |
+| Transport     | ship      | van    |
+====================================================================================================
+.:: Puzzle 3x2 level=12 ::.
+Job: security-guard, writer
+Movie-Genre: comedy, romance
+Nationality: german, thai
+1. Job:security-guard and Movie-Genre:romance have the same parity positions
+2. Job:security-guard is somewhere to the right of Nationality:german
+
+.:: Answer ::.
+|               |   1    |       2        |
+| Job           | writer | security-guard |
+| Movie-Genre   | comedy | romance        |
+| Nationality   | german | thai           |
+====================================================================================================
+.:: Puzzle 3x2 level=12 ::.
+Beverage: 7up, hot-chocolate
+Job: designer, engineer
+Nationality: colombian, mexican
+1. Job:engineer != Nationality:colombian
+2. Beverage:hot-chocolate is on the right of Nationality:colombian
+
+.:: Answer ::.
+|               |     1     |       2       |
+| Beverage      | 7up       | hot-chocolate |
+| Job           | designer  | engineer      |
+| Nationality   | colombian | mexican       |
+====================================================================================================
+.:: Puzzle 3x2 level=13 ::.
+Beverage: 7up, coffee
+Music-Genre: funk, metal
+Nationality: chinese, malaysian
+1. Nationality:malaysian is on the far left
+2. Beverage:7up is on the left of Music-Genre:funk
+
+.:: Answer ::.
+|               |     1     |    2    |
+| Beverage      | 7up       | coffee  |
+| Music-Genre   | metal     | funk    |
+| Nationality   | malaysian | chinese |
+====================================================================================================
+.:: Puzzle 3x2 level=13 ::.
+Movie-Genre: fantasy, zombie
+Nationality: chinese, thai
+Transport: skateboard, taxi
+1. Transport:taxi is on the right of Movie-Genre:fantasy
+2. Nationality:thai is somewhere to the left of Movie-Genre:zombie
+
+.:: Answer ::.
+|               |     1      |    2    |
+| Movie-Genre   | fantasy    | zombie  |
+| Nationality   | thai       | chinese |
+| Transport     | skateboard | taxi    |
+====================================================================================================
+.:: Puzzle 3x2 level=14 ::.
+Beverage: cola, fanta
+Music-Genre: r&b, salsa
+Sport: rowing, soccer
+1. Music-Genre:salsa is somewhere to the left of Music-Genre:r&b
+2. Beverage:fanta is somewhere to the left of Sport:soccer
+
+.:: Answer ::.
+|               |   1    |   2    |
+| Beverage      | fanta  | cola   |
+| Music-Genre   | salsa  | r&b    |
+| Sport         | rowing | soccer |
+====================================================================================================
+.:: Puzzle 3x2 level=14 ::.
+Beverage: almond-milk, water
+Job: pilot, teacher
+Sport: biathlon, skiing
+1. Sport:skiing is somewhere to the left of Beverage:water
+2. Beverage:water is not to the right of Job:pilot
+
+.:: Answer ::.
+|            |      1      |    2     |
+| Beverage   | almond-milk | water    |
+| Job        | teacher     | pilot    |
+| Sport      | skiing      | biathlon |
+====================================================================================================
+.:: Puzzle 3x2 level=15 ::.
+Hobby: card-games, dancing
+Job: coach, videographer
+Sport: badminton, swimming
+1. Hobby:card-games is somewhere to the left of Job:coach
+2. Sport:badminton != Hobby:card-games
+
+.:: Answer ::.
+|         |      1       |     2     |
+| Hobby   | card-games   | dancing   |
+| Job     | videographer | coach     |
+| Sport   | swimming     | badminton |
+====================================================================================================
+.:: Puzzle 3x2 level=15 ::.
+Nationality: german, indian
+Pet: rat, snake
+Sport: basketball, surfing
+1. Pet:snake and Nationality:indian have the same parity positions
+2. Nationality:german is somewhere to the right of Sport:basketball
+
+.:: Answer ::.
+|               |     1      |    2    |
+| Nationality   | indian     | german  |
+| Pet           | snake      | rat     |
+| Sport         | basketball | surfing |
+====================================================================================================
+.:: Puzzle 3x2 level=16 ::.
+Movie-Genre: crime, documentary
+Pet: fish, rabbit
+Transport: skateboard, van
+1. Pet:rabbit is somewhere to the left of Transport:van
+2. Movie-Genre:crime is somewhere to the left of Pet:fish
+
+.:: Answer ::.
+|               |     1      |      2      |
+| Movie-Genre   | crime      | documentary |
+| Pet           | rabbit     | fish        |
+| Transport     | skateboard | van         |
+====================================================================================================
+.:: Puzzle 3x2 level=16 ::.
+Food: papaya, tomato
+Job: engineer, project-manager
+Music-Genre: punk, techno
+1. Food:tomato is somewhere to the left of Job:engineer
+2. Job:engineer and Music-Genre:punk have different parity positions
+
+.:: Answer ::.
+|               |        1        |    2     |
+| Food          | tomato          | papaya   |
+| Job           | project-manager | engineer |
+| Music-Genre   | punk            | techno   |
+====================================================================================================
+.:: Puzzle 3x2 level=16 ::.
+Job: bartender, mechanic
+Pet: hedgehog, turtle
+Transport: helicopter, trike
+1. Pet:hedgehog is somewhere to the left of Job:mechanic
+2. Transport:trike is on the left or right of Job:bartender
+
+.:: Answer ::.
+|             |     1      |    2     |
+| Job         | bartender  | mechanic |
+| Pet         | hedgehog   | turtle   |
+| Transport   | helicopter | trike    |
+====================================================================================================
+.:: Puzzle 3x2 level=17 ::.
+Hobby: puzzles, sudoku
+Nationality: canadian, malaysian
+Sport: skiing, swimming
+1. Hobby:sudoku is somewhere to the left of Hobby:puzzles
+2. Sport:swimming is somewhere to the right of Nationality:malaysian
+
+.:: Answer ::.
+|               |     1     |    2     |
+| Hobby         | sudoku    | puzzles  |
+| Nationality   | malaysian | canadian |
+| Sport         | skiing    | swimming |
+====================================================================================================
+.:: Puzzle 3x2 level=17 ::.
+Movie-Genre: adventure, sports
+Nationality: nigerian, thai
+Sport: badminton, sailing
+1. Nationality:thai is somewhere to the left of Nationality:nigerian
+2. Movie-Genre:sports is somewhere to the right of Sport:sailing
+
+.:: Answer ::.
+|               |     1     |     2     |
+| Movie-Genre   | adventure | sports    |
+| Nationality   | thai      | nigerian  |
+| Sport         | sailing   | badminton |
+====================================================================================================
+.:: Puzzle 3x2 level=17 ::.
+Beverage: almond-milk, fanta
+Hobby: puzzles, video-games
+Nationality: brazilian, spanish
+1. Nationality:brazilian and Beverage:almond-milk have different parity positions
+2. Hobby:video-games is in an even position
+3. Hobby:puzzles != Nationality:spanish
+
+.:: Answer ::.
+|               |     1     |      2      |
+| Beverage      | fanta     | almond-milk |
+| Hobby         | puzzles   | video-games |
+| Nationality   | brazilian | spanish     |
+====================================================================================================
+.:: Puzzle 3x2 level=18 ::.
+Music-Genre: rock, soul
+Sport: soccer, volleyball
+Transport: quad-bike, tram
+1. Sport:soccer and Transport:quad-bike have the same parity positions
+2. Music-Genre:soul is somewhere to the right of Transport:tram
+
+.:: Answer ::.
+|               |     1      |     2     |
+| Music-Genre   | rock       | soul      |
+| Sport         | volleyball | soccer    |
+| Transport     | tram       | quad-bike |
+====================================================================================================
+.:: Puzzle 3x2 level=18 ::.
+Hobby: video-games, writing
+Music-Genre: disco, funk
+Transport: snowmobile, van
+1. Transport:snowmobile and Music-Genre:funk have the same parity positions
+2. Music-Genre:funk is somewhere to the right of Hobby:video-games
+
+.:: Answer ::.
+|               |      1      |     2      |
+| Hobby         | video-games | writing    |
+| Music-Genre   | disco       | funk       |
+| Transport     | van         | snowmobile |
+====================================================================================================
+.:: Puzzle 3x2 level=18 ::.
+Beverage: almond-milk, soy-milk
+Nationality: egyptian, german
+Pet: ferret, goldfish
+1. Pet:goldfish is somewhere to the left of Nationality:egyptian
+2. Nationality:german != Beverage:soy-milk
+
+.:: Answer ::.
+|               |      1      |    2     |
+| Beverage      | almond-milk | soy-milk |
+| Nationality   | german      | egyptian |
+| Pet           | goldfish    | ferret   |
+====================================================================================================

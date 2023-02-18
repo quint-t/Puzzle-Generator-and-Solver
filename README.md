@@ -11,7 +11,7 @@ Requirements: Python 3.11.
 Generator advantages:
 1. Uniform generation.
 2. Any number of attributes up to 10.
-3. Any number of objects up to 10.
+3. Any number of objects up to 15.
 4. 20 levels.
 5. Minimization of the number of conditions with setting a timeout for minimization.
 6. One solution always.

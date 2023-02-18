@@ -1,0 +1,722 @@
+====================================================================================================
+.:: Puzzle 2x5 level=1 ::.
+Movie-Genre: crime, drama, epic, fantasy, martial-arts
+Pet: bird, lizard, mouse, pony, rat
+1. Pet:lizard is on the left of Movie-Genre:crime
+2. Movie-Genre:fantasy is on the right of Pet:bird
+3. Movie-Genre:crime is on the left of Pet:pony
+4. Movie-Genre:martial-arts is on the far right
+5. Movie-Genre:drama is on the left of Movie-Genre:fantasy
+6. Pet:lizard is on the right of Pet:rat
+
+.:: Answer ::.
+|               |   1   |    2    |   3    |   4   |      5       |
+| Movie-Genre   | drama | fantasy | epic   | crime | martial-arts |
+| Pet           | bird  | rat     | lizard | mouse | pony         |
+====================================================================================================
+.:: Puzzle 2x5 level=1 ::.
+Food: cabbage, cucumber, kale, pepper, zucchini
+Sport: badminton, golf, lacrosse, rowing, tennis
+1. Food:cabbage is on the far left
+2. Sport:tennis is on the left of Sport:golf
+3. Food:kale is on the far right
+4. Sport:lacrosse is on the right of Food:cabbage
+5. Food:zucchini is on the right of Food:cucumber
+6. Sport:rowing is on the left of Food:zucchini
+
+.:: Answer ::.
+|         |     1     |    2     |    3     |    4     |  5   |
+| Food    | cabbage   | pepper   | cucumber | zucchini | kale |
+| Sport   | badminton | lacrosse | rowing   | tennis   | golf |
+====================================================================================================
+.:: Puzzle 2x5 level=2 ::.
+Hobby: chess, dancing, magic-tricks, reading, traveling
+Music-Genre: blues, dubstep, funk, rock, salsa
+1. Hobby:reading == Music-Genre:rock
+2. Hobby:dancing == Music-Genre:dubstep
+3. Music-Genre:blues is in the middle
+4. Hobby:dancing is on the right of Music-Genre:blues
+5. Hobby:chess is between Music-Genre:salsa and Music-Genre:dubstep
+6. Hobby:traveling is on the far right
+
+.:: Answer ::.
+|               |    1    |      2       |   3   |    4    |     5     |
+| Hobby         | reading | magic-tricks | chess | dancing | traveling |
+| Music-Genre   | rock    | salsa        | blues | dubstep | funk      |
+====================================================================================================
+.:: Puzzle 2x5 level=2 ::.
+Movie-Genre: adventure, documentary, sports, superhero, thriller
+Transport: car, jet-ski, roller, scooter, ship
+1. Movie-Genre:documentary is on the left of Transport:jet-ski
+2. Movie-Genre:thriller is between Movie-Genre:superhero and Movie-Genre:adventure
+3. Transport:roller == Movie-Genre:superhero
+4. Transport:ship is between Movie-Genre:sports and Transport:scooter
+5. Transport:car is on the far left
+
+.:: Answer ::.
+|               |      1      |    2    |     3     |    4     |     5     |
+| Movie-Genre   | documentary | sports  | adventure | thriller | superhero |
+| Transport     | car         | jet-ski | ship      | scooter  | roller    |
+====================================================================================================
+.:: Puzzle 2x5 level=3 ::.
+Food: artichoke, asparagus, avocado, pumpkin, strawberry
+Transport: jet-ski, scooter, train, tram, trike
+1. Transport:tram is on the left or right of Food:avocado
+2. Food:avocado == Transport:trike
+3. Transport:train is on the right of Food:strawberry
+4. Food:strawberry is on the right of Food:artichoke
+5. Transport:scooter is in the middle
+6. Food:asparagus is on the far left
+
+.:: Answer ::.
+|             |     1     |    2    |     3     |     4      |    5    |
+| Food        | asparagus | avocado | artichoke | strawberry | pumpkin |
+| Transport   | tram      | trike   | scooter   | jet-ski    | train   |
+====================================================================================================
+.:: Puzzle 2x5 level=3 ::.
+Music-Genre: classical, country, electronic, gospel, techno
+Pet: goldfish, horse, mouse, pony, rat
+1. Music-Genre:classical is on the right of Music-Genre:country
+2. Pet:mouse is on the left of Pet:horse
+3. Pet:goldfish is in the middle
+4. Pet:rat is between Music-Genre:electronic and Music-Genre:gospel
+5. Music-Genre:electronic is on the right of Music-Genre:classical
+
+.:: Answer ::.
+|               |    1    |     2     |     3      |   4    |   5    |
+| Music-Genre   | country | classical | electronic | techno | gospel |
+| Pet           | mouse   | horse     | goldfish   | rat    | pony   |
+====================================================================================================
+.:: Puzzle 2x5 level=4 ::.
+Beverage: 7up, fanta, hot-chocolate, juice, soy-milk
+Pet: chinchilla, ferret, frog, guinea-pig, snake
+1. Beverage:juice == Pet:snake
+2. Beverage:hot-chocolate is on the right of Beverage:fanta
+3. Pet:ferret is on the left or right of Beverage:hot-chocolate
+4. Pet:chinchilla is on the left or right of Beverage:7up
+5. Beverage:7up is on the far right
+6. Pet:snake is on the right of Beverage:hot-chocolate
+7. Beverage:juice is on the left or right of Pet:frog
+
+.:: Answer ::.
+|            |   1    |       2       |   3   |     4      |     5      |
+| Beverage   | fanta  | hot-chocolate | juice | soy-milk   | 7up        |
+| Pet        | ferret | frog          | snake | chinchilla | guinea-pig |
+====================================================================================================
+.:: Puzzle 2x5 level=4 ::.
+Beverage: almond-milk, cola, fanta, milk, sprite
+Movie-Genre: crime, fantasy, mystery, thriller, time-travel
+1. Movie-Genre:fantasy is on the left or right of Beverage:fanta
+2. Movie-Genre:thriller is on the right of Beverage:milk
+3. Movie-Genre:crime is in the middle
+4. Beverage:almond-milk is on the left of Beverage:sprite
+5. Beverage:cola is on the far left
+6. Beverage:milk is on the left or right of Movie-Genre:time-travel
+
+.:: Answer ::.
+|               |    1    |      2      |   3   |      4      |    5    |
+| Beverage      | cola    | fanta       | milk  | almond-milk | sprite  |
+| Movie-Genre   | fantasy | time-travel | crime | thriller    | mystery |
+====================================================================================================
+.:: Puzzle 2x5 level=5 ::.
+Hobby: baking, camping, reading, rock-climbing, skydiving
+Nationality: argentine, dutch, indian, russian, spanish
+1. Hobby:camping is between Hobby:reading and Hobby:rock-climbing
+2. Hobby:skydiving == Nationality:argentine
+3. Hobby:reading is on the right of Nationality:indian
+4. Nationality:russian is on the left of Hobby:rock-climbing
+5. Nationality:dutch == Hobby:reading
+6. Hobby:rock-climbing is on the far right
+
+.:: Answer ::.
+|               |     1     |   2    |    3    |    4    |       5       |
+| Hobby         | skydiving | baking | reading | camping | rock-climbing |
+| Nationality   | argentine | indian | dutch   | russian | spanish       |
+====================================================================================================
+.:: Puzzle 2x5 level=5 ::.
+Job: accountant, dressmaker, entrepreneur, librarian, musician
+Transport: bike, roller, skateboard, tram, trike
+1. Transport:trike is in an even position
+2. Transport:bike is between Job:accountant and Transport:trike
+3. Transport:skateboard is somewhere to the left of Job:musician
+4. Job:librarian == Transport:roller
+5. Transport:skateboard is somewhere to the right of Transport:tram
+6. Transport:bike is somewhere to the left of Job:entrepreneur
+
+.:: Answer ::.
+|             |     1      |     2      |    3     |      4       |     5     |
+| Job         | dressmaker | accountant | musician | entrepreneur | librarian |
+| Transport   | tram       | skateboard | bike     | trike        | roller    |
+====================================================================================================
+.:: Puzzle 2x5 level=6 ::.
+Music-Genre: funk, hip-hop, pop, rock, soul
+Transport: helicopter, roller, scooter, tram, trike
+1. Transport:helicopter is somewhere to the left of Transport:trike
+2. Music-Genre:hip-hop is somewhere to the left of Music-Genre:pop
+3. Music-Genre:rock is on the far left
+4. Transport:roller is between Music-Genre:pop and Music-Genre:hip-hop
+5. Transport:tram is on the far left
+6. Music-Genre:soul == Transport:roller
+7. Transport:helicopter is in the middle
+
+.:: Answer ::.
+|               |  1   |    2    |     3      |   4    |   5   |
+| Music-Genre   | rock | funk    | hip-hop    | soul   | pop   |
+| Transport     | tram | scooter | helicopter | roller | trike |
+====================================================================================================
+.:: Puzzle 2x5 level=6 ::.
+Food: artichoke, asparagus, broccoli, pineapple, watermelon
+Sport: basketball, cycling, golf, surfing, weightlifting
+1. Sport:basketball == Food:watermelon
+2. Sport:golf == Food:artichoke
+3. Food:artichoke is somewhere to the right of Food:asparagus
+4. Food:pineapple is on the left or right of Sport:weightlifting
+5. Sport:cycling is somewhere to the right of Sport:golf
+6. Food:broccoli is somewhere to the right of Sport:cycling
+7. Food:watermelon is somewhere to the right of Food:broccoli
+
+.:: Answer ::.
+|         |     1     |     2     |     3     |       4       |     5      |
+| Food    | asparagus | artichoke | pineapple | broccoli      | watermelon |
+| Sport   | surfing   | golf      | cycling   | weightlifting | basketball |
+====================================================================================================
+.:: Puzzle 2x5 level=7 ::.
+Food: artichoke, cauliflower, cucumber, mango, zucchini
+Movie-Genre: action, musical, scientific, spy, time-travel
+1. Movie-Genre:action is somewhere between Food:cauliflower and Food:mango
+2. Food:artichoke is on the left of Movie-Genre:musical
+3. Food:mango is in the middle
+4. Food:artichoke is on the far left
+5. Movie-Genre:spy == Food:cauliflower
+6. Movie-Genre:scientific is somewhere between Food:cucumber and Movie-Genre:musical
+
+.:: Answer ::.
+|               |      1      |    2     |     3      |    4     |      5      |
+| Food          | artichoke   | zucchini | mango      | cucumber | cauliflower |
+| Movie-Genre   | time-travel | musical  | scientific | action   | spy         |
+====================================================================================================
+.:: Puzzle 2x5 level=7 ::.
+Pet: cat, ferret, frog, goldfish, horse
+Transport: bike, bus, motorbike, roller, subway
+1. Pet:goldfish is on the left of Pet:cat
+2. Transport:bike is in the middle
+3. Transport:subway is between Pet:goldfish and Transport:roller
+4. Pet:frog is on the far right
+5. Transport:motorbike is somewhere between Pet:ferret and Transport:subway
+
+.:: Answer ::.
+|             |   1    |     2     |    3     |   4    |   5    |
+| Pet         | ferret | horse     | goldfish | cat    | frog   |
+| Transport   | bus    | motorbike | bike     | subway | roller |
+====================================================================================================
+.:: Puzzle 2x5 level=8 ::.
+Food: apricot, banana, plum, pomegranate, strawberry
+Sport: cycling, golf, parkour, skateboarding, volleyball
+1. Sport:golf is not to the right of Food:apricot
+2. Sport:golf is on the left or right of Sport:volleyball
+3. Sport:skateboarding is on the right of Food:banana
+4. Sport:volleyball is somewhere between Sport:cycling and Sport:parkour
+5. Food:plum is on the left or right of Food:apricot
+6. Food:plum == Sport:parkour
+7. Sport:cycling is somewhere to the left of Food:strawberry
+8. Food:pomegranate is not to the left of Food:apricot
+
+.:: Answer ::.
+|         |    1    |    2    |      3      |    4    |       5       |
+| Food    | plum    | apricot | pomegranate | banana  | strawberry    |
+| Sport   | parkour | golf    | volleyball  | cycling | skateboarding |
+====================================================================================================
+.:: Puzzle 2x5 level=8 ::.
+Food: banana, garlic, grapefruit, peach, potato
+Sport: parkour, rugby, sailing, skateboarding, soccer
+1. Food:banana is on the left of Food:peach
+2. Sport:skateboarding == Food:banana
+3. Food:grapefruit is somewhere to the left of Food:peach
+4. Sport:parkour is on the left of Food:grapefruit
+5. Sport:rugby is on the left or right of Food:potato
+6. Food:peach is on the left of Food:potato
+7. Sport:sailing is on the far right
+
+.:: Answer ::.
+|         |    1    |     2      |       3       |   4   |    5    |
+| Food    | garlic  | grapefruit | banana        | peach | potato  |
+| Sport   | parkour | soccer     | skateboarding | rugby | sailing |
+====================================================================================================
+.:: Puzzle 2x5 level=9 ::.
+Hobby: board-games, camping, cooking, puzzles, sudoku
+Movie-Genre: action, fantasy, romance, spy, western
+1. Movie-Genre:romance is somewhere to the left of Movie-Genre:western
+2. Hobby:cooking is somewhere between Movie-Genre:action and Hobby:sudoku
+3. Movie-Genre:spy == Hobby:cooking
+4. Movie-Genre:romance is not to the right of Hobby:board-games
+5. Hobby:sudoku is not to the left of Movie-Genre:action
+6. Hobby:camping is on the left of Movie-Genre:western
+7. Movie-Genre:fantasy is somewhere to the left of Movie-Genre:romance
+
+.:: Answer ::.
+|               |    1    |    2    |    3    |    4    |      5      |
+| Hobby         | puzzles | cooking | sudoku  | camping | board-games |
+| Movie-Genre   | action  | spy     | fantasy | romance | western     |
+====================================================================================================
+.:: Puzzle 2x5 level=9 ::.
+Food: apple, garlic, lime, orange, papaya
+Hobby: camping, dancing, filmmaking, singing, skydiving
+1. Hobby:camping is somewhere to the left of Food:apple
+2. Hobby:filmmaking is somewhere to the right of Food:lime
+3. Food:lime is on the right of Hobby:dancing
+4. Food:garlic is on the left or right of Hobby:dancing
+5. Food:orange is somewhere to the left of Hobby:dancing
+6. Hobby:singing == Food:garlic
+7. Hobby:singing is on the left of Food:apple
+
+.:: Answer ::.
+|         |    1    |    2    |    3    |     4     |     5      |
+| Food    | orange  | garlic  | apple   | lime      | papaya     |
+| Hobby   | camping | singing | dancing | skydiving | filmmaking |
+====================================================================================================
+.:: Puzzle 2x5 level=10 ::.
+Food: apricot, avocado, cauliflower, cherry, lemon
+Hobby: chess, puzzles, skydiving, woodworking, writing
+1. Hobby:puzzles is on the right of Food:cherry
+2. Food:apricot != Hobby:skydiving
+3. Hobby:writing is on the right of Food:lemon
+4. Food:lemon is somewhere to the left of Hobby:puzzles
+5. Food:avocado is on the left of Food:apricot
+6. Hobby:skydiving is on the left of Food:cauliflower
+7. Food:cherry is somewhere to the left of Hobby:woodworking
+
+.:: Answer ::.
+|         |     1     |      2      |   3    |    4    |      5      |
+| Food    | lemon     | cauliflower | cherry | avocado | apricot     |
+| Hobby   | skydiving | writing     | chess  | puzzles | woodworking |
+====================================================================================================
+.:: Puzzle 2x5 level=10 ::.
+Sport: biathlon, cricket, ice-hockey, surfing, swimming
+Transport: jet-ski, subway, taxi, trike, van
+1. Transport:jet-ski is in an even position
+2. Sport:ice-hockey != Transport:van
+3. Sport:swimming == Transport:subway
+4. Transport:jet-ski and Sport:cricket have the same parity positions
+5. Transport:taxi is on the right of Sport:ice-hockey
+6. Sport:biathlon is somewhere to the right of Sport:ice-hockey
+7. Sport:cricket is not to the right of Transport:subway
+8. Transport:jet-ski is on the right of Transport:taxi
+
+.:: Answer ::.
+|             |    1    |     2      |    3     |    4    |    5     |
+| Sport       | surfing | ice-hockey | biathlon | cricket | swimming |
+| Transport   | van     | trike      | taxi     | jet-ski | subway   |
+====================================================================================================
+.:: Puzzle 2x5 level=11 ::.
+Hobby: board-games, chess, dancing, filmmaking, sudoku
+Sport: basketball, climbing, golf, rowing, surfing
+1. Hobby:filmmaking is between Sport:golf and Hobby:board-games
+2. Hobby:board-games is on the right of Hobby:dancing
+3. Hobby:chess is not to the right of Sport:climbing
+4. Sport:rowing is somewhere to the right of Hobby:board-games
+5. Hobby:filmmaking is on the left or right of Sport:surfing
+6. Hobby:chess is on the left or right of Sport:basketball
+
+.:: Answer ::.
+|         |    1     |     2      |      3      |     4      |   5    |
+| Hobby   | chess    | dancing    | board-games | filmmaking | sudoku |
+| Sport   | climbing | basketball | surfing     | rowing     | golf   |
+====================================================================================================
+.:: Puzzle 2x5 level=11 ::.
+Food: avocado, lettuce, pear, potato, strawberry
+Movie-Genre: action, documentary, musical, sports, thriller
+1. Movie-Genre:sports is on the far left
+2. Movie-Genre:action and Food:potato have different parity positions
+3. Movie-Genre:action is somewhere between Food:pear and Movie-Genre:thriller
+4. Food:lettuce is somewhere between Food:potato and Movie-Genre:documentary
+5. Food:avocado is on the far right
+6. Food:avocado is on the left or right of Movie-Genre:action
+
+.:: Answer ::.
+|               |   1    |    2    |      3      |     4      |    5     |
+| Food          | potato | lettuce | pear        | strawberry | avocado  |
+| Movie-Genre   | sports | musical | documentary | action     | thriller |
+====================================================================================================
+.:: Puzzle 2x5 level=12 ::.
+Hobby: card-games, filmmaking, gardening, magic-tricks, singing
+Pet: cat, chinchilla, fish, hamster, lizard
+1. Hobby:gardening is on the right of Hobby:singing
+2. Pet:fish is on the right of Pet:lizard
+3. Hobby:magic-tricks is somewhere to the left of Pet:fish
+4. Pet:hamster is on the left of Pet:lizard
+5. Pet:chinchilla is somewhere to the right of Pet:hamster
+6. Hobby:magic-tricks is somewhere between Hobby:filmmaking and Hobby:gardening
+7. Pet:fish is on the left of Pet:cat
+8. Hobby:card-games is on the left or right of Hobby:magic-tricks
+
+.:: Answer ::.
+|         |     1      |      2       |     3      |    4    |     5      |
+| Hobby   | filmmaking | magic-tricks | card-games | singing | gardening  |
+| Pet     | hamster    | lizard       | fish       | cat     | chinchilla |
+====================================================================================================
+.:: Puzzle 2x5 level=12 ::.
+Pet: guinea-pig, hamster, mouse, pony, rabbit
+Transport: boat, ship, skateboard, taxi, tram
+1. Transport:skateboard and Pet:mouse have the same parity positions
+2. Pet:guinea-pig is on the right of Pet:hamster
+3. Transport:tram is on the far left or far right
+4. Transport:taxi is somewhere to the right of Transport:tram
+5. Pet:pony is somewhere between Transport:skateboard and Transport:ship
+6. Pet:hamster == Transport:taxi
+7. Pet:mouse is on the left or right of Transport:tram
+
+.:: Answer ::.
+|             |   1    |     2      |  3   |    4    |     5      |
+| Pet         | rabbit | mouse      | pony | hamster | guinea-pig |
+| Transport   | tram   | skateboard | boat | taxi    | ship       |
+====================================================================================================
+.:: Puzzle 2x5 level=13 ::.
+Nationality: american, brazilian, british, dutch, german
+Sport: basketball, cricket, handball, lacrosse, volleyball
+1. Nationality:dutch is on the left or right of Nationality:british
+2. Nationality:american is on the left of Nationality:german
+3. Sport:lacrosse is in the middle
+4. Nationality:american and Sport:basketball have different parity positions
+5. Sport:cricket is on the left of Sport:handball
+6. Sport:basketball is on the far left
+7. Sport:lacrosse is between Nationality:dutch and Sport:volleyball
+
+.:: Answer ::.
+|               |     1      |     2      |    3     |    4    |    5     |
+| Nationality   | brazilian  | american   | german   | dutch   | british  |
+| Sport         | basketball | volleyball | lacrosse | cricket | handball |
+====================================================================================================
+.:: Puzzle 2x5 level=13 ::.
+Hobby: board-games, chess, skydiving, traveling, woodworking
+Movie-Genre: epic, horror, martial-arts, mystery, superhero
+1. Hobby:board-games is not to the left of Movie-Genre:martial-arts
+2. Hobby:traveling is on the right of Hobby:board-games
+3. Movie-Genre:superhero is on the right of Hobby:skydiving
+4. Movie-Genre:epic is on the right of Hobby:traveling
+5. Hobby:board-games is on the right of Hobby:skydiving
+6. Movie-Genre:mystery is on the left or right of Movie-Genre:epic
+7. Movie-Genre:martial-arts is on the right of Hobby:woodworking
+
+.:: Answer ::.
+|               |      1      |      2       |      3      |     4     |   5   |
+| Hobby         | woodworking | skydiving    | board-games | traveling | chess |
+| Movie-Genre   | horror      | martial-arts | superhero   | mystery   | epic  |
+====================================================================================================
+.:: Puzzle 2x5 level=14 ::.
+Food: apple, banana, lemon, plum, radish
+Movie-Genre: epic, fantasy, martial-arts, satire, superhero
+1. Food:banana is somewhere to the right of Movie-Genre:fantasy
+2. Food:radish is somewhere between Food:lemon and Food:apple
+3. Movie-Genre:superhero is somewhere between Food:radish and Movie-Genre:martial-arts
+4. Movie-Genre:satire is on the far left or far right
+5. Food:lemon is on the left or right of Food:banana
+6. Movie-Genre:epic is somewhere between Movie-Genre:fantasy and Food:plum
+7. Movie-Genre:epic is somewhere to the right of Food:lemon
+
+.:: Answer ::.
+|               |   1    |    2    |     3     |   4    |      5       |
+| Food          | apple  | radish  | lemon     | banana | plum         |
+| Movie-Genre   | satire | fantasy | superhero | epic   | martial-arts |
+====================================================================================================
+.:: Puzzle 2x5 level=14 ::.
+Food: blueberry, broccoli, kale, pomegranate, zucchini
+Hobby: camping, chess, collecting, drawing, filmmaking
+1. Hobby:collecting is not to the right of Hobby:camping
+2. Food:blueberry is between Hobby:chess and Food:zucchini
+3. Hobby:collecting is somewhere to the right of Food:blueberry
+4. Food:pomegranate is on the far right
+5. Hobby:camping is on the left or right of Food:zucchini
+6. Hobby:drawing is in an odd position
+7. Food:pomegranate is on the left or right of Food:broccoli
+
+.:: Answer ::.
+|         |   1   |     2      |     3      |    4     |      5      |
+| Food    | kale  | blueberry  | zucchini   | broccoli | pomegranate |
+| Hobby   | chess | filmmaking | collecting | camping  | drawing     |
+====================================================================================================
+.:: Puzzle 2x5 level=15 ::.
+Hobby: collecting, photography, puzzles, traveling, video-games
+Pet: chinchilla, fish, goldfish, hamster, lizard
+1. Pet:fish is between Hobby:video-games and Hobby:puzzles
+2. Pet:hamster is somewhere to the right of Pet:chinchilla
+3. Hobby:puzzles is somewhere to the left of Hobby:collecting
+4. Pet:goldfish and Hobby:photography have the same parity positions
+5. Hobby:traveling is between Pet:goldfish and Pet:lizard
+6. Pet:fish is somewhere to the left of Hobby:puzzles
+7. Pet:lizard is somewhere to the left of Pet:goldfish
+
+.:: Answer ::.
+|         |      1      |     2     |    3     |     4      |      5      |
+| Hobby   | video-games | traveling | puzzles  | collecting | photography |
+| Pet     | lizard      | fish      | goldfish | chinchilla | hamster     |
+====================================================================================================
+.:: Puzzle 2x5 level=15 ::.
+Beverage: 7up, coffee, cola, hot-chocolate, iced-tea
+Hobby: board-games, cooking, dancing, drawing, reading
+1. Beverage:cola is somewhere to the left of Hobby:dancing
+2. Beverage:iced-tea is not to the left of Beverage:coffee
+3. Beverage:coffee is somewhere between Hobby:dancing and Hobby:reading
+4. Beverage:7up is somewhere to the right of Hobby:board-games
+5. Beverage:coffee is not to the left of Hobby:drawing
+6. Hobby:board-games is on the left or right of Beverage:coffee
+7. Hobby:dancing is somewhere to the left of Hobby:drawing
+
+.:: Answer ::.
+|            |    1    |       2       |    3    |      4      |    5    |
+| Beverage   | cola    | hot-chocolate | coffee  | iced-tea    | 7up     |
+| Hobby      | cooking | dancing       | drawing | board-games | reading |
+====================================================================================================
+.:: Puzzle 2x5 level=16 ::.
+Hobby: baking, camping, photography, reading, woodworking
+Transport: bus, quad-bike, taxi, tram, van
+1. Transport:tram is on the left or right of Transport:van
+2. Transport:tram is on the left or right of Hobby:baking
+3. Transport:quad-bike is on the left or right of Hobby:woodworking
+4. Hobby:baking is not to the right of Hobby:camping
+5. Transport:quad-bike and Hobby:photography have different parity positions
+6. Hobby:baking is not to the left of Transport:tram
+7. Transport:van is not to the left of Hobby:reading
+8. Hobby:photography is in an odd position
+9. Transport:bus is on the left or right of Transport:tram
+
+.:: Answer ::.
+|             |      1      |    2    |   3    |     4     |      5      |
+| Hobby       | photography | reading | baking | camping   | woodworking |
+| Transport   | bus         | tram    | van    | quad-bike | taxi        |
+====================================================================================================
+.:: Puzzle 2x5 level=16 ::.
+Beverage: almond-milk, iced-tea, lemonade, mirinda, soy-milk
+Nationality: brazilian, chinese, egyptian, polish, thai
+1. Beverage:mirinda is on the far left or far right
+2. Beverage:lemonade is not to the left of Beverage:mirinda
+3. Beverage:iced-tea is in an even position
+4. Beverage:lemonade is not to the right of Nationality:polish
+5. Beverage:lemonade is somewhere to the right of Beverage:almond-milk
+6. Nationality:thai is on the left or right of Nationality:brazilian
+7. Beverage:lemonade is somewhere between Nationality:brazilian and Nationality:polish
+8. Nationality:polish and Beverage:mirinda have different parity positions
+9. Nationality:egyptian is somewhere to the left of Nationality:brazilian
+
+.:: Answer ::.
+|               |    1     |      2      |    3     |    4     |    5     |
+| Beverage      | mirinda  | almond-milk | lemonade | iced-tea | soy-milk |
+| Nationality   | egyptian | brazilian   | thai     | polish   | chinese  |
+====================================================================================================
+.:: Puzzle 2x5 level=16 ::.
+Nationality: australian, dutch, french, italian, nigerian
+Transport: airplane, taxi, tram, trike, van
+1. Nationality:australian is not to the left of Transport:van
+2. Transport:taxi is not to the right of Nationality:italian
+3. Transport:airplane is somewhere to the left of Nationality:french
+4. Transport:van is somewhere to the right of Transport:tram
+5. Transport:van is on the left or right of Nationality:dutch
+6. Nationality:italian is somewhere to the left of Nationality:dutch
+7. Transport:tram and Nationality:dutch have different parity positions
+8. Nationality:italian is on the left or right of Nationality:french
+9. Transport:van is somewhere to the left of Transport:trike
+
+.:: Answer ::.
+|               |    1     |   2    |    3    |     4      |   5   |
+| Nationality   | nigerian | french | italian | australian | dutch |
+| Transport     | airplane | tram   | taxi    | van        | trike |
+====================================================================================================
+.:: Puzzle 2x5 level=17 ::.
+Food: cherry, grapefruit, lime, spinach, zucchini
+Music-Genre: ambient, disco, electronic, indie, salsa
+1. Food:spinach is not to the right of Food:zucchini
+2. Music-Genre:disco and Food:zucchini have the same parity positions
+3. Music-Genre:salsa is somewhere to the left of Music-Genre:indie
+4. Food:cherry is somewhere to the left of Food:spinach
+5. Food:lime != Music-Genre:salsa
+6. Music-Genre:indie is not to the right of Food:cherry
+7. Music-Genre:ambient is not to the right of Music-Genre:salsa
+
+.:: Answer ::.
+|               |    1    |     2      |   3    |     4      |    5     |
+| Food          | lime    | grapefruit | cherry | spinach    | zucchini |
+| Music-Genre   | ambient | salsa      | indie  | electronic | disco    |
+====================================================================================================
+.:: Puzzle 2x5 level=17 ::.
+Beverage: almond-milk, coffee, cola, hot-chocolate, lemonade
+Music-Genre: blues, gospel, indie, punk, reggae
+1. Beverage:hot-chocolate is somewhere to the right of Music-Genre:blues
+2. Music-Genre:indie and Beverage:lemonade have different parity positions
+3. Beverage:hot-chocolate is somewhere to the left of Beverage:coffee
+4. Beverage:cola is somewhere to the left of Music-Genre:blues
+5. Music-Genre:punk != Beverage:hot-chocolate
+6. Music-Genre:indie is in an even position
+7. Beverage:almond-milk is not to the left of Music-Genre:indie
+8. Music-Genre:blues is somewhere between Beverage:hot-chocolate and Music-Genre:gospel
+9. Beverage:lemonade is not to the right of Music-Genre:indie
+
+.:: Answer ::.
+|               |    1     |   2   |      3      |       4       |   5    |
+| Beverage      | lemonade | cola  | almond-milk | hot-chocolate | coffee |
+| Music-Genre   | gospel   | indie | blues       | reggae        | punk   |
+====================================================================================================
+.:: Puzzle 2x5 level=17 ::.
+Beverage: almond-milk, coffee, cola, fanta, iced-tea
+Transport: airplane, boat, jet-ski, roller, skateboard
+1. Beverage:fanta is somewhere between Beverage:iced-tea and Beverage:coffee
+2. Transport:boat is somewhere between Beverage:fanta and Beverage:iced-tea
+3. Transport:airplane is not to the right of Beverage:almond-milk
+4. Transport:roller is somewhere between Transport:boat and Transport:jet-ski
+5. Beverage:coffee is not to the left of Beverage:almond-milk
+6. Transport:roller is somewhere to the right of Transport:jet-ski
+
+.:: Answer ::.
+|             |      1      |    2    |   3    |  4   |     5      |
+| Beverage    | almond-milk | coffee  | fanta  | cola | iced-tea   |
+| Transport   | airplane    | jet-ski | roller | boat | skateboard |
+====================================================================================================
+.:: Puzzle 2x5 level=18 ::.
+Beverage: 7up, almond-milk, iced-tea, lemonade, milk
+Pet: guinea-pig, hamster, horse, rabbit, rat
+1. Beverage:milk is somewhere to the left of Beverage:7up
+2. Pet:rabbit and Beverage:iced-tea have different parity positions
+3. Beverage:lemonade and Pet:rabbit have the same parity positions
+4. Pet:horse is somewhere to the left of Beverage:milk
+5. Pet:hamster is not to the left of Beverage:7up
+6. Pet:horse is somewhere between Pet:guinea-pig and Pet:rat
+7. Pet:guinea-pig is not to the left of Pet:horse
+8. Beverage:iced-tea is somewhere to the right of Pet:guinea-pig
+
+.:: Answer ::.
+|            |      1      |    2     |     3      |   4    |    5     |
+| Beverage   | almond-milk | lemonade | milk       | 7up    | iced-tea |
+| Pet        | rat         | horse    | guinea-pig | rabbit | hamster  |
+====================================================================================================
+.:: Puzzle 2x5 level=18 ::.
+Music-Genre: classical, d&b, hip-hop, house, soul
+Pet: chinchilla, guinea-pig, horse, lizard, rat
+1. Music-Genre:hip-hop is somewhere between Music-Genre:soul and Music-Genre:house
+2. Music-Genre:soul is somewhere to the left of Pet:rat
+3. Music-Genre:house is somewhere to the left of Pet:rat
+4. Pet:lizard is somewhere between Music-Genre:classical and Pet:guinea-pig
+5. Music-Genre:house is somewhere to the right of Pet:guinea-pig
+6. Music-Genre:classical is not to the right of Music-Genre:soul
+7. Pet:chinchilla is somewhere to the left of Pet:horse
+
+.:: Answer ::.
+|               |     1      |   2    |     3      |   4   |  5  |
+| Music-Genre   | classical  | soul   | hip-hop    | house | d&b |
+| Pet           | chinchilla | lizard | guinea-pig | horse | rat |
+====================================================================================================
+.:: Puzzle 2x5 level=18 ::.
+Hobby: chess, dancing, filmmaking, magic-tricks, woodworking
+Sport: climbing, cycling, handball, parkour, snowboarding
+1. Hobby:chess is not to the right of Hobby:filmmaking
+2. Sport:cycling is not to the right of Sport:snowboarding
+3. Hobby:dancing is somewhere to the right of Hobby:filmmaking
+4. Sport:handball is somewhere to the right of Sport:climbing
+5. Sport:handball is somewhere to the left of Hobby:magic-tricks
+6. Hobby:chess is not to the left of Sport:snowboarding
+
+.:: Answer ::.
+|         |      1      |      2       |     3      |    4     |      5       |
+| Hobby   | woodworking | chess        | filmmaking | dancing  | magic-tricks |
+| Sport   | cycling     | snowboarding | climbing   | handball | parkour      |
+====================================================================================================
+.:: Puzzle 2x5 level=19 ::.
+Food: asparagus, papaya, plum, raspberry, zucchini
+Job: architect, designer, entrepreneur, firefighter, photographer
+1. Job:designer is not to the right of Job:firefighter
+2. Food:zucchini is somewhere between Job:architect and Food:raspberry
+3. Food:zucchini is somewhere between Job:architect and Food:asparagus
+4. Job:architect is not to the right of Food:zucchini
+5. Food:asparagus is not to the right of Food:plum
+6. Food:zucchini != Job:designer
+7. Job:entrepreneur is not to the left of Job:designer
+8. Job:firefighter is not to the right of Food:asparagus
+
+.:: Answer ::.
+|        |     1     |      2       |     3     |      4      |      5       |
+| Food   | papaya    | zucchini     | raspberry | asparagus   | plum         |
+| Job    | architect | photographer | designer  | firefighter | entrepreneur |
+====================================================================================================
+.:: Puzzle 2x5 level=19 ::.
+Hobby: fishing, gardening, singing, traveling, video-games
+Sport: golf, ice-hockey, rowing, volleyball, weightlifting
+1. Sport:rowing is not to the left of Sport:volleyball
+2. Hobby:gardening and Sport:volleyball have the same parity positions
+3. Hobby:fishing is not to the left of Hobby:video-games
+4. Sport:rowing is somewhere between Sport:volleyball and Sport:ice-hockey
+5. Sport:ice-hockey is somewhere between Hobby:gardening and Hobby:video-games
+6. Sport:ice-hockey is not to the right of Hobby:traveling
+7. Hobby:video-games is not to the left of Sport:weightlifting
+8. Hobby:fishing and Sport:ice-hockey have the same parity positions
+
+.:: Answer ::.
+|         |     1      |    2    |     3      |       4       |    5    |
+| Hobby   | gardening  | singing | traveling  | video-games   | fishing |
+| Sport   | volleyball | rowing  | ice-hockey | weightlifting | golf    |
+====================================================================================================
+.:: Puzzle 2x5 level=19 ::.
+Music-Genre: country, hip-hop, metal, punk, salsa
+Nationality: american, australian, colombian, indonesian, thai
+1. Nationality:indonesian is somewhere between Nationality:colombian and Nationality:thai
+2. Nationality:australian and Music-Genre:country have the same parity positions
+3. Nationality:indonesian is not to the left of Nationality:colombian
+4. Music-Genre:punk is somewhere between Music-Genre:metal and Nationality:australian
+5. Music-Genre:metal != Nationality:colombian
+6. Nationality:thai and Music-Genre:metal have the same parity positions
+7. Nationality:indonesian is not to the left of Nationality:australian
+8. Music-Genre:punk is not to the left of Nationality:american
+9. Nationality:thai is not to the right of Music-Genre:salsa
+
+.:: Answer ::.
+|               |    1     |     2     |     3      |     4      |   5   |
+| Music-Genre   | metal    | punk      | country    | hip-hop    | salsa |
+| Nationality   | american | colombian | australian | indonesian | thai  |
+====================================================================================================
+.:: Puzzle 2x5 level=20 ::.
+Movie-Genre: disaster, fantasy, romance, spy, superhero
+Music-Genre: ambient, d&b, electronic, metal, techno
+1. Movie-Genre:fantasy is not to the right of Music-Genre:electronic
+2. Movie-Genre:superhero is not to the right of Music-Genre:d&b
+3. Music-Genre:electronic is not to the left of Music-Genre:techno
+4. Movie-Genre:fantasy and Music-Genre:electronic have different parity positions
+5. Music-Genre:d&b is not to the right of Music-Genre:techno
+6. Movie-Genre:superhero and Music-Genre:techno have different parity positions
+7. Music-Genre:electronic is somewhere between Music-Genre:metal and Movie-Genre:spy
+8. Movie-Genre:romance and Music-Genre:metal have different parity positions
+9. Music-Genre:metal and Movie-Genre:spy have different parity positions
+
+.:: Answer ::.
+|               |     1     |   2    |    3    |     4      |    5     |
+| Movie-Genre   | superhero | spy    | fantasy | romance    | disaster |
+| Music-Genre   | d&b       | techno | ambient | electronic | metal    |
+====================================================================================================
+.:: Puzzle 2x5 level=20 ::.
+Hobby: board-games, fishing, hiking, photography, video-games
+Sport: handball, snowboarding, soccer, volleyball, water-polo
+1. Sport:handball and Hobby:hiking have different parity positions
+2. Sport:volleyball is somewhere between Hobby:photography and Hobby:board-games
+3. Sport:snowboarding is not to the left of Sport:volleyball
+4. Hobby:board-games is somewhere between Sport:soccer and Hobby:video-games
+5. Sport:snowboarding is not to the right of Sport:water-polo
+6. Hobby:board-games is somewhere between Sport:soccer and Sport:volleyball
+7. Sport:volleyball and Hobby:video-games have different parity positions
+8. Sport:soccer is not to the left of Sport:volleyball
+
+.:: Answer ::.
+|         |      1      |     2      |      3       |      4      |    5    |
+| Hobby   | photography | hiking     | video-games  | board-games | fishing |
+| Sport   | handball    | volleyball | snowboarding | water-polo  | soccer  |
+====================================================================================================
+.:: Puzzle 2x5 level=20 ::.
+Pet: goat, goldfish, pony, rabbit, snake
+Sport: biathlon, climbing, skiing, swimming, volleyball
+1. Sport:biathlon is somewhere between Sport:climbing and Pet:goldfish
+2. Sport:volleyball is somewhere between Sport:biathlon and Pet:goldfish
+3. Sport:climbing and Pet:snake have different parity positions
+4. Pet:goat is not to the left of Sport:biathlon
+5. Sport:swimming is not to the right of Sport:climbing
+6. Sport:biathlon is not to the right of Pet:goldfish
+7. Pet:pony is not to the right of Sport:swimming
+
+.:: Answer ::.
+|         |    1     |    2     |    3     |     4      |    5     |
+| Pet     | pony     | rabbit   | snake    | goat       | goldfish |
+| Sport   | swimming | climbing | biathlon | volleyball | skiing   |
+====================================================================================================
