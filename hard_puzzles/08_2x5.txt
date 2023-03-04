@@ -1,0 +1,536 @@
+====================================================================================================
+.:: Puzzle 2x5 level=10 ::.
+Food: apricot, cauliflower, pumpkin, spinach, tomato
+Nationality: australian, british, german, thai, turkish
+1. Food:cauliflower is on the left or right of Food:pumpkin
+2. Nationality:german is not to the left of Nationality:australian
+3. Food:tomato is on the right of Food:apricot
+4. Nationality:german is in an even position
+5. Nationality:british is in an odd position
+6. Food:cauliflower is on the left of Nationality:german
+7. Food:pumpkin is on the left of Nationality:turkish
+8. Food:spinach is somewhere to the left of Food:apricot
+9. Nationality:german is somewhere to the left of Food:apricot
+
+.:: Answer ::.
+|               |      1      |    2    |    3    |    4    |    5    |
+| Food          | cauliflower | pumpkin | spinach | apricot | tomato  |
+| Nationality   | australian  | german  | turkish | thai    | british |
+====================================================================================================
+.:: Puzzle 2x5 level=10 ::.
+Hobby: camping, filmmaking, gardening, hiking, photography
+Sport: biathlon, cycling, golf, surfing, water-polo
+1. Hobby:gardening is somewhere to the right of Sport:surfing
+2. Sport:biathlon != Hobby:hiking
+3. Hobby:photography is on the left or right of Hobby:camping
+4. Sport:biathlon is somewhere to the right of Hobby:photography
+5. Hobby:filmmaking is somewhere to the left of Hobby:hiking
+6. Sport:cycling is on the left or right of Hobby:filmmaking
+7. Sport:golf != Hobby:hiking
+8. Hobby:photography is somewhere between Hobby:filmmaking and Hobby:hiking
+9. Sport:biathlon and Hobby:gardening have different parity positions
+
+.:: Answer ::.
+|         |     1      |      2      |    3     |     4     |     5      |
+| Hobby   | filmmaking | photography | camping  | gardening | hiking     |
+| Sport   | surfing    | cycling     | biathlon | golf      | water-polo |
+====================================================================================================
+.:: Puzzle 2x5 level=11 ::.
+Music-Genre: electronic, house, indie, jazz, rock
+Nationality: canadian, dutch, italian, mexican, russian
+ 1. Music-Genre:house is not to the left of Nationality:italian
+ 2. Nationality:canadian != Music-Genre:rock
+ 3. Nationality:dutch is between Nationality:russian and Nationality:italian
+ 4. Nationality:mexican is not to the left of Nationality:canadian
+ 5. Music-Genre:electronic is in an odd position
+ 6. Music-Genre:jazz is on the right of Nationality:canadian
+ 7. Music-Genre:house is on the left or right of Music-Genre:jazz
+ 8. Music-Genre:electronic is somewhere to the right of Music-Genre:indie
+ 9. Music-Genre:electronic is not to the right of Nationality:russian
+10. Music-Genre:indie is on the left or right of Nationality:italian
+
+.:: Answer ::.
+|               |    1    |   2   |     3      |    4     |    5    |
+| Music-Genre   | rock    | indie | electronic | house    | jazz    |
+| Nationality   | italian | dutch | russian    | canadian | mexican |
+====================================================================================================
+.:: Puzzle 2x5 level=11 ::.
+Movie-Genre: adventure, crime, family, fantasy, musical
+Music-Genre: blues, funk, hip-hop, reggae, rock
+1. Movie-Genre:adventure is somewhere to the right of Movie-Genre:crime
+2. Movie-Genre:adventure is somewhere to the left of Music-Genre:blues
+3. Movie-Genre:family is somewhere to the right of Music-Genre:rock
+4. Movie-Genre:musical is on the left or right of Movie-Genre:adventure
+5. Movie-Genre:crime != Music-Genre:funk
+6. Movie-Genre:fantasy is somewhere between Music-Genre:funk and Music-Genre:hip-hop
+7. Music-Genre:reggae is in the middle
+8. Movie-Genre:family and Music-Genre:rock have different parity positions
+9. Music-Genre:reggae is somewhere to the right of Music-Genre:funk
+
+.:: Answer ::.
+|               |   1   |   2    |    3    |     4     |    5    |
+| Movie-Genre   | crime | family | fantasy | adventure | musical |
+| Music-Genre   | rock  | funk   | reggae  | hip-hop   | blues   |
+====================================================================================================
+.:: Puzzle 2x5 level=12 ::.
+Sport: cycling, lacrosse, snowboarding, volleyball, weightlifting
+Transport: car, scooter, train, tram, trike
+1. Sport:lacrosse is on the left or right of Sport:snowboarding
+2. Sport:weightlifting is on the far left
+3. Transport:car is on the left or right of Transport:train
+4. Sport:lacrosse is in an even position
+5. Transport:trike is somewhere to the right of Transport:tram
+6. Sport:cycling == Transport:car
+7. Sport:snowboarding is somewhere to the left of Sport:volleyball
+8. Transport:tram is on the left or right of Sport:weightlifting
+9. Sport:volleyball is not to the right of Transport:car
+
+.:: Answer ::.
+|             |       1       |    2     |      3       |     4      |    5    |
+| Sport       | weightlifting | lacrosse | snowboarding | volleyball | cycling |
+| Transport   | scooter       | tram     | trike        | train      | car     |
+====================================================================================================
+.:: Puzzle 2x5 level=12 ::.
+Movie-Genre: animation, crime, disaster, documentary, drama
+Sport: biathlon, cricket, lacrosse, soccer, water-polo
+1. Sport:water-polo == Movie-Genre:crime
+2. Movie-Genre:crime and Sport:lacrosse have different parity positions
+3. Movie-Genre:drama is somewhere to the right of Sport:water-polo
+4. Sport:cricket and Movie-Genre:documentary have the same parity positions
+5. Movie-Genre:drama is somewhere to the right of Sport:cricket
+6. Sport:soccer is not to the left of Movie-Genre:drama
+7. Movie-Genre:drama is not to the right of Movie-Genre:disaster
+8. Movie-Genre:animation is somewhere to the left of Movie-Genre:documentary
+9. Movie-Genre:documentary is somewhere to the left of Movie-Genre:crime
+
+.:: Answer ::.
+|               |     1     |      2      |     3      |    4     |    5     |
+| Movie-Genre   | animation | documentary | crime      | drama    | disaster |
+| Sport         | biathlon  | cricket     | water-polo | lacrosse | soccer   |
+====================================================================================================
+.:: Puzzle 2x5 level=13 ::.
+Hobby: card-games, chess, dancing, filmmaking, reading
+Transport: bike, car, motorbike, subway, taxi
+ 1. Transport:taxi is on the far left
+ 2. Hobby:reading and Transport:taxi have the same parity positions
+ 3. Hobby:filmmaking is somewhere to the left of Hobby:dancing
+ 4. Transport:car is not to the right of Hobby:card-games
+ 5. Transport:bike is not to the left of Hobby:card-games
+ 6. Transport:motorbike is on the left or right of Transport:car
+ 7. Hobby:card-games and Transport:car have the same parity positions
+ 8. Hobby:chess is not to the right of Hobby:filmmaking
+ 9. Hobby:filmmaking is on the left or right of Hobby:dancing
+10. Transport:car is on the left or right of Transport:bike
+11. Transport:motorbike is in an even position
+
+.:: Answer ::.
+|             |    1    |     2     |     3      |     4      |    5    |
+| Hobby       | reading | chess     | card-games | filmmaking | dancing |
+| Transport   | taxi    | motorbike | car        | bike       | subway  |
+====================================================================================================
+.:: Puzzle 2x5 level=13 ::.
+Beverage: 7up, cola, lemonade, mirinda, sprite
+Hobby: camping, drawing, photography, reading, rock-climbing
+ 1. Beverage:mirinda is somewhere to the left of Hobby:rock-climbing
+ 2. Beverage:7up is not to the left of Hobby:drawing
+ 3. Hobby:camping is not to the left of Beverage:sprite
+ 4. Hobby:camping is somewhere between Hobby:drawing and Hobby:photography
+ 5. Hobby:rock-climbing is not to the left of Hobby:photography
+ 6. Beverage:cola is somewhere to the left of Hobby:rock-climbing
+ 7. Hobby:reading is on the far left or far right
+ 8. Beverage:sprite != Hobby:camping
+ 9. Beverage:cola is on the left or right of Hobby:reading
+10. Hobby:rock-climbing is not to the right of Beverage:sprite
+
+.:: Answer ::.
+|            |    1    |      2      |       3       |    4     |    5    |
+| Beverage   | mirinda | cola        | sprite        | lemonade | 7up     |
+| Hobby      | reading | photography | rock-climbing | camping  | drawing |
+====================================================================================================
+.:: Puzzle 2x5 level=14 ::.
+Beverage: 7up, coffee, fanta, iced-tea, juice
+Movie-Genre: documentary, horror, romance, western, zombie
+ 1. Beverage:7up is on the left or right of Beverage:fanta
+ 2. Movie-Genre:horror is on the left or right of Movie-Genre:western
+ 3. Beverage:iced-tea is on the left or right of Beverage:juice
+ 4. Movie-Genre:zombie and Beverage:7up have different parity positions
+ 5. Movie-Genre:horror is not to the right of Beverage:juice
+ 6. Beverage:juice is not to the right of Beverage:7up
+ 7. Movie-Genre:romance is somewhere between Movie-Genre:zombie and Movie-Genre:western
+ 8. Movie-Genre:romance is not to the left of Beverage:7up
+ 9. Movie-Genre:western != Beverage:iced-tea
+10. Movie-Genre:western and Beverage:7up have different parity positions
+11. Movie-Genre:horror is on the far left or far right
+
+.:: Answer ::.
+|               |    1     |    2    |    3    |   4    |      5      |
+| Beverage      | iced-tea | juice   | 7up     | fanta  | coffee      |
+| Movie-Genre   | horror   | western | romance | zombie | documentary |
+====================================================================================================
+.:: Puzzle 2x5 level=14 ::.
+Beverage: almond-milk, hot-chocolate, lemonade, milk, soy-milk
+Job: accountant, architect, firefighter, freelancer, project-manager
+ 1. Job:freelancer is not to the left of Beverage:almond-milk
+ 2. Job:firefighter is not to the right of Job:architect
+ 3. Beverage:milk is not to the left of Job:accountant
+ 4. Beverage:soy-milk is in an even position
+ 5. Job:accountant and Beverage:milk have the same parity positions
+ 6. Beverage:soy-milk and Job:freelancer have the same parity positions
+ 7. Beverage:milk is somewhere to the left of Job:freelancer
+ 8. Beverage:hot-chocolate != Job:accountant
+ 9. Beverage:milk is not to the left of Beverage:soy-milk
+10. Job:project-manager is somewhere to the left of Beverage:almond-milk
+11. Job:project-manager is somewhere to the right of Beverage:soy-milk
+
+.:: Answer ::.
+|            |     1      |      2      |        3        |      4      |       5       |
+| Beverage   | lemonade   | soy-milk    | milk            | almond-milk | hot-chocolate |
+| Job        | accountant | firefighter | project-manager | freelancer  | architect     |
+====================================================================================================
+.:: Puzzle 2x5 level=15 ::.
+Food: cabbage, cucumber, lime, pumpkin, watermelon
+Movie-Genre: documentary, fantasy, horror, martial-arts, scientific
+ 1. Movie-Genre:scientific and Food:lime have different parity positions
+ 2. Movie-Genre:horror and Food:cucumber have the same parity positions
+ 3. Food:watermelon != Movie-Genre:scientific
+ 4. Movie-Genre:horror is not to the right of Food:lime
+ 5. Movie-Genre:martial-arts and Food:cucumber have different parity positions
+ 6. Food:lime is somewhere to the right of Movie-Genre:fantasy
+ 7. Food:cucumber is on the left or right of Food:watermelon
+ 8. Food:watermelon is not to the right of Food:cucumber
+ 9. Food:lime is somewhere to the left of Movie-Genre:documentary
+10. Food:pumpkin != Movie-Genre:scientific
+11. Food:lime and Movie-Genre:fantasy have different parity positions
+
+.:: Answer ::.
+|               |    1    |   2    |      3       |      4      |     5      |
+| Food          | pumpkin | lime   | watermelon   | cucumber    | cabbage    |
+| Movie-Genre   | fantasy | horror | martial-arts | documentary | scientific |
+====================================================================================================
+.:: Puzzle 2x5 level=15 ::.
+Movie-Genre: action, adventure, documentary, drama, western
+Transport: airplane, quad-bike, ship, tram, trike
+ 1. Transport:trike and Movie-Genre:documentary have the same parity positions
+ 2. Movie-Genre:drama is not to the left of Movie-Genre:documentary
+ 3. Transport:airplane is not to the right of Transport:quad-bike
+ 4. Movie-Genre:drama is in an odd position
+ 5. Movie-Genre:documentary is not to the left of Movie-Genre:western
+ 6. Movie-Genre:adventure is somewhere to the left of Transport:ship
+ 7. Transport:trike is somewhere between Transport:tram and Transport:airplane
+ 8. Movie-Genre:action is somewhere to the right of Movie-Genre:adventure
+ 9. Transport:trike != Movie-Genre:action
+10. Movie-Genre:western and Transport:tram have the same parity positions
+11. Movie-Genre:drama and Transport:airplane have different parity positions
+
+.:: Answer ::.
+|               |    1    |     2     |   3    |      4      |     5     |
+| Movie-Genre   | western | adventure | action | documentary | drama     |
+| Transport     | tram    | trike     | ship   | airplane    | quad-bike |
+====================================================================================================
+.:: Puzzle 2x5 level=16 ::.
+Nationality: american, egyptian, german, indonesian, thai
+Sport: badminton, lacrosse, skiing, surfing, water-polo
+ 1. Nationality:american is not to the left of Sport:skiing
+ 2. Nationality:american is somewhere to the right of Nationality:indonesian
+ 3. Sport:surfing is somewhere to the left of Nationality:german
+ 4. Sport:surfing is somewhere to the left of Sport:water-polo
+ 5. Sport:surfing != Nationality:american
+ 6. Nationality:egyptian is on the left or right of Nationality:thai
+ 7. Nationality:egyptian is in an even position
+ 8. Nationality:thai is somewhere to the right of Sport:lacrosse
+ 9. Sport:water-polo is in an odd position
+10. Sport:skiing is in an odd position
+11. Sport:badminton and Nationality:thai have the same parity positions
+
+.:: Answer ::.
+|               |     1      |    2     |     3     |    4     |     5      |
+| Nationality   | indonesian | american | thai      | egyptian | german     |
+| Sport         | skiing     | lacrosse | badminton | surfing  | water-polo |
+====================================================================================================
+.:: Puzzle 2x5 level=16 ::.
+Movie-Genre: comedy, crime, disaster, family, western
+Music-Genre: ambient, d&b, electronic, pop, reggae
+ 1. Music-Genre:reggae is somewhere to the left of Music-Genre:electronic
+ 2. Music-Genre:ambient is in an odd position
+ 3. Movie-Genre:western is somewhere to the left of Movie-Genre:comedy
+ 4. Movie-Genre:family is not to the left of Movie-Genre:western
+ 5. Music-Genre:electronic and Movie-Genre:disaster have the same parity positions
+ 6. Movie-Genre:disaster is not to the right of Movie-Genre:family
+ 7. Movie-Genre:family is on the left or right of Music-Genre:pop
+ 8. Movie-Genre:crime is somewhere to the left of Movie-Genre:western
+ 9. Movie-Genre:family is on the left or right of Movie-Genre:western
+10. Music-Genre:d&b is in an odd position
+11. Movie-Genre:family is not to the right of Music-Genre:ambient
+
+.:: Answer ::.
+|               |   1   |    2     |    3    |     4      |    5    |
+| Movie-Genre   | crime | disaster | western | family     | comedy  |
+| Music-Genre   | d&b   | reggae   | pop     | electronic | ambient |
+====================================================================================================
+.:: Puzzle 2x5 level=16 ::.
+Beverage: 7up, cola, fanta, milk, sprite
+Movie-Genre: action, adventure, epic, musical, superhero
+ 1. Movie-Genre:action is somewhere to the right of Beverage:milk
+ 2. Movie-Genre:adventure is on the left or right of Movie-Genre:epic
+ 3. Movie-Genre:superhero is somewhere to the right of Beverage:fanta
+ 4. Beverage:7up is somewhere to the left of Beverage:cola
+ 5. Beverage:7up != Movie-Genre:superhero
+ 6. Beverage:7up and Movie-Genre:adventure have the same parity positions
+ 7. Movie-Genre:musical is somewhere to the left of Movie-Genre:epic
+ 8. Beverage:cola is on the left or right of Beverage:7up
+ 9. Movie-Genre:superhero and Beverage:milk have the same parity positions
+10. Movie-Genre:superhero is somewhere to the left of Beverage:cola
+11. Beverage:sprite and Movie-Genre:action have different parity positions
+
+.:: Answer ::.
+|               |    1    |   2    |     3     |     4     |  5   |
+| Beverage      | milk    | fanta  | sprite    | 7up       | cola |
+| Movie-Genre   | musical | action | superhero | adventure | epic |
+====================================================================================================
+.:: Puzzle 2x5 level=17 ::.
+Job: dancer, electrician, fisherman, lawyer, scientist
+Nationality: australian, dutch, egyptian, indonesian, thai
+ 1. Job:dancer != Nationality:egyptian
+ 2. Nationality:dutch is somewhere to the left of Job:fisherman
+ 3. Job:scientist != Nationality:egyptian
+ 4. Job:fisherman is in an odd position
+ 5. Nationality:egyptian is somewhere between Nationality:australian and Nationality:indonesian
+ 6. Job:scientist is not to the right of Job:dancer
+ 7. Nationality:thai != Job:scientist
+ 8. Nationality:indonesian is in an even position
+ 9. Job:electrician is not to the left of Nationality:thai
+10. Job:electrician and Nationality:dutch have the same parity positions
+11. Job:scientist is somewhere to the left of Nationality:dutch
+
+.:: Answer ::.
+|               |      1      |     2      |   3    |    4     |     5      |
+| Job           | electrician | scientist  | dancer | lawyer   | fisherman  |
+| Nationality   | thai        | indonesian | dutch  | egyptian | australian |
+====================================================================================================
+.:: Puzzle 2x5 level=17 ::.
+Hobby: baking, collecting, hiking, video-games, woodworking
+Movie-Genre: disaster, fantasy, martial-arts, time-travel, zombie
+ 1. Movie-Genre:disaster and Hobby:baking have different parity positions
+ 2. Movie-Genre:time-travel is not to the right of Movie-Genre:fantasy
+ 3. Movie-Genre:zombie and Hobby:hiking have different parity positions
+ 4. Hobby:collecting is not to the left of Movie-Genre:fantasy
+ 5. Hobby:baking is somewhere to the left of Hobby:video-games
+ 6. Hobby:collecting is in an odd position
+ 7. Hobby:baking is in an even position
+ 8. Movie-Genre:fantasy is not to the left of Hobby:collecting
+ 9. Movie-Genre:time-travel is not to the left of Movie-Genre:zombie
+10. Movie-Genre:martial-arts is not to the right of Movie-Genre:zombie
+11. Hobby:woodworking and Movie-Genre:fantasy have different parity positions
+
+.:: Answer ::.
+|               |      1       |   2    |      3      |      4      |     5      |
+| Hobby         | hiking       | baking | video-games | woodworking | collecting |
+| Movie-Genre   | martial-arts | zombie | disaster    | time-travel | fantasy    |
+====================================================================================================
+.:: Puzzle 2x5 level=17 ::.
+Nationality: american, british, german, mexican, pakistani
+Transport: bike, car, helicopter, jet-ski, snowmobile
+ 1. Nationality:german != Transport:jet-ski
+ 2. Transport:snowmobile is somewhere to the right of Transport:bike
+ 3. Nationality:pakistani is not to the left of Transport:helicopter
+ 4. Nationality:german != Transport:snowmobile
+ 5. Nationality:pakistani is not to the right of Nationality:american
+ 6. Nationality:british is not to the right of Nationality:german
+ 7. Nationality:pakistani and Transport:helicopter have different parity positions
+ 8. Nationality:american != Transport:snowmobile
+ 9. Transport:jet-ski is not to the left of Transport:snowmobile
+10. Nationality:german is somewhere to the right of Transport:helicopter
+11. Nationality:american != Transport:jet-ski
+
+.:: Answer ::.
+|               |     1      |   2    |     3      |     4     |    5     |
+| Nationality   | british    | german | mexican    | pakistani | american |
+| Transport     | helicopter | bike   | snowmobile | jet-ski   | car      |
+====================================================================================================
+.:: Puzzle 2x5 level=18 ::.
+Job: bartender, dancer, electrician, engineer, scientist
+Movie-Genre: animation, crime, romance, scientific, time-travel
+ 1. Movie-Genre:romance and Job:scientist have different parity positions
+ 2. Job:bartender is not to the right of Movie-Genre:animation
+ 3. Movie-Genre:animation and Job:engineer have different parity positions
+ 4. Job:engineer is somewhere to the right of Movie-Genre:time-travel
+ 5. Job:dancer != Movie-Genre:romance
+ 6. Movie-Genre:romance is not to the right of Movie-Genre:crime
+ 7. Movie-Genre:scientific and Job:dancer have the same parity positions
+ 8. Movie-Genre:time-travel is somewhere to the right of Job:electrician
+ 9. Movie-Genre:crime and Job:dancer have different parity positions
+10. Job:scientist and Movie-Genre:time-travel have the same parity positions
+11. Movie-Genre:scientific is not to the left of Job:electrician
+12. Movie-Genre:crime is not to the right of Job:bartender
+
+.:: Answer ::.
+|               |      1      |      2      |     3      |    4     |     5     |
+| Job           | electrician | scientist   | dancer     | engineer | bartender |
+| Movie-Genre   | romance     | time-travel | scientific | crime    | animation |
+====================================================================================================
+.:: Puzzle 2x5 level=18 ::.
+Job: accountant, analyst, electrician, lawyer, videographer
+Movie-Genre: drama, epic, family, mystery, superhero
+ 1. Movie-Genre:family is somewhere to the left of Movie-Genre:epic
+ 2. Job:lawyer != Movie-Genre:mystery
+ 3. Movie-Genre:mystery is somewhere to the left of Movie-Genre:epic
+ 4. Job:lawyer is not to the right of Job:accountant
+ 5. Job:videographer is somewhere to the left of Job:lawyer
+ 6. Job:lawyer and Movie-Genre:epic have the same parity positions
+ 7. Movie-Genre:drama and Job:videographer have different parity positions
+ 8. Movie-Genre:mystery != Job:analyst
+ 9. Movie-Genre:family is somewhere to the right of Movie-Genre:superhero
+10. Movie-Genre:mystery and Job:videographer have different parity positions
+11. Movie-Genre:drama is not to the right of Job:electrician
+12. Job:lawyer is not to the left of Job:electrician
+
+.:: Answer ::.
+|               |      1       |      2      |   3    |     4      |    5    |
+| Job           | videographer | electrician | lawyer | accountant | analyst |
+| Movie-Genre   | superhero    | drama       | family | mystery    | epic    |
+====================================================================================================
+.:: Puzzle 2x5 level=18 ::.
+Hobby: baking, board-games, collecting, puzzles, rock-climbing
+Music-Genre: blues, country, dubstep, indie, r&b
+ 1. Hobby:baking is somewhere to the right of Hobby:board-games
+ 2. Music-Genre:blues is not to the right of Hobby:collecting
+ 3. Hobby:collecting and Music-Genre:indie have different parity positions
+ 4. Music-Genre:dubstep != Hobby:collecting
+ 5. Hobby:baking != Music-Genre:blues
+ 6. Hobby:rock-climbing is somewhere to the right of Music-Genre:dubstep
+ 7. Hobby:board-games and Music-Genre:blues have the same parity positions
+ 8. Music-Genre:r&b is not to the left of Music-Genre:indie
+ 9. Music-Genre:country is somewhere to the right of Music-Genre:r&b
+10. Hobby:collecting is not to the right of Hobby:rock-climbing
+11. Music-Genre:r&b and Hobby:collecting have the same parity positions
+12. Music-Genre:blues and Hobby:baking have the same parity positions
+
+.:: Answer ::.
+|               |      1      |    2    |   3    |     4      |       5       |
+| Hobby         | board-games | puzzles | baking | collecting | rock-climbing |
+| Music-Genre   | blues       | dubstep | indie  | r&b        | country       |
+====================================================================================================
+.:: Puzzle 2x5 level=19 ::.
+Movie-Genre: adventure, crime, fantasy, martial-arts, spy
+Nationality: colombian, indian, indonesian, italian, pakistani
+ 1. Nationality:colombian != Movie-Genre:adventure
+ 2. Movie-Genre:spy is not to the left of Movie-Genre:adventure
+ 3. Nationality:indonesian is not to the right of Nationality:italian
+ 4. Movie-Genre:adventure != Nationality:italian
+ 5. Movie-Genre:martial-arts is not to the right of Movie-Genre:adventure
+ 6. Nationality:pakistani is not to the left of Movie-Genre:spy
+ 7. Movie-Genre:fantasy != Nationality:colombian
+ 8. Nationality:colombian is somewhere between Movie-Genre:crime and Nationality:italian
+ 9. Nationality:indonesian is not to the right of Nationality:colombian
+10. Nationality:indian and Movie-Genre:martial-arts have different parity positions
+11. Nationality:italian is not to the right of Movie-Genre:fantasy
+12. Movie-Genre:crime is not to the left of Nationality:indian
+
+.:: Answer ::.
+|               |      1       |     2     |    3    |     4     |     5     |
+| Movie-Genre   | martial-arts | adventure | fantasy | spy       | crime     |
+| Nationality   | indonesian   | indian    | italian | colombian | pakistani |
+====================================================================================================
+.:: Puzzle 2x5 level=19 ::.
+Food: broccoli, corn, garlic, onion, zucchini
+Job: bartender, doctor, manager, mechanic, project-manager
+ 1. Food:zucchini is not to the left of Food:garlic
+ 2. Food:zucchini is not to the left of Job:mechanic
+ 3. Job:mechanic is not to the left of Job:doctor
+ 4. Job:manager and Food:corn have different parity positions
+ 5. Food:garlic and Job:doctor have different parity positions
+ 6. Job:manager != Food:onion
+ 7. Food:zucchini and Job:project-manager have different parity positions
+ 8. Food:garlic is not to the left of Job:doctor
+ 9. Food:zucchini is not to the right of Job:bartender
+10. Food:broccoli is not to the left of Job:bartender
+11. Job:project-manager is not to the right of Food:zucchini
+12. Job:mechanic and Food:corn have the same parity positions
+13. Food:zucchini is not to the right of Job:manager
+
+.:: Answer ::.
+|        |        1        |   2    |    3     |    4     |     5     |
+| Food   | corn            | onion  | garlic   | zucchini | broccoli  |
+| Job    | project-manager | doctor | mechanic | manager  | bartender |
+====================================================================================================
+.:: Puzzle 2x5 level=19 ::.
+Sport: badminton, cricket, cycling, lacrosse, skiing
+Transport: airplane, bike, boat, car, skateboard
+ 1. Transport:car and Sport:lacrosse have different parity positions
+ 2. Sport:cycling is not to the right of Transport:skateboard
+ 3. Sport:badminton is not to the right of Sport:lacrosse
+ 4. Transport:bike != Sport:badminton
+ 5. Sport:lacrosse is not to the right of Transport:airplane
+ 6. Transport:car and Sport:badminton have the same parity positions
+ 7. Transport:bike is somewhere between Transport:skateboard and Sport:skiing
+ 8. Sport:cycling is not to the left of Transport:boat
+ 9. Sport:cricket is not to the right of Sport:cycling
+10. Transport:boat and Sport:cycling have different parity positions
+11. Sport:cricket is not to the right of Sport:badminton
+
+.:: Answer ::.
+|             |    1    |     2      |     3     |    4     |    5     |
+| Sport       | cricket | cycling    | badminton | lacrosse | skiing   |
+| Transport   | boat    | skateboard | car       | bike     | airplane |
+====================================================================================================
+.:: Puzzle 2x5 level=20 ::.
+Job: analyst, coach, dancer, manager, musician
+Sport: basketball, cricket, rugby, skateboarding, water-polo
+ 1. Sport:skateboarding and Job:dancer have different parity positions
+ 2. Sport:water-polo is somewhere between Job:dancer and Job:analyst
+ 3. Sport:rugby is not to the right of Sport:skateboarding
+ 4. Job:dancer is not to the right of Sport:water-polo
+ 5. Job:musician is not to the right of Job:manager
+ 6. Sport:cricket is not to the right of Job:manager
+ 7. Sport:rugby and Job:dancer have the same parity positions
+ 8. Sport:cricket and Job:musician have different parity positions
+ 9. Sport:basketball and Job:analyst have the same parity positions
+10. Sport:water-polo and Job:coach have different parity positions
+11. Job:musician is somewhere between Sport:basketball and Job:coach
+12. Job:analyst and Sport:water-polo have different parity positions
+
+.:: Answer ::.
+|         |   1   |       2       |    3    |     4      |     5      |
+| Job     | coach | musician      | dancer  | manager    | analyst    |
+| Sport   | rugby | skateboarding | cricket | water-polo | basketball |
+====================================================================================================
+.:: Puzzle 2x5 level=20 ::.
+Hobby: camping, collecting, dancing, filmmaking, singing
+Job: analyst, bartender, electrician, software-developer, writer
+ 1. Job:writer is not to the right of Hobby:camping
+ 2. Hobby:camping is not to the right of Hobby:dancing
+ 3. Hobby:singing and Job:software-developer have the same parity positions
+ 4. Hobby:dancing is not to the left of Hobby:singing
+ 5. Hobby:collecting and Job:analyst have different parity positions
+ 6. Job:software-developer is not to the left of Job:electrician
+ 7. Hobby:filmmaking and Job:analyst have different parity positions
+ 8. Hobby:filmmaking is not to the right of Job:writer
+ 9. Hobby:collecting is not to the right of Job:electrician
+10. Hobby:collecting is somewhere between Hobby:singing and Hobby:camping
+11. Job:analyst is not to the left of Hobby:camping
+
+.:: Answer ::.
+|         |     1      |    2    |      3      |         4          |     5     |
+| Hobby   | filmmaking | camping | collecting  | singing            | dancing   |
+| Job     | writer     | analyst | electrician | software-developer | bartender |
+====================================================================================================
+.:: Puzzle 2x5 level=20 ::.
+Movie-Genre: adventure, mystery, sports, spy, superhero
+Transport: airplane, motorbike, roller, scooter, tram
+ 1. Movie-Genre:superhero and Transport:scooter have the same parity positions
+ 2. Movie-Genre:spy is not to the right of Transport:scooter
+ 3. Movie-Genre:superhero is not to the left of Movie-Genre:sports
+ 4. Movie-Genre:spy is not to the right of Transport:roller
+ 5. Movie-Genre:spy is not to the left of Transport:tram
+ 6. Movie-Genre:superhero and Transport:roller have the same parity positions
+ 7. Transport:motorbike is not to the right of Movie-Genre:sports
+ 8. Movie-Genre:spy and Transport:scooter have the same parity positions
+ 9. Transport:roller is not to the left of Transport:motorbike
+10. Transport:tram is somewhere between Transport:airplane and Transport:scooter
+11. Transport:airplane and Movie-Genre:adventure have the same parity positions
+
+.:: Answer ::.
+|               |     1     |    2    |    3    |     4     |     5     |
+| Movie-Genre   | adventure | mystery | spy     | sports    | superhero |
+| Transport     | airplane  | tram    | scooter | motorbike | roller    |
+====================================================================================================

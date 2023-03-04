@@ -1,0 +1,378 @@
+====================================================================================================
+.:: Puzzle 2x3 level=10 ::.
+Job: designer, firefighter, nurse
+Music-Genre: indie, jazz, trance
+1. Job:firefighter and Music-Genre:jazz have the same parity positions
+2. Job:nurse is somewhere to the left of Music-Genre:trance
+3. Job:nurse is not to the left of Music-Genre:indie
+4. Job:nurse is in an odd position
+5. Music-Genre:trance is on the far left or far right
+
+.:: Answer ::.
+|               |   1   |      2      |    3     |
+| Job           | nurse | firefighter | designer |
+| Music-Genre   | indie | jazz        | trance   |
+====================================================================================================
+.:: Puzzle 2x3 level=10 ::.
+Hobby: filmmaking, fishing, skydiving
+Nationality: chinese, italian, thai
+1. Nationality:thai is somewhere to the left of Nationality:italian
+2. Hobby:fishing == Nationality:chinese
+3. Nationality:thai is on the far left or far right
+4. Hobby:filmmaking is not to the left of Nationality:italian
+5. Hobby:fishing is on the left or right of Hobby:skydiving
+
+.:: Answer ::.
+|               |     1     |    2    |     3      |
+| Hobby         | skydiving | fishing | filmmaking |
+| Nationality   | thai      | chinese | italian    |
+====================================================================================================
+.:: Puzzle 2x3 level=11 ::.
+Hobby: cooking, singing, woodworking
+Job: freelancer, photographer, pilot
+1. Job:photographer is on the far left or far right
+2. Job:photographer == Hobby:singing
+3. Hobby:singing and Job:freelancer have different parity positions
+4. Hobby:woodworking is in an odd position
+5. Hobby:woodworking is somewhere to the left of Hobby:cooking
+
+.:: Answer ::.
+|         |      1      |     2      |      3       |
+| Hobby   | woodworking | cooking    | singing      |
+| Job     | pilot       | freelancer | photographer |
+====================================================================================================
+.:: Puzzle 2x3 level=11 ::.
+Movie-Genre: animation, comedy, musical
+Sport: biathlon, rowing, rugby
+1. Movie-Genre:musical != Sport:biathlon
+2. Sport:rowing is somewhere to the right of Sport:rugby
+3. Movie-Genre:musical is not to the right of Movie-Genre:animation
+4. Movie-Genre:musical is somewhere to the right of Movie-Genre:comedy
+5. Movie-Genre:comedy and Sport:rugby have the same parity positions
+
+.:: Answer ::.
+|               |   1    |    2    |     3     |
+| Movie-Genre   | comedy | musical | animation |
+| Sport         | rugby  | rowing  | biathlon  |
+====================================================================================================
+.:: Puzzle 2x3 level=12 ::.
+Beverage: hot-chocolate, iced-tea, mirinda
+Food: blueberry, grapes, pomegranate
+1. Food:grapes is not to the left of Beverage:mirinda
+2. Food:grapes and Beverage:iced-tea have the same parity positions
+3. Food:pomegranate and Beverage:hot-chocolate have the same parity positions
+4. Beverage:mirinda is not to the left of Beverage:hot-chocolate
+5. Beverage:hot-chocolate is on the left or right of Food:grapes
+
+.:: Answer ::.
+|            |     1     |       2       |    3    |
+| Beverage   | iced-tea  | hot-chocolate | mirinda |
+| Food       | blueberry | pomegranate   | grapes  |
+====================================================================================================
+.:: Puzzle 2x3 level=12 ::.
+Pet: dog, fish, frog
+Sport: cricket, rowing, tennis
+1. Sport:tennis is not to the right of Pet:frog
+2. Sport:cricket is on the left or right of Sport:tennis
+3. Pet:fish is in an odd position
+4. Sport:rowing and Pet:frog have the same parity positions
+5. Pet:fish == Sport:cricket
+
+.:: Answer ::.
+|         |    1    |   2    |   3    |
+| Pet     | fish    | dog    | frog   |
+| Sport   | cricket | tennis | rowing |
+====================================================================================================
+.:: Puzzle 2x3 level=13 ::.
+Hobby: cooking, filmmaking, hiking
+Sport: baseball, ice-hockey, lacrosse
+1. Sport:ice-hockey is on the far left or far right
+2. Sport:lacrosse is somewhere to the left of Sport:ice-hockey
+3. Hobby:filmmaking is not to the left of Hobby:cooking
+4. Sport:ice-hockey and Hobby:cooking have different parity positions
+5. Sport:baseball and Hobby:hiking have different parity positions
+
+.:: Answer ::.
+|         |    1     |    2     |     3      |
+| Hobby   | hiking   | cooking  | filmmaking |
+| Sport   | lacrosse | baseball | ice-hockey |
+====================================================================================================
+.:: Puzzle 2x3 level=13 ::.
+Sport: biathlon, rowing, sailing
+Transport: roller, skateboard, tram
+1. Transport:roller is not to the left of Sport:rowing
+2. Sport:biathlon and Transport:skateboard have the same parity positions
+3. Sport:biathlon is on the right of Sport:rowing
+4. Transport:tram is somewhere between Transport:roller and Transport:skateboard
+
+.:: Answer ::.
+|             |     1      |   2    |    3     |
+| Sport       | sailing    | rowing | biathlon |
+| Transport   | skateboard | tram   | roller   |
+====================================================================================================
+.:: Puzzle 2x3 level=14 ::.
+Food: corn, pepper, potato
+Music-Genre: blues, indie, r&b
+1. Food:potato is on the left or right of Food:pepper
+2. Food:corn is not to the left of Food:pepper
+3. Food:pepper != Music-Genre:blues
+4. Food:pepper != Music-Genre:indie
+5. Food:potato and Music-Genre:indie have different parity positions
+
+.:: Answer ::.
+|               |   1    |   2    |   3   |
+| Food          | pepper | potato | corn  |
+| Music-Genre   | r&b    | blues  | indie |
+====================================================================================================
+.:: Puzzle 2x3 level=14 ::.
+Food: apricot, onion, peas
+Pet: frog, goat, lizard
+1. Pet:lizard is in an odd position
+2. Pet:frog is not to the right of Pet:goat
+3. Pet:lizard is not to the left of Pet:frog
+4. Pet:goat is not to the left of Food:apricot
+5. Pet:frog is on the left or right of Food:peas
+
+.:: Answer ::.
+|        |    1    |  2   |   3    |
+| Food   | apricot | peas | onion  |
+| Pet    | frog    | goat | lizard |
+====================================================================================================
+.:: Puzzle 2x3 level=15 ::.
+Food: artichoke, corn, grapefruit
+Pet: cat, goldfish, guinea-pig
+1. Food:artichoke != Pet:goldfish
+2. Pet:guinea-pig is on the left or right of Pet:cat
+3. Food:artichoke is not to the left of Food:corn
+4. Pet:guinea-pig is not to the right of Food:corn
+5. Food:corn is on the left or right of Food:grapefruit
+
+.:: Answer ::.
+|        |     1      |     2      |     3     |
+| Food   | grapefruit | corn       | artichoke |
+| Pet    | goldfish   | guinea-pig | cat       |
+====================================================================================================
+.:: Puzzle 2x3 level=15 ::.
+Hobby: filmmaking, puzzles, video-games
+Sport: lacrosse, parkour, water-polo
+1. Sport:water-polo is not to the right of Hobby:filmmaking
+2. Sport:water-polo and Hobby:puzzles have different parity positions
+3. Hobby:puzzles is on the left or right of Hobby:video-games
+4. Sport:parkour is somewhere to the left of Hobby:video-games
+5. Sport:water-polo is not to the left of Hobby:filmmaking
+
+.:: Answer ::.
+|         |     1      |    2    |      3      |
+| Hobby   | filmmaking | puzzles | video-games |
+| Sport   | water-polo | parkour | lacrosse    |
+====================================================================================================
+.:: Puzzle 2x3 level=16 ::.
+Beverage: hot-chocolate, milk, sprite
+Hobby: cooking, traveling, video-games
+1. Beverage:hot-chocolate is not to the left of Hobby:traveling
+2. Beverage:milk is on the left or right of Beverage:sprite
+3. Hobby:traveling != Beverage:sprite
+4. Hobby:traveling is in an even position
+5. Hobby:traveling is somewhere to the left of Hobby:video-games
+
+.:: Answer ::.
+|            |    1    |     2     |       3       |
+| Beverage   | sprite  | milk      | hot-chocolate |
+| Hobby      | cooking | traveling | video-games   |
+====================================================================================================
+.:: Puzzle 2x3 level=16 ::.
+Hobby: collecting, gardening, sudoku
+Sport: parkour, surfing, swimming
+1. Hobby:gardening is in an odd position
+2. Hobby:sudoku is on the left or right of Sport:surfing
+3. Hobby:collecting is not to the left of Sport:parkour
+4. Sport:surfing is not to the left of Hobby:sudoku
+5. Hobby:sudoku is on the far left or far right
+
+.:: Answer ::.
+|         |    1    |     2      |     3     |
+| Hobby   | sudoku  | collecting | gardening |
+| Sport   | parkour | surfing    | swimming  |
+====================================================================================================
+.:: Puzzle 2x3 level=16 ::.
+Pet: guinea-pig, lizard, turtle
+Sport: basketball, swimming, tennis
+1. Sport:basketball is not to the left of Pet:lizard
+2. Pet:turtle is in an odd position
+3. Pet:guinea-pig is in an odd position
+4. Sport:basketball != Pet:guinea-pig
+5. Pet:turtle is somewhere to the left of Pet:guinea-pig
+6. Sport:tennis is not to the right of Pet:lizard
+
+.:: Answer ::.
+|         |   1    |     2      |     3      |
+| Pet     | turtle | lizard     | guinea-pig |
+| Sport   | tennis | basketball | swimming   |
+====================================================================================================
+.:: Puzzle 2x3 level=17 ::.
+Beverage: 7up, sprite, water
+Sport: baseball, handball, parkour
+1. Beverage:7up is not to the right of Beverage:water
+2. Sport:baseball and Beverage:7up have the same parity positions
+3. Beverage:water is somewhere to the left of Beverage:sprite
+4. Sport:parkour is not to the left of Sport:handball
+5. Sport:parkour is in an odd position
+
+.:: Answer ::.
+|            |    1     |    2     |    3    |
+| Beverage   | 7up      | water    | sprite  |
+| Sport      | baseball | handball | parkour |
+====================================================================================================
+.:: Puzzle 2x3 level=17 ::.
+Food: garlic, mango, pumpkin
+Music-Genre: r&b, reggae, salsa
+1. Food:garlic and Music-Genre:r&b have different parity positions
+2. Music-Genre:r&b is somewhere to the right of Music-Genre:salsa
+3. Food:mango and Music-Genre:salsa have different parity positions
+4. Music-Genre:salsa is in an odd position
+5. Food:pumpkin is not to the right of Food:mango
+
+.:: Answer ::.
+|               |    1    |   2   |   3    |
+| Food          | pumpkin | mango | garlic |
+| Music-Genre   | salsa   | r&b   | reggae |
+====================================================================================================
+.:: Puzzle 2x3 level=17 ::.
+Beverage: coffee, iced-tea, soy-milk
+Food: artichoke, kiwi, strawberry
+1. Beverage:iced-tea is somewhere to the right of Beverage:soy-milk
+2. Beverage:coffee and Food:strawberry have the same parity positions
+3. Food:artichoke is not to the left of Food:kiwi
+4. Beverage:soy-milk and Food:artichoke have different parity positions
+5. Beverage:soy-milk is not to the right of Beverage:coffee
+
+.:: Answer ::.
+|            |    1     |     2     |     3      |
+| Beverage   | soy-milk | iced-tea  | coffee     |
+| Food       | kiwi     | artichoke | strawberry |
+====================================================================================================
+.:: Puzzle 2x3 level=18 ::.
+Beverage: 7up, hot-chocolate, sprite
+Movie-Genre: epic, fantasy, thriller
+1. Beverage:sprite is somewhere to the left of Beverage:hot-chocolate
+2. Movie-Genre:fantasy != Beverage:sprite
+3. Movie-Genre:epic != Beverage:7up
+4. Movie-Genre:fantasy is somewhere to the left of Movie-Genre:epic
+5. Movie-Genre:epic and Beverage:sprite have the same parity positions
+6. Beverage:hot-chocolate != Movie-Genre:thriller
+
+.:: Answer ::.
+|               |    1     |    2    |       3       |
+| Beverage      | sprite   | 7up     | hot-chocolate |
+| Movie-Genre   | thriller | fantasy | epic          |
+====================================================================================================
+.:: Puzzle 2x3 level=18 ::.
+Food: banana, grapefruit, pepper
+Nationality: colombian, polish, thai
+1. Nationality:colombian != Food:grapefruit
+2. Food:pepper is somewhere to the right of Food:banana
+3. Food:grapefruit is somewhere to the left of Food:pepper
+4. Nationality:colombian is somewhere to the right of Nationality:thai
+5. Nationality:polish is not to the left of Food:pepper
+
+.:: Answer ::.
+|               |     1      |     2     |   3    |
+| Food          | grapefruit | banana    | pepper |
+| Nationality   | thai       | colombian | polish |
+====================================================================================================
+.:: Puzzle 2x3 level=18 ::.
+Movie-Genre: epic, superhero, zombie
+Transport: airplane, helicopter, roller
+1. Transport:airplane and Movie-Genre:superhero have different parity positions
+2. Transport:helicopter is not to the left of Movie-Genre:superhero
+3. Movie-Genre:epic is somewhere to the right of Movie-Genre:zombie
+4. Movie-Genre:superhero is somewhere to the right of Movie-Genre:epic
+
+.:: Answer ::.
+|               |   1    |    2     |     3      |
+| Movie-Genre   | zombie | epic     | superhero  |
+| Transport     | roller | airplane | helicopter |
+====================================================================================================
+.:: Puzzle 2x3 level=19 ::.
+Movie-Genre: action, crime, martial-arts
+Music-Genre: indie, reggae, soul
+1. Music-Genre:soul is not to the right of Music-Genre:indie
+2. Music-Genre:reggae and Movie-Genre:action have the same parity positions
+3. Music-Genre:soul is not to the right of Movie-Genre:crime
+4. Movie-Genre:martial-arts is somewhere between Movie-Genre:crime and Movie-Genre:action
+5. Music-Genre:indie and Movie-Genre:crime have the same parity positions
+
+.:: Answer ::.
+|               |   1    |      2       |   3   |
+| Movie-Genre   | action | martial-arts | crime |
+| Music-Genre   | reggae | soul         | indie |
+====================================================================================================
+.:: Puzzle 2x3 level=19 ::.
+Food: cucumber, grapes, kiwi
+Pet: cat, frog, mouse
+1. Pet:cat is not to the left of Food:kiwi
+2. Food:grapes is not to the right of Pet:mouse
+3. Food:cucumber is somewhere between Food:kiwi and Food:grapes
+4. Pet:frog != Food:cucumber
+5. Pet:cat is not to the right of Pet:mouse
+
+.:: Answer ::.
+|        |  1   |    2     |   3    |
+| Food   | kiwi | cucumber | grapes |
+| Pet    | frog | cat      | mouse  |
+====================================================================================================
+.:: Puzzle 2x3 level=19 ::.
+Food: broccoli, cherry, corn
+Music-Genre: folk, soul, trance
+1. Food:broccoli != Music-Genre:soul
+2. Food:cherry != Music-Genre:folk
+3. Music-Genre:folk != Food:broccoli
+4. Music-Genre:folk is somewhere between Music-Genre:soul and Music-Genre:trance
+5. Music-Genre:trance is not to the right of Food:cherry
+
+.:: Answer ::.
+|               |    1     |  2   |   3    |
+| Food          | broccoli | corn | cherry |
+| Music-Genre   | trance   | folk | soul   |
+====================================================================================================
+.:: Puzzle 2x3 level=20 ::.
+Food: blueberry, cabbage, onion
+Hobby: card-games, filmmaking, puzzles
+1. Food:cabbage is somewhere between Food:blueberry and Food:onion
+2. Hobby:filmmaking is not to the left of Hobby:puzzles
+3. Hobby:filmmaking and Food:cabbage have different parity positions
+4. Food:blueberry is not to the right of Food:cabbage
+5. Food:onion and Hobby:card-games have the same parity positions
+
+.:: Answer ::.
+|         |     1      |    2    |     3      |
+| Food    | blueberry  | cabbage | onion      |
+| Hobby   | card-games | puzzles | filmmaking |
+====================================================================================================
+.:: Puzzle 2x3 level=20 ::.
+Job: entrepreneur, police-officer, social-worker
+Sport: cricket, snowboarding, swimming
+1. Sport:cricket is somewhere between Sport:snowboarding and Sport:swimming
+2. Sport:swimming is not to the left of Sport:snowboarding
+3. Sport:snowboarding and Job:entrepreneur have the same parity positions
+4. Sport:swimming is not to the right of Job:social-worker
+
+.:: Answer ::.
+|         |      1       |       2        |       3       |
+| Job     | entrepreneur | police-officer | social-worker |
+| Sport   | snowboarding | cricket        | swimming      |
+====================================================================================================
+.:: Puzzle 2x3 level=20 ::.
+Sport: badminton, handball, skiing
+Transport: roller, scooter, trike
+1. Sport:handball is not to the left of Transport:trike
+2. Sport:handball is not to the left of Transport:roller
+3. Transport:trike is not to the right of Sport:skiing
+4. Sport:handball is somewhere between Sport:skiing and Sport:badminton
+5. Transport:roller and Sport:handball have different parity positions
+
+.:: Answer ::.
+|             |     1     |    2     |    3    |
+| Sport       | badminton | handball | skiing  |
+| Transport   | roller    | trike    | scooter |
+====================================================================================================

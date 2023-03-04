@@ -1,0 +1,456 @@
+====================================================================================================
+.:: Puzzle 2x4 level=10 ::.
+Hobby: card-games, gardening, magic-tricks, skydiving
+Job: dressmaker, freelancer, lawyer, police-officer
+1. Job:dressmaker is on the left or right of Job:police-officer
+2. Job:lawyer is not to the left of Hobby:gardening
+3. Job:lawyer is on the left or right of Hobby:skydiving
+4. Job:lawyer is somewhere to the right of Job:freelancer
+5. Hobby:magic-tricks is on the left or right of Job:police-officer
+6. Job:police-officer is on the far left or far right
+7. Job:police-officer is not to the left of Job:dressmaker
+
+.:: Answer ::.
+|         |     1      |     2     |      3       |       4        |
+| Hobby   | skydiving  | gardening | magic-tricks | card-games     |
+| Job     | freelancer | lawyer    | dressmaker   | police-officer |
+====================================================================================================
+.:: Puzzle 2x4 level=10 ::.
+Sport: cycling, lacrosse, skiing, volleyball
+Transport: car, snowmobile, subway, van
+1. Sport:lacrosse and Transport:car have the same parity positions
+2. Sport:cycling is on the right of Sport:volleyball
+3. Transport:car is somewhere to the left of Transport:van
+4. Transport:subway != Sport:lacrosse
+5. Sport:volleyball is somewhere to the left of Transport:car
+6. Sport:volleyball is not to the left of Transport:snowmobile
+7. Transport:van is on the right of Sport:cycling
+
+.:: Answer ::.
+|             |     1      |     2      |    3    |   4    |
+| Sport       | lacrosse   | volleyball | cycling | skiing |
+| Transport   | snowmobile | subway     | car     | van    |
+====================================================================================================
+.:: Puzzle 2x4 level=11 ::.
+Beverage: 7up, almond-milk, coffee, sprite
+Food: apple, banana, carrot, cucumber
+1. Food:carrot and Beverage:almond-milk have different parity positions
+2. Beverage:7up != Food:cucumber
+3. Food:banana is somewhere to the right of Food:cucumber
+4. Food:carrot is in an even position
+5. Food:carrot == Beverage:coffee
+6. Food:apple is between Food:banana and Food:cucumber
+7. Food:apple is on the left or right of Beverage:7up
+
+.:: Answer ::.
+|            |      1      |   2    |   3    |   4    |
+| Beverage   | almond-milk | sprite | 7up    | coffee |
+| Food       | cucumber    | apple  | banana | carrot |
+====================================================================================================
+.:: Puzzle 2x4 level=11 ::.
+Food: cabbage, grapes, pineapple, potato
+Movie-Genre: action, documentary, family, romance
+1. Food:pineapple != Movie-Genre:documentary
+2. Movie-Genre:documentary is on the left or right of Movie-Genre:family
+3. Movie-Genre:documentary is on the far left or far right
+4. Movie-Genre:family and Food:cabbage have the same parity positions
+5. Movie-Genre:family is somewhere to the left of Movie-Genre:romance
+6. Movie-Genre:action is in an even position
+7. Movie-Genre:action == Food:potato
+
+.:: Answer ::.
+|               |      1      |    2    |     3     |   4    |
+| Food          | grapes      | cabbage | pineapple | potato |
+| Movie-Genre   | documentary | family  | romance   | action |
+====================================================================================================
+.:: Puzzle 2x4 level=12 ::.
+Beverage: hot-chocolate, juice, sprite, water
+Nationality: american, argentine, australian, dutch
+1. Nationality:american is on the left or right of Nationality:argentine
+2. Nationality:dutch is not to the left of Beverage:water
+3. Nationality:american and Beverage:juice have different parity positions
+4. Beverage:juice is not to the left of Nationality:american
+5. Nationality:australian is on the left or right of Nationality:dutch
+6. Beverage:sprite is not to the right of Beverage:water
+7. Nationality:australian is on the left of Beverage:water
+8. Beverage:juice is on the far left or far right
+
+.:: Answer ::.
+|               |     1      |   2   |       3       |     4     |
+| Beverage      | sprite     | water | hot-chocolate | juice     |
+| Nationality   | australian | dutch | american      | argentine |
+====================================================================================================
+.:: Puzzle 2x4 level=12 ::.
+Beverage: cola, lemonade, milk, soy-milk
+Transport: bus, helicopter, jet-ski, subway
+1. Beverage:soy-milk is on the right of Beverage:milk
+2. Beverage:soy-milk is not to the left of Transport:subway
+3. Beverage:cola is somewhere to the right of Beverage:milk
+4. Transport:jet-ski is on the right of Transport:subway
+5. Beverage:cola is somewhere to the right of Beverage:lemonade
+6. Beverage:lemonade and Transport:helicopter have the same parity positions
+7. Transport:subway is somewhere to the right of Transport:bus
+
+.:: Answer ::.
+|             |     1      |  2   |    3     |    4    |
+| Beverage    | lemonade   | milk | soy-milk | cola    |
+| Transport   | helicopter | bus  | subway   | jet-ski |
+====================================================================================================
+.:: Puzzle 2x4 level=13 ::.
+Food: asparagus, lemon, peach, radish
+Movie-Genre: epic, horror, musical, sports
+1. Movie-Genre:sports is somewhere to the right of Movie-Genre:horror
+2. Food:lemon is somewhere to the right of Movie-Genre:musical
+3. Food:lemon != Movie-Genre:horror
+4. Movie-Genre:epic is not to the left of Food:asparagus
+5. Food:asparagus is somewhere to the left of Food:radish
+6. Food:lemon and Movie-Genre:epic have different parity positions
+7. Movie-Genre:epic is on the left or right of Food:asparagus
+8. Food:asparagus != Movie-Genre:horror
+
+.:: Answer ::.
+|               |   1    |     2     |   3    |   4    |
+| Food          | peach  | asparagus | radish | lemon  |
+| Movie-Genre   | horror | musical   | epic   | sports |
+====================================================================================================
+.:: Puzzle 2x4 level=13 ::.
+Job: analyst, coach, mechanic, videographer
+Sport: climbing, lacrosse, parkour, water-polo
+1. Job:analyst is on the far left or far right
+2. Sport:lacrosse is on the far right
+3. Sport:climbing is in an odd position
+4. Job:analyst is on the left or right of Sport:parkour
+5. Sport:climbing and Job:videographer have different parity positions
+6. Job:analyst is on the left or right of Job:videographer
+7. Sport:climbing is somewhere to the left of Job:videographer
+8. Job:mechanic is on the left or right of Sport:parkour
+
+.:: Answer ::.
+|         |    1     |      2       |     3      |    4     |
+| Job     | analyst  | videographer | mechanic   | coach    |
+| Sport   | climbing | parkour      | water-polo | lacrosse |
+====================================================================================================
+.:: Puzzle 2x4 level=14 ::.
+Music-Genre: blues, folk, salsa, soul
+Sport: badminton, golf, skateboarding, volleyball
+1. Music-Genre:blues is on the far left
+2. Music-Genre:blues and Sport:skateboarding have different parity positions
+3. Music-Genre:salsa is not to the right of Music-Genre:soul
+4. Sport:golf and Music-Genre:salsa have different parity positions
+5. Sport:golf is on the left or right of Sport:skateboarding
+6. Music-Genre:soul is on the left or right of Sport:volleyball
+7. Music-Genre:salsa and Sport:volleyball have the same parity positions
+8. Music-Genre:soul is somewhere to the right of Sport:volleyball
+
+.:: Answer ::.
+|               |     1     |     2      |  3   |       4       |
+| Music-Genre   | blues     | salsa      | soul | folk          |
+| Sport         | badminton | volleyball | golf | skateboarding |
+====================================================================================================
+.:: Puzzle 2x4 level=14 ::.
+Movie-Genre: epic, romance, thriller, time-travel
+Sport: badminton, lacrosse, rugby, water-polo
+1. Sport:rugby and Movie-Genre:romance have different parity positions
+2. Movie-Genre:time-travel is somewhere to the right of Sport:water-polo
+3. Movie-Genre:epic is not to the right of Sport:badminton
+4. Sport:badminton is not to the right of Movie-Genre:epic
+5. Sport:water-polo is not to the right of Movie-Genre:epic
+6. Movie-Genre:romance is on the far left or far right
+7. Sport:water-polo is in an odd position
+8. Movie-Genre:romance is not to the left of Sport:lacrosse
+
+.:: Answer ::.
+|               |     1      |     2     |      3      |    4     |
+| Movie-Genre   | thriller   | epic      | time-travel | romance  |
+| Sport         | water-polo | badminton | rugby       | lacrosse |
+====================================================================================================
+.:: Puzzle 2x4 level=15 ::.
+Job: accountant, electrician, photographer, police-officer
+Sport: baseball, handball, skateboarding, volleyball
+1. Job:accountant != Sport:volleyball
+2. Job:police-officer and Sport:skateboarding have different parity positions
+3. Job:electrician is not to the left of Job:accountant
+4. Sport:skateboarding is on the left or right of Sport:volleyball
+5. Sport:baseball is not to the right of Job:photographer
+6. Sport:handball and Job:police-officer have the same parity positions
+7. Job:electrician is on the left or right of Job:police-officer
+8. Job:photographer is somewhere to the left of Job:accountant
+
+.:: Answer ::.
+|         |      1       |     2      |       3       |       4        |
+| Job     | photographer | accountant | electrician   | police-officer |
+| Sport   | baseball     | handball   | skateboarding | volleyball     |
+====================================================================================================
+.:: Puzzle 2x4 level=15 ::.
+Beverage: cola, fanta, iced-tea, tea
+Hobby: drawing, hiking, skydiving, traveling
+1. Hobby:skydiving and Beverage:iced-tea have the same parity positions
+2. Hobby:skydiving is in an even position
+3. Hobby:drawing is somewhere to the right of Hobby:skydiving
+4. Hobby:hiking is not to the right of Beverage:tea
+5. Hobby:traveling != Beverage:fanta
+6. Beverage:tea is not to the right of Hobby:skydiving
+7. Beverage:iced-tea is not to the right of Hobby:skydiving
+8. Hobby:hiking and Beverage:fanta have the same parity positions
+
+.:: Answer ::.
+|            |   1    |     2     |    3    |     4     |
+| Beverage   | tea    | iced-tea  | fanta   | cola      |
+| Hobby      | hiking | skydiving | drawing | traveling |
+====================================================================================================
+.:: Puzzle 2x4 level=16 ::.
+Sport: climbing, rowing, tennis, weightlifting
+Transport: helicopter, jet-ski, snowmobile, train
+1. Sport:climbing is not to the left of Transport:snowmobile
+2. Sport:rowing and Transport:snowmobile have the same parity positions
+3. Sport:climbing is not to the right of Transport:train
+4. Sport:weightlifting and Transport:snowmobile have different parity positions
+5. Transport:helicopter is not to the left of Sport:tennis
+6. Sport:tennis is somewhere to the left of Transport:snowmobile
+7. Transport:helicopter and Sport:weightlifting have different parity positions
+8. Transport:helicopter and Sport:climbing have the same parity positions
+
+.:: Answer ::.
+|             |    1    |     2      |       3       |     4      |
+| Sport       | tennis  | climbing   | weightlifting | rowing     |
+| Transport   | jet-ski | snowmobile | train         | helicopter |
+====================================================================================================
+.:: Puzzle 2x4 level=16 ::.
+Pet: ferret, horse, mouse, pony
+Sport: baseball, golf, skateboarding, water-polo
+1. Sport:baseball is not to the right of Sport:water-polo
+2. Sport:water-polo is on the far left or far right
+3. Sport:water-polo and Pet:mouse have different parity positions
+4. Sport:skateboarding is not to the left of Sport:baseball
+5. Pet:ferret is not to the left of Sport:golf
+6. Pet:ferret is in an odd position
+7. Sport:skateboarding and Pet:horse have different parity positions
+8. Sport:baseball is not to the right of Sport:golf
+9. Sport:golf != Pet:pony
+
+.:: Answer ::.
+|         |    1     |   2   |       3       |     4      |
+| Pet     | mouse    | horse | ferret        | pony       |
+| Sport   | baseball | golf  | skateboarding | water-polo |
+====================================================================================================
+.:: Puzzle 2x4 level=16 ::.
+Pet: goldfish, pony, snake, turtle
+Sport: badminton, baseball, skateboarding, weightlifting
+1. Pet:snake is somewhere to the right of Sport:weightlifting
+2. Pet:pony is on the left or right of Pet:snake
+3. Sport:weightlifting is on the far left or far right
+4. Sport:weightlifting is on the left or right of Sport:skateboarding
+5. Sport:badminton is somewhere to the right of Pet:turtle
+6. Pet:goldfish is not to the right of Sport:badminton
+7. Sport:baseball != Pet:pony
+8. Pet:snake is on the left or right of Sport:weightlifting
+
+.:: Answer ::.
+|         |       1       |       2       |    3     |     4     |
+| Pet     | pony          | snake         | turtle   | goldfish  |
+| Sport   | weightlifting | skateboarding | baseball | badminton |
+====================================================================================================
+.:: Puzzle 2x4 level=17 ::.
+Job: analyst, fisherman, nurse, pilot
+Movie-Genre: crime, documentary, drama, fantasy
+1. Job:pilot is not to the right of Job:nurse
+2. Movie-Genre:drama and Job:pilot have the same parity positions
+3. Job:analyst and Movie-Genre:fantasy have different parity positions
+4. Job:analyst != Movie-Genre:documentary
+5. Job:pilot is somewhere between Movie-Genre:documentary and Movie-Genre:drama
+6. Job:analyst is not to the right of Movie-Genre:drama
+7. Movie-Genre:fantasy and Job:pilot have the same parity positions
+
+.:: Answer ::.
+|               |      1      |    2    |    3    |   4   |
+| Job           | fisherman   | pilot   | analyst | nurse |
+| Movie-Genre   | documentary | fantasy | crime   | drama |
+====================================================================================================
+.:: Puzzle 2x4 level=17 ::.
+Music-Genre: disco, gospel, house, rock
+Transport: airplane, jet-ski, trike, van
+1. Transport:van is not to the left of Music-Genre:rock
+2. Transport:trike and Music-Genre:disco have the same parity positions
+3. Transport:trike is not to the left of Music-Genre:house
+4. Transport:jet-ski is in an odd position
+5. Transport:airplane is somewhere to the left of Transport:jet-ski
+6. Music-Genre:gospel and Transport:jet-ski have different parity positions
+7. Music-Genre:rock is not to the right of Music-Genre:gospel
+8. Transport:van is not to the left of Music-Genre:house
+9. Music-Genre:disco is in an even position
+
+.:: Answer ::.
+|               |    1     |   2   |    3    |   4    |
+| Music-Genre   | house    | disco | rock    | gospel |
+| Transport     | airplane | trike | jet-ski | van    |
+====================================================================================================
+.:: Puzzle 2x4 level=17 ::.
+Hobby: baking, chess, traveling, woodworking
+Music-Genre: electronic, gospel, pop, trance
+1. Music-Genre:electronic is not to the left of Hobby:chess
+2. Hobby:baking is somewhere between Hobby:woodworking and Hobby:traveling
+3. Hobby:chess is in an even position
+4. Music-Genre:trance and Hobby:chess have the same parity positions
+5. Music-Genre:electronic is not to the left of Hobby:traveling
+6. Hobby:baking is not to the right of Music-Genre:gospel
+7. Music-Genre:trance != Hobby:baking
+8. Music-Genre:electronic and Hobby:baking have the same parity positions
+
+.:: Answer ::.
+|               |     1     |   2    |     3      |      4      |
+| Hobby         | traveling | chess  | baking     | woodworking |
+| Music-Genre   | pop       | trance | electronic | gospel      |
+====================================================================================================
+.:: Puzzle 2x4 level=18 ::.
+Movie-Genre: drama, family, romance, sports
+Pet: ferret, guinea-pig, hamster, horse
+1. Movie-Genre:romance is not to the right of Pet:horse
+2. Pet:ferret is not to the right of Movie-Genre:romance
+3. Movie-Genre:drama is somewhere to the left of Movie-Genre:family
+4. Pet:ferret is not to the left of Movie-Genre:family
+5. Movie-Genre:family != Pet:hamster
+6. Pet:ferret and Movie-Genre:sports have the same parity positions
+7. Movie-Genre:romance is somewhere to the right of Movie-Genre:sports
+8. Pet:hamster is somewhere to the left of Movie-Genre:sports
+
+.:: Answer ::.
+|               |    1    |     2      |   3    |    4    |
+| Movie-Genre   | drama   | family     | sports | romance |
+| Pet           | hamster | guinea-pig | ferret | horse   |
+====================================================================================================
+.:: Puzzle 2x4 level=18 ::.
+Nationality: canadian, colombian, pakistani, spanish
+Sport: cricket, ice-hockey, rowing, swimming
+ 1. Sport:rowing is not to the left of Sport:ice-hockey
+ 2. Nationality:colombian and Sport:cricket have different parity positions
+ 3. Nationality:pakistani and Sport:swimming have different parity positions
+ 4. Sport:swimming != Nationality:canadian
+ 5. Nationality:spanish != Sport:rowing
+ 6. Sport:rowing is somewhere to the left of Sport:cricket
+ 7. Nationality:colombian != Sport:ice-hockey
+ 8. Nationality:canadian is somewhere to the left of Nationality:spanish
+ 9. Nationality:pakistani is somewhere to the right of Nationality:canadian
+10. Nationality:spanish is not to the right of Sport:cricket
+
+.:: Answer ::.
+|               |     1      |     2     |     3     |    4    |
+| Nationality   | canadian   | pakistani | colombian | spanish |
+| Sport         | ice-hockey | rowing    | swimming  | cricket |
+====================================================================================================
+.:: Puzzle 2x4 level=18 ::.
+Food: avocado, kale, mango, peas
+Hobby: baking, collecting, sudoku, traveling
+1. Food:kale is somewhere to the right of Hobby:baking
+2. Hobby:collecting is not to the left of Food:peas
+3. Hobby:sudoku and Food:peas have different parity positions
+4. Food:peas is somewhere to the right of Food:avocado
+5. Hobby:sudoku is somewhere to the left of Hobby:baking
+6. Hobby:collecting and Food:avocado have different parity positions
+7. Food:kale is somewhere to the right of Hobby:collecting
+
+.:: Answer ::.
+|         |    1    |     2      |   3    |     4     |
+| Food    | avocado | peas       | mango  | kale      |
+| Hobby   | sudoku  | collecting | baking | traveling |
+====================================================================================================
+.:: Puzzle 2x4 level=19 ::.
+Hobby: collecting, hiking, singing, sudoku
+Job: bartender, pilot, security-guard, social-worker
+1. Hobby:hiking and Job:pilot have different parity positions
+2. Hobby:collecting is not to the right of Hobby:hiking
+3. Hobby:sudoku and Job:pilot have different parity positions
+4. Job:social-worker is not to the left of Job:pilot
+5. Hobby:collecting is not to the right of Job:security-guard
+6. Job:bartender is not to the left of Hobby:collecting
+7. Job:bartender and Hobby:collecting have different parity positions
+8. Hobby:singing is not to the right of Job:pilot
+9. Job:pilot is not to the right of Job:bartender
+
+.:: Answer ::.
+|         |    1    |       2       |       3        |     4     |
+| Hobby   | singing | sudoku        | collecting     | hiking    |
+| Job     | pilot   | social-worker | security-guard | bartender |
+====================================================================================================
+.:: Puzzle 2x4 level=19 ::.
+Movie-Genre: drama, martial-arts, scientific, time-travel
+Transport: car, scooter, skateboard, snowmobile
+1. Transport:car is not to the left of Transport:scooter
+2. Transport:snowmobile != Movie-Genre:scientific
+3. Transport:skateboard and Movie-Genre:time-travel have the same parity positions
+4. Transport:snowmobile is not to the left of Transport:car
+5. Transport:car is somewhere between Movie-Genre:scientific and Transport:skateboard
+6. Movie-Genre:martial-arts is not to the left of Transport:skateboard
+7. Movie-Genre:time-travel and Transport:car have different parity positions
+
+.:: Answer ::.
+|               |     1      |   2   |      3      |      4       |
+| Movie-Genre   | scientific | drama | time-travel | martial-arts |
+| Transport     | scooter    | car   | skateboard  | snowmobile   |
+====================================================================================================
+.:: Puzzle 2x4 level=19 ::.
+Food: asparagus, grapefruit, pumpkin, strawberry
+Transport: airplane, bike, motorbike, subway
+1. Food:strawberry != Transport:subway
+2. Transport:airplane is not to the right of Food:strawberry
+3. Food:pumpkin is not to the left of Food:grapefruit
+4. Transport:subway is somewhere between Food:pumpkin and Transport:motorbike
+5. Food:strawberry is not to the right of Transport:motorbike
+6. Transport:airplane and Food:strawberry have the same parity positions
+7. Transport:subway != Food:asparagus
+
+.:: Answer ::.
+|             |     1      |     2     |     3      |    4    |
+| Food        | strawberry | asparagus | grapefruit | pumpkin |
+| Transport   | airplane   | motorbike | subway     | bike    |
+====================================================================================================
+.:: Puzzle 2x4 level=20 ::.
+Job: firefighter, manager, photographer, social-worker
+Transport: helicopter, jet-ski, roller, snowmobile
+1. Transport:snowmobile is not to the right of Job:social-worker
+2. Transport:helicopter and Job:manager have the same parity positions
+3. Job:manager is not to the left of Job:social-worker
+4. Transport:jet-ski is not to the left of Job:firefighter
+5. Job:social-worker is not to the right of Transport:snowmobile
+6. Transport:helicopter is not to the left of Job:photographer
+7. Job:manager and Transport:roller have the same parity positions
+8. Transport:helicopter and Job:photographer have different parity positions
+
+.:: Answer ::.
+|             |       1       |      2      |      3       |     4      |
+| Job         | social-worker | firefighter | photographer | manager    |
+| Transport   | snowmobile    | roller      | jet-ski      | helicopter |
+====================================================================================================
+.:: Puzzle 2x4 level=20 ::.
+Nationality: american, egyptian, malaysian, thai
+Sport: cricket, handball, skateboarding, water-polo
+1. Sport:cricket and Nationality:egyptian have the same parity positions
+2. Nationality:thai and Sport:water-polo have the same parity positions
+3. Nationality:american is not to the left of Sport:handball
+4. Sport:handball is not to the left of Nationality:malaysian
+5. Nationality:american and Sport:handball have the same parity positions
+6. Sport:water-polo is not to the left of Nationality:american
+7. Sport:water-polo and Nationality:malaysian have the same parity positions
+8. Nationality:egyptian is not to the left of Sport:skateboarding
+
+.:: Answer ::.
+|               |       1       |    2     |     3      |    4     |
+| Nationality   | malaysian     | american | thai       | egyptian |
+| Sport         | skateboarding | handball | water-polo | cricket  |
+====================================================================================================
+.:: Puzzle 2x4 level=20 ::.
+Hobby: camping, hiking, magic-tricks, reading
+Transport: scooter, ship, subway, van
+1. Transport:ship is not to the right of Transport:subway
+2. Hobby:camping and Transport:van have the same parity positions
+3. Hobby:reading is not to the left of Transport:van
+4. Transport:ship is not to the right of Hobby:hiking
+5. Transport:ship and Hobby:magic-tricks have different parity positions
+6. Transport:van and Hobby:hiking have different parity positions
+7. Hobby:magic-tricks is not to the left of Hobby:hiking
+8. Transport:subway is not to the right of Transport:van
+
+.:: Answer ::.
+|             |    1    |   2    |    3    |      4       |
+| Hobby       | camping | hiking | reading | magic-tricks |
+| Transport   | ship    | subway | van     | scooter      |
+====================================================================================================

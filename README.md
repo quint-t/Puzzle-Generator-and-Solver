@@ -47,6 +47,11 @@ Transport: bike, boat, motorbike, train
 Time: 1.985000 seconds
 ```
 
+You can see many generated puzzles in the directory `puzzles` (text files `<N>_<NumberOfAttributes>x<NumberOfObjects>.txt`).  
+If you want hard puzzles, check out the `hard_puzzles` directory.  
+The difference is that `puzzles` contain a small non-redundant number of conditions, while `hard_puzzles` contain a large non-redundant number of conditions.  
+Thus, to find a solution, more conditions must be taken into account.
+
 ### Explanation of 20 levels with relations
 
 - L1: `A == B`: An object that has attribute A has attribute B.
